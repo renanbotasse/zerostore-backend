@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": 12000,
+    "product_name": "Pokémon Stadium 2",
+    "product_description": "While Pokémon Stadium 2 does have a storyline, progress in the game can be made by winning Cups in the Stadium and completing the Gym Leader Castle. When all Cups have been won and the Gym Leader Castle completed, the player's Rival will appear. Defeating the Rival will unlock Round 2, in which the player must re-challenge the Stadium, Gym Leader Castle, and the Rival in order to complete the game.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12001,
+    "product_name": "Bomberman 64",
+    "product_description": "The evil Altair is using the Omni Cube to drain the energy from Planet Bomber. With the aid of a mysterious helper, you must defeat Altair, and restore peace to Planet Bomber. In the Adventure mode, guide Bomberman through 24 areas of perilous conflict.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12002,
+    "product_name": "The Legend of Zelda: Majora's Mask",
+    "product_description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12003,
+    "product_name": "The Legend of Zelda: Ocarina of Time",
+    "product_description": "The game begins with the player controlling the child Link, but later on an adult Link becomes a playable character as well and each of them has certain unique abilities. Ocarina of Time also introduces the use of music to solve puzzles: as new songs are learned, they can be used to solve puzzles, gain access to new areas and warp to different locations. ",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12004,
+    "product_name": "Super Mario 64",
+    "product_description": "Mario has to jump into worlds within paintings ornamenting the walls of Peach's castle, uncover secrets and hidden challenges, and collect golden Power Stars as reward for platforming trials.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12005,
+    "product_name": "Donkey Kong 64",
+    "product_description": "K. Rool has kidnapped the Kongs! Can Donkey Kong rescue his friends, reclaim the Golden Bananas and save his homeland from certain doom? Take out some Kremlings with Chunky's Pineapple Launcher or Lanky's Trombone. Float through the air using Tiny's Ponytail Twirl. Even rocket to the sky with Diddy's Jetbarrel!",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12006,
+    "product_name": "Paper Mario",
+    "product_description": "Paper Mario, a turn-based JRPG entry in the Mario franchise with a paper-based aesthetic and platforming elements, sees the titular character working his way through the Mushroom Kingdom's diverse locales and biomes, meeting its inhabitants, fighthing unruly enemies and recruiting an array of companions in order to once again save Princess Peach from the clutches of the evil Koopa King Bowser.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12007,
+    "product_name": "Perfect Dark",
+    "product_description": "The game features a single-player mode consisting of 17 main missions in which the player assumes the role of Carrington Institute agent Joanna Dark as she attempts to stop a conspiracy by rival corporation dataDyne.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12008,
+    "product_name": "GoldenEye 007",
+    "product_description": "GoldenEye 007 is a first-person shooter video game developed by Rare and based on the 1995 James Bond film GoldenEye. It was exclusively released for the Nintendo 64 video game console in August 1997.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 12009,
+    "product_name": "Kirby 64: The Crystal Shards",
+    "product_description": "Dark Matter is after a distant land's powerful crystal, but a young fairy named Ribbon attempts to save it by escaping with the gem to Dream Land. Now the crystal has been broken, and it's scattered around the world. Take control of Kirby and help him journey across six worlds, battling a wide variety of enemies and challenging bosses, as he tries to collect all 100 pieces of the shattered crystal.",
+    "product_price": 20,
+    "product_available": 200,
+    "product_platform": "N64",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  }
+]

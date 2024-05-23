@@ -18,6 +18,19 @@ export class ProductsService {
     return  this.productModel.find();
   }
 
+  getCategoryConsole() {
+    return  this.productModel.find({product_type: "console" });
+  }
+
+  getCategoryGame() {
+    return  this.productModel.find({product_type: "game" });
+  }
+
+
+  getCategoryAccessories() {
+    return  this.productModel.find({product_type: "accessories" });
+  }
+
   getNewProducts() {
     return this.productModel.find({ product_new: true });
   }

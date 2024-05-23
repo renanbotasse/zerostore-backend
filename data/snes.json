@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": 12001,
+    "product_name": "The Firemen",
+    "product_description": "The fire is alive - and it's racing straight towards you!\nA fire has broken out in a high-tech chemical factory, where a highly explosive chemical, MDL, is being developed. It's up to you and your fire-fighting team to save the people trapped in the building, and stop the fire from reaching the MDL. Because if it does, the whole building is going to blow...\n\n-An action shooting game with a gripping storyline and 2D overhead perspective.\n-Evade sudden hazards and save survivors.\n-Multi-level action - crawl along the ground to advance, and hose the fire from both high and low levels.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12002,
+    "product_name": "Killer Instinct",
+    "product_description": "Ultratech is a very powerful megacorporation which organises a tournament called Killer Instinct. Along with regular participants, experimental creatures created by Ultratech also fight in the tournament so their strength can be tested. Ultratech also discovers a technology to make bridges between dimensions, and releases a two-headed, one-eyed, satyr monster called Eyedol from this dimensional prison.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12003,
+    "product_name": "Kirby Super Star",
+    "product_description": "Kirby Super Star, released as Kirby's Fun Pak in PAL regions, is a platforming video game developed by HAL Laboratory and published by Nintendo. The game was advertised as featuring eight games: seven short subsections with the same basic gameplay, and two minigames. Kirby Super Star sees players take on the role of Kirby, who can float around the screen, inhale blocks and enemies and spit them out. By swallowing certain enemies after inhaling them, Kirby can copy their abilities and use them as his own, becoming able to perform a wide range of attacks. A unique feature of the game is the addition of helpers. When Kirby is in possession of an ability, he can choose to transform it into a helper character which can be controlled by a second player or the computer AI",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12004,
+    "product_name": "Super Mario World",
+    "product_description": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12005,
+    "product_name": "Teenage Mutant Ninja Turtles: Turtles in Time",
+    "product_description": "The original arcade version of Teenage Mutant Ninja Turtles: Turtles in Time is shorter than the latter console version.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12000,
+    "product_name": "The Legend of Zelda: A Link to the Past",
+    "product_description": "The Legend of Zelda: A Link to the Past is a top-down action game with puzzle-solving elements similar to the original The Legend of Zelda. After the side-scrolling and RPG-like gameplay of Zelda II: The Adventure of Link, the game is a return to the top-down view and gameplay style of the first installment. It introduces major new items to the series such as the Master Sword and the concept of two different worlds, which was revisited to some extent in Ocarina of Time with two distinct time periods rather than dark and light worlds.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12006,
+    "product_name": "Super Street Fighter II Turbo",
+    "product_description": "Super Street Fighter II Turbo, released in Japan as Super Street Fighter II X: Grand Master Challenge, is a competitive fighting game released for the arcades by Capcom in 1994. It is the fifth installment in the Street Fighter II sub-series of Street Fighter games, following Super Street Fighter II: The New Challengers. ",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12007,
+    "product_name": "Wild Guns",
+    "product_description": "The narrative revolves around Annie and Clint, a bounty hunter duo on a quest for vengeance after Annie's family is killed. Players can choose to control either Annie or Clint, navigating through the foreground, avoiding enemy fire, and taking down hostile robots in the background.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12008,
+    "product_name": "Donkey Kong Country",
+    "product_description": " The adventure takes you through a variety of different environments and levels that continually change up gameplay. Donkey Kong Country also provides plenty of opportunities for exploration with almost every level having a multitude of collectible, shortcuts, and hidden bonus areas.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  },
+  {
+    "product_id": 12009,
+    "product_name": "EarthBound",
+    "product_description": "A turn-based JRPG and sequel to then-Japan-only Earthbound Beginnings (1989) in which Ness, a young boy living in a land based on the USA, leaves home to go on an adventure through strange locations, get to know quirky characters and defeat an unknowable alien threat called Giygas while facing up to the realities of growing up and becoming familiar with the real world.",
+    "product_price": 20,
+    "product_available": 100,
+    "product_platform": "SNES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+    ],
+    "product_new": false,
+    "product_sales": true
+  }
+]

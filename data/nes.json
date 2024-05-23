@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": 13000,
+    "product_name": "Super Mario Bros. 3",
+    "product_description": "Super Mario Bros. 3, the third entry in the Super Mario Bros. series and Super Mario franchise, sees Mario or Luigi navigate a nonlinear world map containing platforming levels and optional minigames and challenges. The game features more diverse movement options and new items alongside more complex level designs and boss battles.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13001,
+    "product_name": "Mega Man 2",
+    "product_description": "In the year 200X, a super robot named Mega Man was created. Dr. Light created Mega Man to stop the evil desires of Dr. Wily. However, after his defeat, Dr. Wily created eight of his own robots to counter Mega Man.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13002,
+    "product_name": "Metroid",
+    "product_description": "It's you against the evil Mother Brain in the thrilling battle of Metroid! You're inside the fortress planet Zebes. The planet of endless secret passageways where the Metroid are multiplying. ",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13003,
+    "product_name": "Dragon Quest",
+    "product_description": "The player takes the role of a namable Hero. The Hero's name has an effect on his statistical growth over the course of the game. Battles are fought in a turn-based format and experience points and gold are awarded after every battle, allowing the Hero to level-up in ability and allows them to buy better weapons, armor, and items. Progression consists of traveling over an overworld map and through dungeons, fighting monsters encountered via random battles along the journey.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13004,
+    "product_name": "Disney's DuckTales",
+    "product_description": "The game was praised for its tight control, unique and non-linear gameplay and bright presentation, and is often regarded as one of the best titles for the NES, appearing on numerous Best of lists.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13005,
+    "product_name": "Contra",
+    "product_description": "Contra (also known as Gryzor in Oceania and Europe), is a 1987 run and gun action game developed and published by Konami originally released as a coin-operated arcade game on February 20, 1987. The game had multiple ports, including for various computer formats. Several Contra sequels were produced following the original game.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13006,
+    "product_name": "Ninja Gaiden",
+    "product_description": "Ninja Action! The stage is set for conspiracy, mystery and evil in America. Come with Ninja Ryu as he takes you on his fateful journey. Tecmo's unique cinema display system develops the story stage by stage. You piece together the puzzle, while watching the movie-like graphics. Decide what action to take. Use the secret sword and items collected during the action scenes to fight your way to the goal!",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13007,
+    "product_name": "Kirby's Adventure",
+    "product_description": "Not everything is well in Dream Land. For some mysterious reason, the Dream Spring, a magical well that is the reservoir for all the dreams of the citizens of Dream Land, is no longer working. Everyone is being subjected to their worst nightmares every time they go to sleep.",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13008,
+    "product_name": "Metal Gear",
+    "product_description": "Metal Gear is considered to be the progenitor of the stealth game genre, it was also the first video game designed by Hideo Kojima, who also directed many of the later Metal Gear sequels. ",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  },
+  {
+    "product_id": 13009,
+    "product_name": "Battletoads",
+    "product_description": "Battletoads is the first game of the Battletoads series. The game is a platform scrolling beat 'em up, with varying elements of racing, climbing and vehicle-based obstacle courses. Players start with three lives each time the game is started, which get replenished every time the player continues after getting defeated. ",
+    "product_price": 20,
+    "product_available": 80,
+    "product_platform": "NES",
+    "product_type": "game",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+    ],
+    "product_new": false,
+    "product_sales": false
+  }
+]

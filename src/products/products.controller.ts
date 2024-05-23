@@ -24,6 +24,21 @@ export class ProductsController {
     return this.productsService.getNewProducts();
   }
 
+  @Get('console')
+  getCategoryConsole() {
+    return this.productsService.getCategoryConsole();
+  }
+
+  @Get('game')
+  getCategoryGame() {
+    return this.productsService.getCategoryGame();
+  }
+
+  @Get('accessories')
+  getCategoryAccessories() {
+    return this.productsService.getCategoryAccessories();
+  }
+
   @Get('sales')
   getSalesProducts() {
     return this.productsService.getSalesProducts();
