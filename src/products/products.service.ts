@@ -14,8 +14,26 @@ export class ProductsService {
     return newProduct.save();
   }
 
-  getProducts() {
-    return  this.productModel.find();
+  getProducts(queryParams: any) {
+    const query: any = {};
+
+    if (queryParams.product_type) {
+      query.product_type = { $regex: queryParams.product_type, $options: 'i' };
+    }
+
+    if (queryParams.product_new) {
+      query.product_new = queryParams.product_new === 'true';
+    }
+
+    if (queryParams.product_sales) {
+      query.product_sales = queryParams.product_sales === 'true';
+    }
+
+    if (queryParams.product_platform) {
+      query.product_platform = { $regex: queryParams.product_platform, $options: 'i' };
+    }
+
+    return this.productModel.find(query).exec();
   }
 
   getCategoryConsole() {

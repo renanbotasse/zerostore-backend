@@ -1,5 +1,5 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UsePipes, ValidationPipe } from '@nestjs/common';
-import { ProductsService } from './products.service';
+import { Controller, Query, Get, Post, Body, Patch, Param, Delete, UsePipes, ValidationPipe } from '@nestjs/common';
+import { ProductsService,  } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 
@@ -15,9 +15,10 @@ export class ProductsController {
   }
 
   @Get()
-  getProducts() {
-    return this.productsService.getProducts();
+  getProducts(@Query() queryParams: any) {
+    return this.productsService.getProducts(queryParams);
   }
+  
 
   @Get('new')
   getNewProducts() {
