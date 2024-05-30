@@ -1,27 +1,52 @@
 import { Schema, Prop, SchemaFactory } from '@nestjs/mongoose';
+import { Document } from 'mongoose';
+import { IsEnum, IsNumber, IsString, IsArray, IsUrl, IsOptional } from 'class-validator';
+
+export type ProductDocument = Product & Document;
 
 @Schema()
 export class Product {
-    @Prop()
-    product_id: number;
-    @Prop()
+    @Prop({ required: true })
+    @IsNumber()
+    product_reference: number;
+    
+    @Prop({ required: true })
+    @IsString()
     product_name: string;
-    @Prop()
+    
+    @Prop({ required: true })
+    @IsString()
     product_description: string;
-    @Prop()
+    
+    @Prop({ required: true })
+    @IsNumber({ maxDecimalPlaces: 2 })
     product_price: number;
-    @Prop()
-    product_available: number;
-    @Prop()
+    
+    @Prop({ required: true })
+    @IsNumber()
+    product_quantity: number;
+    
+    @Prop({ required: true, enum: ['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'] })
+    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'])
     product_platform: string;
-    @Prop()
+    
+    @Prop({ required: true, enum: ['CONSOLE', 'GAME', 'ACCESSORIES'] })
+    @IsEnum(['CONSOLE', 'GAME', 'ACCESSORIES'])
     product_type: string;
+    
+    @Prop({ required: true, type: [String] })
+    @IsArray()
+    @IsUrl({}, { each: true })
+    product_img: string[];
+    
     @Prop()
-    product_img: [string];
-    @Prop()
-    product_new: boolean;
-    @Prop()
-    product_sales: boolean;
+    @IsOptional()
+    @IsUrl()
+    product_video: string;
+    
+    @Prop({ required: true, enum: ['NEW', 'SALES', 'NORMAL'] })
+    @IsEnum(['NEW', 'SALES', 'NORMAL'])
+    product_status: string;
 }
 
-export const ProductSchema = SchemaFactory.createForClass(Product)
+export const ProductSchema = SchemaFactory.createForClass(Product);

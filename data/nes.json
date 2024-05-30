@@ -1,162 +1,342 @@
 [
   {
-    "product_id": 13000,
-    "product_name": "Super Mario Bros. 3",
-    "product_description": "Super Mario Bros. 3, the third entry in the Super Mario Bros. series and Super Mario franchise, sees Mario or Luigi navigate a nonlinear world map containing platforming levels and optional minigames and challenges. The game features more diverse movement options and new items alongside more complex level designs and boss battles.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4000,
+    "product_name": "Kid Icarus",
+    "product_description": "Embark on an epic journey with Pit, the angelic hero of Kid Icarus. Traverse treacherous levels, battle against mythical creatures, and overcome challenging obstacles as you strive to rescue the goddess Palutena from the clutches of the dark goddess Medusa. With its blend of platforming and action-adventure gameplay, Kid Icarus offers a unique and memorable experience that has captivated players for generations.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Kid+Icarus+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Kid+Icarus+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Kid+Icarus+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Kid+Icarus+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/dOg2NWQgltI",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13001,
-    "product_name": "Mega Man 2",
-    "product_description": "In the year 200X, a super robot named Mega Man was created. Dr. Light created Mega Man to stop the evil desires of Dr. Wily. However, after his defeat, Dr. Wily created eight of his own robots to counter Mega Man.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4001,
+    "product_name": "Castlevania",
+    "product_description": "Enter the dark and foreboding world of Castlevania and take on the role of Simon Belmont, the legendary vampire hunter. Journey through Dracula's castle, battle against hordes of monsters and undead creatures, and confront the lord of darkness himself in a final showdown. With its atmospheric visuals, haunting soundtrack, and challenging gameplay, Castlevania is a classic action-platformer that has stood the test of time.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/RLGWlH79-Ig",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13002,
-    "product_name": "Metroid",
-    "product_description": "It's you against the evil Mother Brain in the thrilling battle of Metroid! You're inside the fortress planet Zebes. The planet of endless secret passageways where the Metroid are multiplying. ",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4002,
+    "product_name": "Super Mario Bros 2",
+    "product_description": "Join Mario, Luigi, Princess Toadstool, and Toad on a whimsical adventure in Super Mario Bros. 2. Explore the dream world of Subcon, defeat the villainous Wart, and rescue the land from his clutches. Each character has unique abilities, allowing players to approach levels in different ways. With its colorful graphics, catchy soundtrack, and inventive gameplay mechanics, Super Mario Bros. 2 offers a refreshing twist on the classic Mario formula.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+2+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/ScoUXhGkgjI",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13003,
-    "product_name": "Dragon Quest",
-    "product_description": "The player takes the role of a namable Hero. The Hero's name has an effect on his statistical growth over the course of the game. Battles are fought in a turn-based format and experience points and gold are awarded after every battle, allowing the Hero to level-up in ability and allows them to buy better weapons, armor, and items. Progression consists of traveling over an overworld map and through dungeons, fighting monsters encountered via random battles along the journey.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "NES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 13004,
-    "product_name": "Disney's DuckTales",
-    "product_description": "The game was praised for its tight control, unique and non-linear gameplay and bright presentation, and is often regarded as one of the best titles for the NES, appearing on numerous Best of lists.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "NES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 13005,
-    "product_name": "Contra",
-    "product_description": "Contra (also known as Gryzor in Oceania and Europe), is a 1987 run and gun action game developed and published by Konami originally released as a coin-operated arcade game on February 20, 1987. The game had multiple ports, including for various computer formats. Several Contra sequels were produced following the original game.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "NES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 13006,
+    "product_reference": 4003,
     "product_name": "Ninja Gaiden",
-    "product_description": "Ninja Action! The stage is set for conspiracy, mystery and evil in America. Come with Ninja Ryu as he takes you on his fateful journey. Tecmo's unique cinema display system develops the story stage by stage. You piece together the puzzle, while watching the movie-like graphics. Decide what action to take. Use the secret sword and items collected during the action scenes to fight your way to the goal!",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "Step into the shoes of Ryu Hayabusa, the ninja master, in Ninja Gaiden. Embark on a quest to avenge your father's death and retrieve the stolen Dragon Sword from the villainous Jaquio. Traverse hazardous environments, battle against deadly enemies, and unleash devastating ninja techniques as you journey through a thrilling tale of revenge and redemption. With its fast-paced gameplay, challenging level design, and cinematic cutscenes, Ninja Gaiden is a true classic of the action-platformer genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Ninja+Gaiden+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Ninja+Gaiden+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Ninja+Gaiden+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Ninja+Gaiden+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/y4C0GdBKPyw",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13007,
-    "product_name": "Kirby's Adventure",
-    "product_description": "Not everything is well in Dream Land. For some mysterious reason, the Dream Spring, a magical well that is the reservoir for all the dreams of the citizens of Dream Land, is no longer working. Everyone is being subjected to their worst nightmares every time they go to sleep.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4004,
+    "product_name": "Mega Man 3",
+    "product_description": "Join Mega Man on another thrilling adventure to save the world from the clutches of the evil Dr. Wily in Mega Man 3. Battle against a new set of Robot Masters, each with their own unique powers and abilities, as you journey through a variety of challenging stages. Utilize Mega Man's trusty Mega Buster and defeat the bosses to acquire their weapons, which can be used to overcome obstacles and vanquish foes. With its tight controls, colorful graphics, and memorable soundtrack, Mega Man 3 is a must-play for fans of the series.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+3+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+3+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+3+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+3+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/bed6y5sX03E",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13008,
-    "product_name": "Metal Gear",
-    "product_description": "Metal Gear is considered to be the progenitor of the stealth game genre, it was also the first video game designed by Hideo Kojima, who also directed many of the later Metal Gear sequels. ",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4005,
+    "product_name": "River City Ransom",
+    "product_description": "Take to the streets and brawl your way to victory in River City Ransom. Play as Alex and Ryan, two high school students on a mission to rescue Ryan's girlfriend from a gang of street thugs. Explore the open-world city, defeat enemies with a variety of martial arts techniques, and purchase new moves and power-ups from shops scattered throughout the city. With its unique blend of beat 'em up action, RPG elements, and humor, River City Ransom is a beloved classic that continues to charm players to this day.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/River+City+Ransom+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/River+City+Ransom+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/River+City+Ransom+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/River+City+Ransom+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/mKzHkoQVrCw",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 13009,
-    "product_name": "Battletoads",
-    "product_description": "Battletoads is the first game of the Battletoads series. The game is a platform scrolling beat 'em up, with varying elements of racing, climbing and vehicle-based obstacle courses. Players start with three lives each time the game is started, which get replenished every time the player continues after getting defeated. ",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 4006,
+    "product_name": "Excite Bike",
+    "product_description": "Get ready for high-speed thrills and adrenaline-pumping action in Excitebike. Hop on your dirt bike and race against the clock or compete against other riders in thrilling motocross races. Maneuver through challenging tracks, perform daring stunts, and avoid obstacles as you strive for victory. With its addictive gameplay, intuitive controls, and track editor feature, Excitebike offers endless hours of racing excitement.",
+    "product_price": 25.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Excite+Bike+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Excite+Bike+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Excite+Bike+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Excite+Bike+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/QYlK7izZk3Q",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4007,
+    "product_name": "Gradius",
+    "product_description": "Take control of the Vic Viper spacecraft and battle against the alien forces of the Bacterian Empire in Gradius. Navigate through waves of enemy ships, dodge deadly obstacles, and collect power-ups to enhance your ship's capabilities. Customize your weapon loadout to suit your playstyle and face off against epic bosses in this classic shoot 'em up. With its challenging gameplay, memorable music, and iconic power-up system, Gradius is a must-play for fans of the genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Gradius+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Gradius+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Gradius+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Gradius+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/FTjV7gxFb-s",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4008,
+    "product_name": "Contra",
+    "product_description": "Gear up for intense run-and-gun action in Contra. Play as commandos Bill Rizer and Lance Bean and take on the alien forces of Red Falcon in a desperate bid to save the world from annihilation. Traverse through hostile environments, blast your way through waves of enemies, and face off against towering bosses in this classic side-scrolling shooter. With its challenging gameplay, iconic weapons, and memorable co-op mode, Contra is a true test of skill and reflexes.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Contra+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Contra+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Contra+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Contra+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/QhpXzcCutHQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4009,
+    "product_name": "Final Fantasy",
+    "product_description": "Embark on an epic quest to restore light to the four elemental crystals in Final Fantasy. Create a party of heroes from a diverse cast of characters, each with their own unique abilities and classes. Journey across vast continents, explore ancient dungeons, and battle against hordes of monsters in strategic turn-based combat. With its deep storyline, rich world-building, and addictive gameplay, Final Fantasy laid the foundation for one of the most beloved RPG series of all time.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Final+Fantasy+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Final+Fantasy+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Final+Fantasy+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Final+Fantasy+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/u3pzRgtYDmo",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4010,
+    "product_name": "Duck Tales",
+    "product_description": "Join Scrooge McDuck and his nephews Huey, Dewey, and Louie on a treasure-hunting adventure in DuckTales. Travel to exotic locations around the world, from the Amazon rainforest to the Himalayas, in search of legendary treasures. Use Scrooge's iconic pogo stick and cane to navigate treacherous terrain, defeat enemies, and uncover hidden secrets. With its charming graphics, catchy music, and tight controls, DuckTales is a beloved classic that continues to delight players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/DuckTales+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/DuckTales+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/DuckTales+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/DuckTales+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/MtkxPAWdPHM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4011,
+    "product_name": "Bionic Commando",
+    "product_description": "Arm yourself with the bionic arm and embark on a mission to rescue Super Joe and thwart the plans of the evil organization, the Badds, in Bionic Commando. Swing, climb, and grapple your way through challenging levels, avoiding hazards and enemies as you go. Use your bionic arm to grab onto objects and swing across chasms, creating new paths to explore. With its innovative gameplay mechanics and intense action, Bionic Commando offers a unique and thrilling gaming experience.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Bionic+Commando+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Bionic+Commando+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Bionic+Commando+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Bionic+Commando+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/BqbIo6ADarE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4012,
+    "product_name": "Dragon Warrior",
+    "product_description": "Embark on a classic RPG adventure in Dragon Warrior. Assume the role of a descendant of Erdrick and set out to defeat the evil Dragonlord, who has plunged the kingdom of Alefgard into darkness. Explore towns, dungeons, and the vast overworld as you gather allies, acquire powerful equipment, and uncover the secrets of the land. With its turn-based battles, immersive storytelling, and charming retro graphics, Dragon Warrior is a timeless classic that defined the RPG genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Dragon+Warrior+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Dragon+Warrior+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Dragon+Warrior+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Dragon+Warrior+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/Ux4kTkly9Dw",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4013,
+    "product_name": "Mike Tyson's Punch-Out!!",
+    "product_description": "Step into the ring and face off against some of the toughest boxers in the world in Mike Tyson's Punch-Out!! Play as Little Mac, a young boxer with big dreams, as he climbs the ranks of the World Video Boxing Association. Master the art of timing and pattern recognition as you dodge, weave, and counterpunch your way to victory. With its colorful characters, tight controls, and memorable soundtrack, Mike Tyson's Punch-Out!! is a boxing classic that remains fun and challenging to this day.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mike+Tyson's+Punch-Out+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mike+Tyson's+Punch-Out+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mike+Tyson's+Punch-Out+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mike+Tyson's+Punch-Out+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/DPFL71hsdfQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4014,
+    "product_name": "Metroid",
+    "product_description": "Enter the mysterious world of Zebes and take on the role of bounty hunter Samus Aran in Metroid. Explore vast caverns, ancient ruins, and alien landscapes as you hunt down the vile Mother Brain and her Metroid minions. Use Samus's arsenal of weapons and abilities, including the iconic Morph Ball and Screw Attack, to overcome obstacles and defeat enemies. With its non-linear gameplay, atmospheric soundtrack, and sense of exploration, Metroid set the standard for the action-adventure genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Metroid+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Metroid+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Metroid+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Metroid+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/JhCY5lPbtLw",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4015,
+    "product_name": "Castlevania III: Dracula's Curse",
+    "product_description": "Return to the haunted halls of Dracula's castle and confront the Lord of Darkness once again in Castlevania III: Dracula's Curse. Play as Trevor Belmont, a legendary vampire hunter, and embark on a perilous journey to defeat Dracula and his minions. Traverse treacherous terrain, battle against terrifying monsters, and unleash powerful sub-weapons as you make your way to the final showdown. With its challenging gameplay, haunting atmosphere, and memorable soundtrack, Castlevania III: Dracula's Curse is a true classic of the action-platformer genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+III+-+Dracula's+Curse+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+III+-+Dracula's+Curse+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+III+-+Dracula's+Curse+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Castlevania+III+-+Dracula's+Curse+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/Dr7rXOsBjMQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4016,
+    "product_name": "Mega Man 2",
+    "product_description": "Join the blue bomber, Mega Man, on another action-packed adventure to stop the evil Dr. Wily in Mega Man 2. Battle against eight powerful Robot Masters, each with their own unique abilities, as you traverse through challenging stages filled with traps and enemies. Defeat the bosses, acquire their weapons, and use them to take down Dr. Wily's army of robots. With its tight controls, memorable music, and colorful graphics, Mega Man 2 is a beloved classic that remains a fan favorite to this day.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Mega+Man+2+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/GObz59z782o",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4017,
+    "product_name": "Super Mario Bros.",
+    "product_description": "Join Mario on a quest to rescue Princess Toadstool from the clutches of the evil Bowser in Super Mario Bros. Navigate through the Mushroom Kingdom, traverse treacherous terrain, and stomp on Goombas and Koopa Troopas as you journey through eight challenging worlds. Discover secret warp zones, collect power-ups like the Super Mushroom and Fire Flower, and face off against Bowser in the ultimate showdown. With its timeless gameplay, colorful graphics, and memorable music, Super Mario Bros. is a true classic that remains as fun and addictive as ever.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/-avspZlbOWU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4018,
+    "product_name": "The Legend of Zelda",
+    "product_description": "Embark on a legendary quest to rescue Princess Zelda and defeat the evil Ganon in The Legend of Zelda. Explore the vast kingdom of Hyrule, navigate through treacherous dungeons, and battle against fierce enemies as you search for the pieces of the Triforce of Wisdom. Use your sword, shield, and assortment of items to solve puzzles, uncover secrets, and uncover the hidden power of the Master Sword. With its open-world exploration, non-linear gameplay, and immersive atmosphere, The Legend of Zelda set the standard for action-adventure games and remains a timeless classic.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/The+Legend+of+Zelda+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/The+Legend+of+Zelda+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/The+Legend+of+Zelda+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/The+Legend+of+Zelda+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/uyMKWJ5e1kg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 4019,
+    "product_name": "Super Mario Bros. 3",
+    "product_description": "Join Mario and Luigi on a fantastic journey through the Mushroom Kingdom to rescue Princess Toadstool from the clutches of the evil Bowser in Super Mario Bros. 3. Run, jump, and stomp your way through eight colorful worlds filled with enemies, obstacles, and secrets. Discover new power-ups like the Super Leaf and Tanooki Suit, and use them to overcome challenges and defeat Bowser's Koopalings. With its inventive level design, catchy music, and vibrant graphics, Super Mario Bros. 3 is considered one of the greatest platformers of all time.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "NES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+3+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+3+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+3+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/nes/Super+Mario+Bros+3+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/2CxNhRCKiJA",
+    "product_status": "NORMAL"
   }
 ]

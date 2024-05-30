@@ -1,162 +1,341 @@
 [
   {
-    "product_id": 15000,
+    "product_reference": 6000,
+    "product_name": "Psycho Fox",
+    "product_description": "Embark on a wild platforming adventure with Psycho Fox. Play as the titular character and journey through a variety of colorful levels filled with enemies, obstacles, and secrets. Utilize Psycho Fox's unique ability to transform into different animals, each with its own special abilities, to overcome challenges and reach the end of each stage. With its charming visuals, catchy music, and challenging gameplay, Psycho Fox offers hours of fun for players of all ages.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Psycho+Fox+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Psycho+Fox+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Psycho+Fox+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Psycho+Fox+snap3.png"
+    ],
+    "product_video": "https://youtu.be/_YZxRar5pOA",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6001,
+    "product_name": "Sonic The Hedgehog 2",
+    "product_description": "Join Sonic and Tails on another high-speed adventure in Sonic The Hedgehog 2. Race through iconic zones such as Emerald Hill, Chemical Plant, and Casino Night as you collect rings, defeat enemies, and stop the evil Dr. Robotnik's latest scheme. Team up with Tails to tackle tough challenges and uncover hidden secrets, or play solo as Sonic and test your platforming skills against thrilling boss battles. With its fast-paced gameplay, vibrant graphics, and catchy music, Sonic The Hedgehog 2 is a timeless classic that will keep you coming back for more.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+The+Hedgehog+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+The+Hedgehog+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+The+Hedgehog+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+The+Hedgehog+2+snap3.png"      
+    ],
+    "product_video": "https://youtu.be/1K_aEoNDZwQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6002,
+    "product_name": "Fantasy Zone II",
+    "product_description": "Return to the whimsical world of Fantasy Zone in this sequel to the classic arcade shooter. Pilot your Opa-Opa spaceship through colorful, side-scrolling stages filled with quirky enemies and challenging bosses. Use your wits and reflexes to blast your way through waves of foes while collecting coins to upgrade your ship and purchase powerful weapons. With its vibrant visuals, catchy music, and addictive gameplay, Fantasy Zone II is a must-play for fans of the shoot 'em up genre.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+II+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+II+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+II+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+II+snap3.png"         ],
+    "product_video": "https://youtu.be/AVvr5AomnA8",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6003,
+    "product_name": "Golden Axe Warrior",
+    "product_description": "Embark on an epic quest to defeat the evil Death Adder in Golden Axe Warrior. As a brave warrior, you must journey through dangerous lands, battle fierce monsters, and collect powerful artifacts to restore peace to the kingdom. Explore vast dungeons, solve challenging puzzles, and uncover hidden secrets as you seek the legendary Golden Axe. With its engaging storyline, action-packed gameplay, and nostalgic charm, Golden Axe Warrior offers an unforgettable adventure for fans of the classic action RPG genre.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golden+Axe+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golden+Axe+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golden+Axe+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golden+Axe+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/xJIDfiBqEn0",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6004,
+    "product_name": "Kenseiden",
+    "product_description": "Step into the shoes of a brave ninja warrior in Kenseiden. Battle your way through hordes of demonic creatures, treacherous traps, and powerful bosses as you seek to rid the land of evil. Harness the power of ancient martial arts techniques and mystical abilities to overcome your foes and restore peace to the world. With its challenging gameplay, atmospheric visuals, and immersive soundtrack, Kenseiden offers a thrilling adventure that will test your skills and determination.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Kenseiden+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Kenseiden+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Kenseiden+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Kenseiden+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/wBVpIP6lt_o",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6005,
+    "product_name": "Alex Kidd in Miracle World",
+    "product_description": "Join Alex Kidd on a journey to rescue his lost brother and save the kingdom of Radaxian in Alex Kidd in Miracle World. Explore colorful lands, overcome challenging obstacles, and defeat powerful bosses as you search for the legendary Miracle Ball. Master the art of 'rock-paper-scissors' in epic boss battles, uncover hidden secrets, and collect power-ups to enhance Alex's abilities. With its charming graphics, catchy music, and addictive gameplay, Alex Kidd in Miracle World is a beloved classic that has stood the test of time.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Alex+Kidd+in+Miracle+World+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Alex+Kidd+in+Miracle+World+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Alex+Kidd+in+Miracle+World+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Alex+Kidd+in+Miracle+World+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/sDoYXhj55kU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6006,
+    "product_name": "Road Rash",
+    "product_description": "Get ready for high-speed motorcycle mayhem in Road Rash. Race against rival bikers on scenic highways, desert roads, and city streets as you vie for the top spot in illegal street racing tournaments. Use your fists, kicks, and weapons to knock opponents off their bikes and avoid obstacles along the way. Upgrade your bike, purchase new gear, and take on increasingly challenging opponents in your quest to become the ultimate Road Rash champion. With its adrenaline-pumping action, realistic physics, and addictive gameplay, Road Rash delivers an unforgettable racing experience.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Road+Rash+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Road+Rash+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Road+Rash+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Road+Rash+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/gBdlScU7N6M",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6007,
+    "product_name": "Sonic Chaos",
+    "product_description": "Join Sonic the Hedgehog and Tails on another thrilling adventure in Sonic Chaos. Dr. Robotnik is up to his old tricks again, and it's up to Sonic and Tails to stop him. Race through colorful levels, collect rings, and defeat enemies as you dash, spin, and jump your way to victory. Use Sonic's speed and Tails' flying abilities to overcome obstacles and reach the end of each stage. With its fast-paced gameplay, vibrant graphics, and catchy music, Sonic Chaos is a must-play for fans of the blue blur.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+Chaos+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+Chaos+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+Chaos+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Sonic+Chaos+snap3.png" 
+      ],
+    "product_video": "https://youtu.be/WqTXsm_UQLc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6008,
+    "product_name": "Land Of Illusion Starring Mickey Mouse",
+    "product_description": "Embark on a magical journey with Mickey Mouse in Land Of Illusion. After stumbling upon a mysterious castle, Mickey finds himself transported to a whimsical world filled with enchanted forests, treacherous caves, and perilous dungeons. Help Mickey navigate through challenging puzzles, evade cunning traps, and defeat fearsome monsters as he searches for the legendary Rainbow Gems. With its charming visuals, enchanting music, and engaging gameplay, Land Of Illusion Starring Mickey Mouse is a beloved classic that will delight players of all ages.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Land+of+Illusion+Starring+Mickey+Mouse+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Land+of+Illusion+Starring+Mickey+Mouse+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Land+of+Illusion+Starring+Mickey+Mouse+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Land+of+Illusion+Starring+Mickey+Mouse+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/08m-KmsgeZ0",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6009,
+    "product_name": "Asterix",
+    "product_description": "Join Asterix and Obelix on a hilarious adventure to foil the plans of the evil Roman legionnaires in Asterix. Travel through Gaul, Egypt, and Rome as you fight off hordes of Roman soldiers, navigate treacherous terrain, and outsmart cunning adversaries. Utilize Asterix's incredible strength and Obelix's mighty fists to overcome obstacles and defeat enemies in your quest to liberate Gaul from Roman occupation. With its charming visuals, witty humor, and addictive gameplay, Asterix is a delightful romp for fans of the classic comic series.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Asterix+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Asterix+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Asterix+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Asterix+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/fTgDxvlh6mQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6010,
+    "product_name": "Space Harrier 3-D",
+    "product_description": "Blast off into the far reaches of space in Space Harrier 3-D. Pilot your futuristic jet through a series of colorful and surreal landscapes while fending off waves of enemies and avoiding obstacles. With its fast-paced gameplay, stunning 3D graphics, and adrenaline-pumping soundtrack, Space Harrier 3-D delivers an arcade-like experience that will keep you coming back for more.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Space+Harrier+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Space+Harrier+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Space+Harrier+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Space+Harrier+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/OqhKfuDp_YU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6011,
+    "product_name": "The Lucky Dime Caper Starring Donald Duck",
+    "product_description": "Join Donald Duck on a thrilling adventure to recover his lucky dime in The Lucky Dime Caper. Travel through exotic locations, battle cunning enemies, and solve challenging puzzles as you search for the stolen dime. With its colorful graphics, catchy music, and engaging gameplay, The Lucky Dime Caper is a classic platformer that will entertain players of all ages.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/The+Lucky+Dime+Caper+Starring+Donald+Duck+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/The+Lucky+Dime+Caper+Starring+Donald+Duck+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/The+Lucky+Dime+Caper+Starring+Donald+Duck+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/The+Lucky+Dime+Caper+Starring+Donald+Duck+snap3.png"
+    ],
+    "product_video": "https://youtu.be/aXE5cqlT96g",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6012,
+    "product_name": "Vampire: Master Of Darkness",
+    "product_description": "Immerse yourself in the dark and mysterious world of Vampire: Master Of Darkness. As a vampire hunter, it's your duty to rid London of the evil creatures that lurk in the shadows. Explore eerie locations, solve cryptic puzzles, and battle terrifying monsters as you uncover the truth behind the recent string of gruesome murders. With its haunting atmosphere, challenging gameplay, and gripping storyline, Vampire: Master Of Darkness will keep you on the edge of your seat until the very end.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Vampire+-+Master+Of+Darkness+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Vampire+-+Master+Of+Darkness+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Vampire+-+Master+Of+Darkness+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Vampire+-+Master+Of+Darkness+snap3.png"
+    ],
+    "product_video": "https://youtu.be/vQPwtu6eyiE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6013,
+    "product_name": "After Burner",
+    "product_description": "Take to the skies in After Burner and engage in high-speed aerial combat against a relentless enemy force. Pilot your fighter jet through intense dogfights, daring maneuvers, and explosive battles as you strive to complete your mission and emerge victorious. With its adrenaline-pumping action, stunning visuals, and pulse-pounding soundtrack, After Burner delivers an arcade-like experience that will keep you coming back for more.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/After+Burner+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/After+Burner+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/After+Burner+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/After+Burner+snap3.png"
+    ],
+    "product_video": "https://youtu.be/4Ff_UOft4LM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6014,
+    "product_name": "Golvellius: Valley of Doom",
+    "product_description": "Embark on an epic quest to rescue the land of Aleid from the clutches of the evil Golvellius in Golvellius: Valley of Doom. As a brave warrior, it's up to you to explore treacherous dungeons, battle fearsome monsters, and uncover powerful artifacts as you journey through the Valley of Doom. With its challenging gameplay, colorful graphics, and memorable soundtrack, Golvellius: Valley of Doom offers an immersive RPG experience that will captivate players from start to finish.",
+    "product_price": 20.00,
+    "product_quantity": 100,
+    "product_platform": "MASTER",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golvellius+-+Valley+of+Doom+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golvellius+-+Valley+of+Doom+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golvellius+-+Valley+of+Doom+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Golvellius+-+Valley+of+Doom+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/mm9uAXg79dA",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 6015,
     "product_name": "Phantasy Star",
-    "product_description": "SThe time: Space Century 3240. The place: The Algol Star System. It began when King Lassic turned evil and let hordes of hideous, magical creatures run amok on the three planets. When her brother was killed, Alis vowed to avenge his death and put an end to Lassic forever.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "Embark on an epic journey across the Algol star system in Phantasy Star. As Alis Landale, it's up to you to seek vengeance for the death of your brother and uncover the dark secrets behind the tyrannical reign of King Lassic. Explore diverse planets, battle fierce monsters, and assemble a team of allies to aid you in your quest. With its groundbreaking gameplay, immersive story, and stunning visuals, Phantasy Star is a timeless classic that defined the RPG genre.",
+    "product_price": 20.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Phantasy+Star+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Phantasy+Star+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Phantasy+Star+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Phantasy+Star+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/jHIkjjHpXys",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 15001,
-    "product_name": "Wonder Boy",
-    "product_description": "Wonder Boy is a 1986 platform video game published by Sega and developed by Escape (now known as Westone Bit Entertainment). It was the first in the long-running Wonder Boy series of games and was followed up by five sequels, Wonder Boy in Monster Land, Wonder Boy III: Monster Lair, Wonder Boy III: The Dragon's Trap, Wonder Boy in Monster World and Monster World IV. It was also the basis for the Adventure Island series.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MASTER",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 15002,
+    "product_reference": 6016,
     "product_name": "Operation Wolf",
-    "product_description": "In the steamy jungles of South America, heavily armed extremists are holding innocent civilians prisoner. Little do these terrorists know that real terror is about to land on their front porch! The sound of rotor blades and staccato bursts of gunfire echo through the valleys.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "Join the elite Special Forces unit on a daring rescue mission in Operation Wolf. As a skilled marksman, it's up to you to infiltrate enemy territory, neutralize hostile forces, and rescue hostages from captivity. Armed with a machine gun and grenades, you must navigate through hostile environments, dodge enemy fire, and eliminate threats with precision and speed. With its intense action, realistic graphics, and immersive gameplay, Operation Wolf delivers an unforgettable arcade experience.",
+    "product_price": 20.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Operation+Wolf+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Operation+Wolf+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Operation+Wolf+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Operation+Wolf+snap3.png"    
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/jbiqeAZlFlo",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 15003,
-    "product_name": "Master of Darkness",
-    "product_description": "The shadow of Dracula has spread over Victorian England. Make your way through strange and forbidding streets and cavernous warehouses while fighting his army of monsters. Find Dracula, the Master of Darkness, and rescue England from his terrifying grasp.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 6017,
+    "product_name": "Fantasy Zone",
+    "product_description": "Enter a whimsical world of colorful landscapes and quirky characters in Fantasy Zone. As the heroic Opa-Opa, it's your mission to defend the Fantasy Zone from the invading forces of the evil Menon. Pilot your trusty spaceship through a series of vibrant stages, blast waves of enemies with your powerful weapons, and collect coins to purchase upgrades and power-ups. With its charming visuals, catchy music, and addictive gameplay, Fantasy Zone is a beloved classic that will keep you entertained for hours on end.",
+    "product_price": 20.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Fantasy+Zone+snap3.png"        
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/vvL7bnlicmo",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 15004,
-    "product_name": "The Lion King",
-    "product_description": "The Lion King brings to life the majesty and mystery of Africa through the tale of Simba, a lion cub faced with the challenging transition to maturity. Believing himself to be responsible for his father's death, Simba enters the wilderness - where he finds salvation with Pumbaa the warthog and Timon the meerkat, and his education begins.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MASTER",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 15005,
+    "product_reference": 6018,
     "product_name": "Ghouls 'n Ghosts",
-    "product_description": "The gameplay for Ghouls 'n Ghosts is similar to that of Ghosts 'n Goblins. The player controls the knight Arthur, who must advance through a series of eerie levels and defeat a number of undead and demonic creatures in his quest to restore the souls stolen by Lucifer (Loki in the English-language Mega Drive and Sega Master System versions), including the soul of his lover, Princess Prin Prin.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "Enter a dark and dangerous world filled with ghosts, goblins, and other supernatural creatures in Ghouls 'n Ghosts. As the valiant knight Arthur, it's up to you to rescue Princess Prin-Prin from the clutches of the evil demon lord Lucifer. Battle your way through haunted graveyards, treacherous forests, and haunted castles as you wield powerful weapons and magical armor to defeat your foes. With its challenging gameplay, stunning visuals, and haunting soundtrack, Ghouls 'n Ghosts is a timeless classic that will test your skills and courage.",
+    "product_price": 20.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Ghouls'n+Ghosts+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Ghouls'n+Ghosts+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Ghouls'n+Ghosts+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/Ghouls'n+Ghosts+snap3.png"        
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/3CeiWkMT-Gc",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 15006,
-    "product_name": "Alex Kidd: The Lost Stars",
-    "product_description": "Alex Kidd: The Lost Stars features Alex Kidd and Stella searching for the twelve Zodiac signs.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 6019,
+    "product_name": "California Games",
+    "product_description": "Experience the thrill of California's extreme sports scene in California Games. Compete in a variety of events including surfing, skateboarding, BMX biking, and more as you vie for the top spot on the leaderboard. With its colorful graphics, catchy music, and addictive gameplay, California Games offers hours of fun for players of all ages.",
+    "product_price": 20.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/California+Games+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/California+Games+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/California+Games+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/master/California+Games+snap3.png"            
     ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 15007,
-    "product_name": "Cool Spot",
-    "product_description": "QCool Spot is a mascot for 7 Up, introduced in 1987. During this time, the red spot in the 7 Up logo was anthropomorphized: given arms, legs, a mouth, and sunglasses. British video games developer Virgin Interactive's American studio produced a platform game starring the 7 Up Spot, entitled Cool Spot.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MASTER",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 15008,
-    "product_name": "Alex Kidd in Shinobi World",
-    "product_description": "ter ten thousand years, the once banished Dark Ninja returns to make another attempt to take over the Miracle World. Someone's definitely got to stop him! Guess who dares to meet the challenge? You! You're Alex Kidd, the prince who knows no fear. ",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MASTER",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 15009,
-    "product_name": "Alex Kidd: High-Tech World",
-    "product_description": "Life isn't always easy for the Crown Prince of Radactian. When the High-Tech World arcade opened up, someone in your castle tore the map into eight pieces! But it's such a cool arcade, you have to go there. It's a challenge worthy of any Kidd!",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MASTER",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/j25vl0wcIMk",
+    "product_status": "NORMAL"
   }
 ]

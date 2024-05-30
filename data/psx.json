@@ -1,162 +1,342 @@
 [
   {
-    "product_id": 11001,
-    "product_name": "Dino Crisis 2",
-    "product_description": "The storyline follows the events of the previous game, where Regina is on another mission involving a facility located close to the fictional Edward City, where a major anomaly has caused the whole city to be transported back in time to the era of the dinosaurs, along with all the human inhabitants. Regina is sent on a rescue mission with her new ally Dylan Morton, who has a strange connection to the events on the island. The player switches between controlling Regina and Dylan at specific points in the game.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "PSX",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": true,
-    "product_sales": false
-  },
-  {
-    "product_id": 11002,
-    "product_name": "Final Fantasy VII",
-    "product_description": "Final Fantasy VII follows the story of mercenary Cloud Strife, who is hired by the eco-terrorist group AVALANCHE led by Barret Wallace to help fight the mega-corporation Shinra Electric Power Company, who attempts to drain the planet's lifeblood as an energy source to further their profits. Apathetic to the cause, Cloud initially fights for personal gain, and for the promise he made to childhood friend Tifa Lockhart. Cloud eventually joins forces with many others to save the planet, which is threatened by Shinra and Cloud's nemesis Sephiroth, and discovers a reason to fight for a cause other than his own.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "PSX",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Final+Fantasy+VII/Final+Fantasy+VII+(USA)-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Final+Fantasy+VII/Final+Fantasy+VII+(USA)-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Final+Fantasy+VII/Final+Fantasy+VII+(USA)-snap2.png"
-    ],
-    "product_new": true,
-    "product_sales": false
-  },
-  {
-    "product_id": 11003,
+    "product_reference": 1000,
     "product_name": "Metal Gear Solid",
-    "product_description": "Metal Gear Solid takes place in an alternate history in which the Cold War continued into the 1990s, ending at some point near the end of the 20th century. Coming out of retirement, special agent Solid Snake is called back into the line of duty to take on rogue members of Foxhound, a crack government anti-terrorist squad threatening to launch nuclear-weapons on the White House unless they receive their $1 billion ransom. With only 24 hours to sabotage Foxhound's threat, Snake must infiltrate enemy lines, rescue the two hostages and thwart the terrorists' plans. The demons of his past will challenge him and his will as a soldier shall be tested, as Snake fights to save the world from nuclear devastation.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_description": "Step into the shoes of Solid Snake in this stealth-action masterpiece. Unravel the secrets of a nuclear weapons facility and confront the deadly FOXHOUND unit. Utilize tactical espionage to infiltrate enemy bases, avoid detection, and engage in thrilling boss battles. The story is a gripping tale of loyalty, betrayal, and the harsh realities of war. With its innovative gameplay, cinematic presentation, and memorable characters, Metal Gear Solid set a new standard for the action genre and remains a must-play classic.",
+    "product_price": 50.00,
+    "product_quantity": 100,
     "product_platform": "PSX",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Metal+Gear+Solid/Metal+Gear+Solid+(USA)-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Metal+Gear+Solid/Metal+Gear+Solid+(USA)-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Metal+Gear+Solid/Metal+Gear+Solid+(USA)-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Metal+Gear+Solid+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Metal+Gear+Solid+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Metal+Gear+Solid+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Metal+Gear+Solid+s3.png"   
     ],
-    "product_new": true,
-    "product_sales": false
+    "product_video": "https://youtu.be/vj6plOoDl_s",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 11004,
-    "product_name": "Suikoden II",
-    "product_description": "Experience An Epic Tale of Warfare, Magic, Friendship And Betrayal\n\n-New tactical map battles add a whole level of strategy\n-Fantastic spells with stunning animation sequences and specialized attacks\n-Over 108 different characters can join your party and help you on your quest\n-Unlock hidden storylines using your memory card data from the original Suikoden\n-Build up your castle during the game to a thriving virtual community",
-    "product_price": 20,
-    "product_available": 100,
+    "product_reference": 1001,
+    "product_name": "Castlevania: Symphony Of The Night",
+    "product_description": "Venture into Dracula's castle as Alucard, the dhampir son of Dracula, in this critically acclaimed action RPG. Explore labyrinthine corridors, defeat grotesque creatures, and uncover the truth behind the castle's mysterious curse. With its non-linear gameplay, RPG elements, and hauntingly beautiful soundtrack, Castlevania: Symphony of the Night sets the standard for the Metroidvania genre and remains a timeless classic.",
+    "product_price": 50.00,
+    "product_quantity": 100,
     "product_platform": "PSX",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Suikoden+II/Suikoden+II+(USA)-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Suikoden+II/Suikoden+II+(USA)-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Suikoden+II/Suikoden+II+(USA)-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Castlevania+-+Symphony+of+the+Night+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Castlevania+-+Symphony+of+the+Night+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Castlevania+-+Symphony+of+the+Night+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Castlevania+-+Symphony+of+the+Night+s3.png"   
     ],
-    "product_new": true,
-    "product_sales": false
+    "product_video": "https://youtu.be/Ccze7KE9QTE",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 11005,
+    "product_reference": 1002,
+    "product_name": "Final Fantasy VII",
+    "product_description": "Embark on an unforgettable journey with Cloud Strife and his allies to save the planet from the sinister Shinra Corporation and the ultimate villain, Sephiroth. Explore vast cities, mystical landscapes, and battlefields in this iconic RPG. With its compelling story, memorable characters, and revolutionary graphics, Final Fantasy VII redefined the RPG genre and remains a timeless masterpiece.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Final+Fantasy+VII+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Final+Fantasy+VII+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Final+Fantasy+VII+s3.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Final+Fantasy+VII+s3.png"   
+    ],
+    "product_video": "https://youtu.be/JujtlsiqZ-E",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1003,
+    "product_name": "Resident Evil 2",
+    "product_description": "Survive the nightmare of Raccoon City in this iconic survival horror game. Play as Leon Kennedy and Claire Redfield as they navigate through the city infested with zombies and other terrifying creatures. With its intense atmosphere, gripping storyline, and innovative gameplay mechanics, Resident Evil 2 set the standard for the survival horror genre and remains a must-play for horror enthusiasts.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Resident+Evil+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Resident+Evil+2+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Resident+Evil+2+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Resident+Evil+2+s3.png"   
+    ],
+    "product_video": "https://youtu.be/748Tu4dUORE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1004,
+    "product_name": "Mega Man Legends",
+    "product_description": "Embark on an epic journey with Mega Man Volnutt in this 3D action-adventure game. Explore ancient ruins, battle against fearsome Reaverbots, and uncover the mysteries of a long-forgotten civilization. Mega Man Legends combines thrilling action with engaging exploration, offering players a unique and unforgettable experience.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Mega+Man+Legends+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Mega+Man+Legends+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Mega+Man+Legends+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Mega+Man+Legends+s3.png"   
+    ],
+    "product_video": "https://youtu.be/iTHOxocpjgk",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1005,
     "product_name": "Tenchu: Stealth Assassins",
-    "product_description": "The game takes place in feudal Japan, introducing a pair of ninja: Rikimaru (力丸) and Ayame (彩女), members of the Azuma ninja clan since childhood. The two ninja serve the heroic Lord Gohda, and work for him as his secret spies to root out corruption and gather intelligence in his province. However, the evil demonic sorcerer Lord Mei-Oh seeks to destroy Lord Gohda, and using his demon warrior Onikage who wreaks havoc throughout Lord Gohda's province.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_description": "Master the art of stealth in feudal Japan as a skilled ninja assassin in Tenchu: Stealth Assassins. Complete dangerous missions, eliminate high-profile targets, and unravel a complex conspiracy in the shadows. With its emphasis on stealth mechanics, authentic environments, and challenging gameplay, Tenchu delivers an immersive ninja experience like no other.",
+    "product_price": 50.00,
+    "product_quantity": 100,
     "product_platform": "PSX",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Tenchu+-+Stealth+Assassins/Tenchu+-+Stealth+Assassins+(USA)-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Tenchu+-+Stealth+Assassins/Tenchu+-+Stealth+Assassins+(USA)-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Tenchu+-+Stealth+Assassins/Tenchu+-+Stealth+Assassins+(USA)-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tenchu+-+Stealth+Assassins+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tenchu+-+Stealth+Assassins+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tenchu+-+Stealth+Assassins+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tenchu+-+Stealth+Assassins+s3.png"   
     ],
-    "product_new": true,
-    "product_sales": false
+    "product_video": "https://youtu.be/sLIR4UvUao4",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12001,
-    "product_name": "The Firemen",
-    "product_description": "The fire is alive - and it's racing straight towards you!\nA fire has broken out in a high-tech chemical factory, where a highly explosive chemical, MDL, is being developed. It's up to you and your fire-fighting team to save the people trapped in the building, and stop the fire from reaching the MDL. Because if it does, the whole building is going to blow...\n\n-An action shooting game with a gripping storyline and 2D overhead perspective.\n-Evade sudden hazards and save survivors.\n-Multi-level action - crawl along the ground to advance, and hose the fire from both high and low levels.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
+    "product_reference": 1006,
+    "product_name": "Spider-Man",
+    "product_description": "Swing into action as the iconic web-slinger in Spider-Man. Protect the city of New York from various supervillains, swinging through the skyscrapers and battling enemies with your unique spider abilities. With its fluid web-swinging mechanics, thrilling combat, and compelling storyline, Spider-Man delivers an exhilarating superhero experience that captures the essence of being the friendly neighborhood Spider-Man.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Spider-Man+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Spider-Man+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Spider-Man+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Spider-Man+s3.png"   
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/wHbUv0ATnZI",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12002,
-    "product_name": "Killer Instinct",
-    "product_description": "Ultratech is a very powerful megacorporation which organises a tournament called Killer Instinct. Along with regular participants, experimental creatures created by Ultratech also fight in the tournament so their strength can be tested. Ultratech also discovers a technology to make bridges between dimensions, and releases a two-headed, one-eyed, satyr monster called Eyedol from this dimensional prison.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
+    "product_reference": 1007,
+    "product_name": "Breath of Fire IV",
+    "product_description": "Embark on a journey through a mystical world filled with dragons, magic, and adventure in Breath of Fire IV. Play as Ryu, a young dragon warrior, and his companions as they unravel the mysteries of their world and confront powerful foes. With its engaging story, strategic turn-based combat, and stunning visuals, Breath of Fire IV offers an immersive RPG experience that will captivate players from start to finish.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Breath+of+Fire+IV+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Breath+of+Fire+IV+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Breath+of+Fire+IV+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Breath+of+Fire+IV+s3.png"   
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/ZRZO52eCvlw",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12003,
-    "product_name": "Kirby Super Star",
-    "product_description": "Kirby Super Star, released as Kirby's Fun Pak in PAL regions, is a platforming video game developed by HAL Laboratory and published by Nintendo. The game was advertised as featuring eight games: seven short subsections with the same basic gameplay, and two minigames. Kirby Super Star sees players take on the role of Kirby, who can float around the screen, inhale blocks and enemies and spit them out. By swallowing certain enemies after inhaling them, Kirby can copy their abilities and use them as his own, becoming able to perform a wide range of attacks. A unique feature of the game is the addition of helpers. When Kirby is in possession of an ability, he can choose to transform it into a helper character which can be controlled by a second player or the computer AI",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
+    "product_reference": 1008,
+    "product_name": "Driver",
+    "product_description": "Get behind the wheel and immerse yourself in the gritty world of undercover operations in Driver. Play as Tanner, an undercover cop, as you infiltrate the criminal underworld and take down organized crime from the driver's seat. With its realistic car physics, thrilling missions, and expansive open-world environment, Driver delivers an adrenaline-pumping experience that will keep you on the edge of your seat.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Driver+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Driver+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Driver+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Driver+s3.png"   
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/qnLD4WQzIOc",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12004,
-    "product_name": "Super Mario World",
-    "product_description": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
+    "product_reference": 1009,
+    "product_name": "Suikoden II",
+    "product_description": "Embark on an epic journey of war, friendship, and destiny in Suikoden II. Lead an army of allies, recruit powerful warriors, and engage in strategic battles to liberate your homeland from tyranny. With its compelling storyline, memorable characters, and deep strategic gameplay, Suikoden II is a classic RPG experience that will captivate players with its rich narrative and immersive world.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Suikoden+II+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Suikoden+II+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Suikoden+II+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Suikoden+II+s3.png"   
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/VRZ5-FNNvaw",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12005,
-    "product_name": "Teenage Mutant Ninja Turtles: Turtles in Time",
-    "product_description": "The original arcade version of Teenage Mutant Ninja Turtles: Turtles in Time is shorter than the latter console version.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
+    "product_reference": 1010,
+    "product_name": "Tomb Raider",
+    "product_description": "Join Lara Croft on a thrilling adventure as she explores ancient tombs, solves intricate puzzles, and battles dangerous adversaries in Tomb Raider. Discover hidden treasures, uncover long-lost secrets, and navigate treacherous environments in this iconic action-adventure game. With its groundbreaking 3D graphics, immersive gameplay, and unforgettable heroine, Tomb Raider sets the standard for action-adventure gaming and remains a timeless classic.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tomb+Raider+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tomb+Raider+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tomb+Raider+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tomb+Raider+s3.png"   
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/8dre4L4VyYU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1011,
+    "product_name": "Silent Hill",
+    "product_description": "Descend into the fog-shrouded town of Silent Hill, where nightmares become reality and the line between sanity and madness blurs. Explore eerie environments, solve twisted puzzles, and confront grotesque creatures in this iconic survival horror game. With its atmospheric tension, psychological horror, and haunting soundtrack, Silent Hill delivers a chilling experience that will leave players on the edge of their seats.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Silent+Hill+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Silent+Hill+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Silent+Hill+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Silent+Hill+s3.png"   
+    ],
+    "product_video": "https://youtu.be/TdZuQeM2T8w",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1012,
+    "product_name": "Gran Turismo 2",
+    "product_description": "Experience the thrill of high-speed racing in Gran Turismo 2. Choose from a vast selection of cars, customize them to perfection, and compete in exhilarating races across various tracks and terrains. With its realistic driving physics, extensive car lineup, and immersive career mode, Gran Turismo 2 offers an unparalleled racing simulation experience that will satisfy both casual players and hardcore racing enthusiasts.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Gran+Turismo+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Gran+Turismo+2+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Gran+Turismo+2+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Gran+Turismo+2+s3.png"   
+    ],
+    "product_video": "https://youtu.be/FSaGqTbzOBw",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1013,
+    "product_name": "Parasite Eve",
+    "product_description": "Unravel a tale of biological horror and supernatural intrigue in Parasite Eve. Play as Aya Brea, an NYPD officer, as she battles against twisted creatures and uncovers a sinister conspiracy in modern-day New York City. With its blend of RPG elements, cinematic storytelling, and intense action sequences, Parasite Eve delivers a unique and gripping experience that will keep players on the edge of their seats.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Parasite+Eve+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Parasite+Eve+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Parasite+Eve+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Parasite+Eve+s3.png"   
+    ],
+    "product_video": "https://youtu.be/KcIVNNXdBNU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1014,
+    "product_name": "Tekken 3",
+    "product_description": "Enter the arena and prepare for intense martial arts combat in Tekken 3. Choose from a diverse roster of fighters, each with their own unique fighting styles and special moves, and battle your way to the top. With its fluid gameplay, stunning visuals, and deep fighting mechanics, Tekken 3 is a fighting game masterpiece that will keep you coming back for more.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tekken+3+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tekken+3+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tekken+3+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tekken+3+s3.png"   
+    ],
+    "product_video": "https://youtu.be/mYS8-rQLAwo",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1015,
+    "product_name": "Tony Hawk’s Pro Skater 2",
+    "product_description": "Get ready to shred and perform jaw-dropping tricks in Tony Hawk’s Pro Skater 2. Skate through iconic locations, pull off insane combos, and compete in challenging competitions to become the ultimate skateboarding legend. With its addictive gameplay, diverse level design, and killer soundtrack, Tony Hawk’s Pro Skater 2 is a must-play for fans of extreme sports and arcade-style gaming.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tony+Hawk's+Pro+Skater+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tony+Hawk's+Pro+Skater+2+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tony+Hawk's+Pro+Skater+2+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Tony+Hawk's+Pro+Skater+2+s3.png"   
+    ],
+    "product_video": "https://youtu.be/X-9f5WAcUDs",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1016,
+    "product_name": "Legacy of Kain: Soul Reaver",
+    "product_description": "Plunge into the dark and atmospheric world of Nosgoth in Legacy of Kain: Soul Reaver. Assume the role of Raziel, a vengeful wraith, as you seek revenge against your former master, Kain. Traverse twisted landscapes, solve intricate puzzles, and devour the souls of your enemies in this gothic action-adventure game. With its captivating storyline, haunting atmosphere, and innovative gameplay mechanics, Legacy of Kain: Soul Reaver offers a compelling and immersive gaming experience.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Legacy+of+Kain+-+Soul+Reaver+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Legacy+of+Kain+-+Soul+Reaver+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Legacy+of+Kain+-+Soul+Reaver+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Legacy+of+Kain+-+Soul+Reaver+s3.png"   
+    ],
+    "product_video": "https://youtu.be/tkkmm9vqbHQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1017,
+    "product_name": "Syphon Filter",
+    "product_description": "Enter the world of espionage and counter-terrorism in Syphon Filter. Assume the role of Gabe Logan, a special agent tasked with stopping a deadly viral outbreak and thwarting a terrorist plot. Navigate through intense missions, engage in tactical combat, and unravel a conspiracy that threatens global security. With its gripping storyline, challenging gameplay, and intense action sequences, Syphon Filter delivers an adrenaline-fueled gaming experience that will keep players on the edge of their seats.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Syphon+Filter+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Syphon+Filter+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Syphon+Filter+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Syphon+Filter+s3.png"   
+    ],
+    "product_video": "https://youtu.be/uaK-A8GpG8E",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1018,
+    "product_name": "Dino Crisis 2",
+    "product_description": "Return to the prehistoric era and confront terrifying dinosaurs in Dino Crisis 2. Play as Regina and Dylan, members of the Secret Operation Raid Team, as they investigate a mysterious island overrun by dinosaurs. Navigate through dangerous environments, solve puzzles, and battle ferocious creatures in this thrilling survival horror game. With its heart-pounding action, intense gameplay, and cinematic presentation, Dino Crisis 2 delivers an unforgettable gaming experience that will leave you on the edge of your seat.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Dino+Crisis+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Dino+Crisis+2+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Dino+Crisis+2+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Dino+Crisis+2+s3.png"   
+    ],
+    "product_video": "https://youtu.be/DI_U_w2THWI",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 1019,
+    "product_name": "Xenogears",
+    "product_description": "Embark on an epic journey across a vast and mysterious world in Xenogears. Follow the story of Fei Fong Wong, a young martial artist, as he becomes embroiled in a conflict between nations, gods, and ancient civilizations. With its deep storyline, complex characters, and innovative combat system, Xenogears offers an unforgettable RPG experience that will challenge players' minds and emotions.",
+    "product_price": 50.00,
+    "product_quantity": 100,
+    "product_platform": "PSX",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Xenogears+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Xenogears+s1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Xenogears+s2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/psx/Xenogears+s3.png"   
+    ],
+    "product_video": "https://youtu.be/8RLf0O8eofU",
+    "product_status": "NORMAL"
   }
 ]

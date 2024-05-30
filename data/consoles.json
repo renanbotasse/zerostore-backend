@@ -1,114 +1,98 @@
 [
   {
-    "product_id": 20000,
-    "product_name": "SNES",
-    "product_description": "The time: Space Century 3240. The place: The Algol Star System. It began when King Lassic turned evil and let hordes of hideous, magical creatures run amok on the three planets. When her brother was killed, Alis vowed to avenge his death and put an end to Lassic forever.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "SNES",
-    "product_type": "console",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 20001,
+    "product_reference": 9000,
     "product_name": "NES",
-    "product_description": "Wonder Boy is a 1986 platform video game published by Sega and developed by Escape (now known as Westone Bit Entertainment). It was the first in the long-running Wonder Boy series of games and was followed up by five sequels, Wonder Boy in Monster Land, Wonder Boy III: Monster Lair, Wonder Boy III: The Dragon's Trap, Wonder Boy in Monster World and Monster World IV. It was also the basis for the Adventure Island series.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "The Nintendo Entertainment System (NES) revolutionized the gaming industry in the mid-1980s, introducing iconic titles and setting the standard for home gaming consoles. Its impact on popular culture and the gaming landscape is profound. With its 8-bit graphics and simple yet addictive gameplay, the NES brought gaming into millions of households worldwide. From classics like 'Super Mario Bros.' and 'The Legend of Zelda' to lesser-known gems like 'River City Ransom' and 'Duck Tales,' the NES library is a treasure trove of nostalgia and innovation. It provided a platform for legendary game designers like Shigeru Miyamoto and Gunpei Yokoi to showcase their creativity and push the boundaries of interactive entertainment. The NES controller, with its distinctive rectangular shape and red buttons, became an iconic symbol of gaming. Its intuitive design made it accessible to players of all ages, while its robust library of games catered to a wide range of tastes and preferences. Whether navigating through dungeons in 'Metroid' or battling against friends in 'Tetris,' the NES offered endless hours of enjoyment and challenge. Beyond its gaming capabilities, the NES also played a pivotal role in shaping the culture of the 1980s. It sparked a resurgence of interest in video games and inspired a generation of gamers to pursue careers in game development and design. The NES's influence can still be felt today, with many of its franchises and characters enduring as beloved icons of gaming culture. In summary, the NES is more than just a gaming console; it's a cultural phenomenon that continues to captivate and inspire gamers of all ages. Its legacy lives on in the hearts and minds of millions, ensuring that its place in gaming history is secure for generations to come.",
+    "product_price": 100.00,
+    "product_quantity": 100,
     "product_platform": "NES",
-    "product_type": "console",
+    "product_type": "CONSOLE",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/nes+snap1.jpeg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/nes+snap2.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/nes+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/62bI0zItF6g",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 20002,
-    "product_name": "MEGA",
-    "product_description": "In the steamy jungles of South America, heavily armed extremists are holding innocent civilians prisoner. Little do these terrorists know that real terror is about to land on their front porch! The sound of rotor blades and staccato bursts of gunfire echo through the valleys.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "MEGA",
-    "product_type": "console",
+    "product_reference": 9001,
+    "product_name": "SNES",
+    "product_description": "The Super Nintendo Entertainment System (SNES) marked a golden era in gaming history. With its groundbreaking 16-bit graphics and innovative gameplay, the SNES redefined what it meant to play video games. From timeless classics like 'Super Mario World' and 'The Legend of Zelda: A Link to the Past' to cult favorites like 'EarthBound' and 'Chrono Trigger,' the SNES library boasts an unparalleled lineup of titles that continue to captivate gamers of all ages. Its iconic controller, with its distinctive purple design and ergonomic shape, remains a symbol of gaming nostalgia. The SNES not only introduced players to beloved characters like Mario, Link, and Samus but also pushed the boundaries of storytelling and game design. With its Mode 7 graphics and immersive soundtracks, the SNES transported players to vibrant worlds filled with adventure, mystery, and excitement. Beyond its impressive roster of games, the SNES fostered a sense of community among players, whether through cooperative gameplay or heated competitions. Its multiplayer capabilities, showcased in titles like 'Super Mario Kart' and 'Street Fighter II Turbo,' brought friends and family together for hours of fun and camaraderie. The SNES's impact on gaming culture cannot be overstated. It laid the groundwork for future generations of consoles and set the standard for excellence in game development. Even today, decades after its release, the SNES remains a cherished piece of gaming history, beloved by millions of players worldwide.",
+    "product_price": 150.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "CONSOLE",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap1.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap2.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap3.jpg"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/HRYbRgl7EeQ",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 20003,
-    "product_name": "MASTER",
-    "product_description": "The shadow of Dracula has spread over Victorian England. Make your way through strange and forbidding streets and cavernous warehouses while fighting his army of monsters. Find Dracula, the Master of Darkness, and rescue England from his terrifying grasp.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_reference": 9002,
+    "product_name": "MASTER SYSTEM",
+    "product_description": "The Master System, Sega's first foray into the home console market, left an indelible mark on the gaming industry. Released in 1985, it introduced players to iconic titles such as 'Alex Kidd in Miracle World' and 'Phantasy Star.' With its sleek design and vibrant 8-bit graphics, the Master System captivated gamers around the world. Despite facing stiff competition from the Nintendo Entertainment System (NES), the Master System carved out its own niche with a diverse library of games and innovative peripherals. From platformers and RPGs to arcade classics and sports simulations, the Master System offered something for everyone. Its built-in game, 'Alex Kidd in Miracle World,' became an instant hit and remains a beloved classic to this day. The Master System's legacy extends beyond its impressive lineup of games. It laid the foundation for Sega's future consoles, including the Mega Drive/Genesis, and helped establish Sega as a major player in the gaming industry. Even as newer consoles emerged, the Master System continued to find success in regions such as Brazil and Europe, where it enjoyed a dedicated fan base. Today, the Master System is remembered fondly by retro gaming enthusiasts and remains an important chapter in gaming history.",
+    "product_price": 100.00,
+    "product_quantity": 100,
     "product_platform": "MASTER",
-    "product_type": "console",
+    "product_type": "CONSOLE",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/master+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/master+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/master+snap3.jpg"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/r6x3iNB0ddo",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 20004,
+    "product_reference": 9003,
+    "product_name": "GENESIS",
+    "product_description": "The Sega Genesis, known as the Mega Drive outside North America, was a landmark console that defined a generation of gamers. With its sleek design and cutting-edge 16-bit graphics, the Genesis offered an experience unlike anything seen before. It introduced players to iconic franchises such as 'Sonic the Hedgehog,' 'Streets of Rage,' and 'Golden Axe.' The Genesis's blast processing technology allowed for fast-paced gameplay and vibrant visuals, setting it apart from its competitors. The console's library of games catered to a wide range of tastes, from action-packed platformers to immersive RPGs and adrenaline-fueled sports titles. With its innovative peripherals like the Sega CD and 32X, the Genesis pushed the boundaries of gaming technology and paved the way for future innovations. Despite facing stiff competition from the Super Nintendo Entertainment System (SNES), the Genesis found success worldwide and cemented Sega's status as a major player in the gaming industry. Even today, the Genesis remains a beloved console among retro gaming enthusiasts, with its timeless classics continuing to captivate new generations of players.",
+    "product_price": 150.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "CONSOLE",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/genesis+snap1.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/genesis+snap2.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/genesis+snap3.jpg"
+    ],
+    "product_video": "https://youtu.be/3YcRcXiuYOg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 9004,
     "product_name": "PSX",
-    "product_description": "The Lion King brings to life the majesty and mystery of Africa through the tale of Simba, a lion cub faced with the challenging transition to maturity. Believing himself to be responsible for his father's death, Simba enters the wilderness - where he finds salvation with Pumbaa the warthog and Timon the meerkat, and his education begins.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "The PlayStation, often abbreviated as PSX, revolutionized the gaming industry when it was released in 1994. Developed by Sony Computer Entertainment, the PlayStation introduced players to 3D graphics, CD-based games, and immersive gameplay experiences. With iconic titles like 'Final Fantasy VII,' 'Metal Gear Solid,' and 'Gran Turismo,' the PlayStation quickly became a cultural phenomenon and established Sony as a dominant force in the gaming market. Its sleek design, user-friendly interface, and extensive library of games appealed to gamers of all ages and backgrounds. The PlayStation's success paved the way for future iterations of the console, including the PlayStation 2, which remains the best-selling console of all time. Even decades after its release, the PlayStation continues to hold a special place in the hearts of gamers worldwide, with its groundbreaking games and innovative technology leaving a lasting legacy on the gaming industry.",
+    "product_price": 200.00,
+    "product_quantity": 100,
     "product_platform": "PSX",
-    "product_type": "console",
+    "product_type": "CONSOLE",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/psx+snap1.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/psx+snap2.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/psx+snap3.jpg"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/YTYnNZRJscQ",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 20005,
+    "product_reference": 9005,
     "product_name": "N64",
-    "product_description": "The gameplay for Ghouls 'n Ghosts is similar to that of Ghosts 'n Goblins. The player controls the knight Arthur, who must advance through a series of eerie levels and defeat a number of undead and demonic creatures in his quest to restore the souls stolen by Lucifer (Loki in the English-language Mega Drive and Sega Master System versions), including the soul of his lover, Princess Prin Prin.",
-    "product_price": 20,
-    "product_available": 80,
+    "product_description": "The Nintendo 64, often abbreviated as N64, stands as a testament to Nintendo's innovation and enduring legacy in the gaming industry. Released in 1996, the N64 introduced groundbreaking 3D graphics and iconic franchises that continue to captivate players to this day. With classics like 'Super Mario 64,' 'The Legend of Zelda: Ocarina of Time,' and 'GoldenEye 007,' the N64 redefined gaming experiences and set new standards for immersive gameplay. Its unique controller design, featuring the revolutionary analog stick, provided players with unprecedented control and precision. The N64 also pioneered multiplayer gaming with titles like 'Mario Kart 64' and 'Super Smash Bros.,' fostering unforgettable gaming moments with friends and family. Despite facing fierce competition from rival consoles, the N64 remains cherished by gamers for its timeless classics and enduring legacy.",
+    "product_price": 200.00,
+    "product_quantity": 100,
     "product_platform": "N64",
-    "product_type": "console",
+    "product_type": "CONSOLE",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/n64+snap1.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/n64+snap2.jpg",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/n64+snap3.jpg"
     ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 20006,
-    "product_name": "AYNEO",
-    "product_description": "Alex Kidd: The Lost Stars features Alex Kidd and Stella searching for the twelve Zodiac signs.",
-    "product_price": 20,
-    "product_available": 80,
-    "product_platform": "AYNEO",
-    "product_type": "console",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA).png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap2.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/PSX/Dino+Crisis+2/Dino+Crisis+2+(USA)-snap1.png"
-    ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/vET-iI33fLM",
+    "product_status": "NORMAL"
   }
 ]

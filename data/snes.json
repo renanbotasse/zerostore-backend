@@ -1,162 +1,342 @@
 [
   {
-    "product_id": 12001,
-    "product_name": "The Firemen",
-    "product_description": "The fire is alive - and it's racing straight towards you!\nA fire has broken out in a high-tech chemical factory, where a highly explosive chemical, MDL, is being developed. It's up to you and your fire-fighting team to save the people trapped in the building, and stop the fire from reaching the MDL. Because if it does, the whole building is going to blow...\n\n-An action shooting game with a gripping storyline and 2D overhead perspective.\n-Evade sudden hazards and save survivors.\n-Multi-level action - crawl along the ground to advance, and hose the fire from both high and low levels.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": true
-  },
-  {
-    "product_id": 12002,
-    "product_name": "Killer Instinct",
-    "product_description": "Ultratech is a very powerful megacorporation which organises a tournament called Killer Instinct. Along with regular participants, experimental creatures created by Ultratech also fight in the tournament so their strength can be tested. Ultratech also discovers a technology to make bridges between dimensions, and releases a two-headed, one-eyed, satyr monster called Eyedol from this dimensional prison.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": true
-  },
-  {
-    "product_id": 12003,
-    "product_name": "Kirby Super Star",
-    "product_description": "Kirby Super Star, released as Kirby's Fun Pak in PAL regions, is a platforming video game developed by HAL Laboratory and published by Nintendo. The game was advertised as featuring eight games: seven short subsections with the same basic gameplay, and two minigames. Kirby Super Star sees players take on the role of Kirby, who can float around the screen, inhale blocks and enemies and spit them out. By swallowing certain enemies after inhaling them, Kirby can copy their abilities and use them as his own, becoming able to perform a wide range of attacks. A unique feature of the game is the addition of helpers. When Kirby is in possession of an ability, he can choose to transform it into a helper character which can be controlled by a second player or the computer AI",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": true
-  },
-  {
-    "product_id": 12004,
-    "product_name": "Super Mario World",
-    "product_description": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": true
-  },
-  {
-    "product_id": 12005,
-    "product_name": "Teenage Mutant Ninja Turtles: Turtles in Time",
-    "product_description": "The original arcade version of Teenage Mutant Ninja Turtles: Turtles in Time is shorter than the latter console version.",
-    "product_price": 20,
-    "product_available": 100,
-    "product_platform": "SNES",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": true
-  },
-  {
-    "product_id": 12000,
+    "product_reference": 3000,
     "product_name": "The Legend of Zelda: A Link to the Past",
-    "product_description": "The Legend of Zelda: A Link to the Past is a top-down action game with puzzle-solving elements similar to the original The Legend of Zelda. After the side-scrolling and RPG-like gameplay of Zelda II: The Adventure of Link, the game is a return to the top-down view and gameplay style of the first installment. It introduces major new items to the series such as the Master Sword and the concept of two different worlds, which was revisited to some extent in Ocarina of Time with two distinct time periods rather than dark and light worlds.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_description": "Embark on an epic quest to rescue Princess Zelda and defeat the evil sorcerer Ganon in The Legend of Zelda: A Link to the Past. Explore the vast land of Hyrule, uncover hidden dungeons, and wield powerful weapons as you journey through dungeons, solve puzzles, and battle fierce enemies. With its captivating story, challenging gameplay, and timeless charm, A Link to the Past remains one of the greatest adventures in gaming history.",
+    "product_price": 30.00,
+    "product_quantity": 100,
     "product_platform": "SNES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Firemen/Firemen-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/The+Legend+of+Zelda+-+A+Link+to+the+Past+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/The+Legend+of+Zelda+-+A+Link+to+the+Past+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/The+Legend+of+Zelda+-+A+Link+to+the+Past+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/The+Legend+of+Zelda+-+A+Link+to+the+Past+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/xgev4GmWJzE",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12006,
-    "product_name": "Super Street Fighter II Turbo",
-    "product_description": "Super Street Fighter II Turbo, released in Japan as Super Street Fighter II X: Grand Master Challenge, is a competitive fighting game released for the arcades by Capcom in 1994. It is the fifth installment in the Street Fighter II sub-series of Street Fighter games, following Super Street Fighter II: The New Challengers. ",
-    "product_price": 20,
-    "product_available": 100,
+    "product_reference": 3001,
+    "product_name": "Mortal Kombat II",
+    "product_description": "Prepare for the ultimate test of skill and brutality in Mortal Kombat II. Choose from a diverse roster of fighters, including iconic characters such as Scorpion, Sub-Zero, and Raiden, and engage in intense one-on-one battles against opponents from around the world. With its fluid combat mechanics, gruesome finishing moves, and competitive multiplayer modes, Mortal Kombat II delivers an adrenaline-fueled experience that will keep you on the edge of your seat.",
+    "product_price": 30.00,
+    "product_quantity": 100,
     "product_platform": "SNES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Killer+Instinct/Killer+Instinct-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mortal+Kombat+II+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mortal+Kombat+II+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mortal+Kombat+II+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mortal+Kombat+II+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/D8skab3hw7U",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12007,
-    "product_name": "Wild Guns",
-    "product_description": "The narrative revolves around Annie and Clint, a bounty hunter duo on a quest for vengeance after Annie's family is killed. Players can choose to control either Annie or Clint, navigating through the foreground, avoiding enemy fire, and taking down hostile robots in the background.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_reference": 3002,
+    "product_name": "Contra III - The Alien Wars",
+    "product_description": "Join the battle against an alien invasion in Contra III: The Alien Wars. Play as a pair of elite soldiers and fight your way through hordes of alien monsters, robots, and bosses in this action-packed run-and-gun shooter. With its fast-paced gameplay, intense action, and epic boss battles, Contra III delivers an adrenaline-fueled experience that will put your skills to the test.",
+    "product_price": 30.00,
+    "product_quantity": 100,
     "product_platform": "SNES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Kirby+Super+Star/Kirby+Super+Star-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Contra+III+-+The+Alien+Wars+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Contra+III+-+The+Alien+Wars+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Contra+III+-+The+Alien+Wars+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Contra+III+-+The+Alien+Wars+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/VlUdsgB6Yp4",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12008,
-    "product_name": "Donkey Kong Country",
-    "product_description": " The adventure takes you through a variety of different environments and levels that continually change up gameplay. Donkey Kong Country also provides plenty of opportunities for exploration with almost every level having a multitude of collectible, shortcuts, and hidden bonus areas.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_reference": 3003,
+    "product_name": "The Magical Quest Starring Mickey Mouse",
+    "product_description": "Embark on a magical journey with Mickey Mouse in The Magical Quest Starring Mickey Mouse. Join Mickey as he sets out to rescue his friends from the clutches of the evil Emperor Pete. Traverse vibrant worlds, solve challenging puzzles, and battle against fearsome enemies using Mickey's unique magical abilities. With its colorful visuals, charming characters, and engaging gameplay, The Magical Quest offers a delightful gaming experience for players of all ages.",
+    "product_price": 30.00,
+    "product_quantity": 100,
     "product_platform": "SNES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Super+Mario+World/Super+Mario+World-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Magical+Quest+Starring+Mickey+Mouse+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Magical+Quest+Starring+Mickey+Mouse%2C+The++snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Magical+Quest+Starring+Mickey+Mouse%2C+The+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Magical+Quest+Starring+Mickey+Mouse%2C+The+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/z53Ud6j4yZ4",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12009,
+    "product_reference": 3004,
+    "product_name": "Final Fantasy VI",
+    "product_description": "Enter a world of magic, adventure, and intrigue in Final Fantasy VI. Join a diverse cast of characters, including the noble Terra, the rebellious Locke, and the mysterious Celes, as they band together to save the world from the clutches of the evil Emperor Gestahl and the powerful sorceress Kefka. With its epic story, memorable characters, and innovative gameplay mechanics, Final Fantasy VI is a timeless classic that remains one of the greatest RPGs of all time.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+VI+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+VI+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+VI+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+VI+snap3.png"
+    ],
+    "product_video": "https://youtu.be/OeJ0zV6RzOM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3005,
+    "product_name": "Super Castlevania IV",
+    "product_description": "Enter the haunted halls of Dracula's castle in Super Castlevania IV. Take on the role of the legendary vampire hunter Simon Belmont as he battles against the forces of darkness and seeks to rid the world of the evil Count Dracula once and for all. Traverse treacherous terrain, wield powerful weapons, and face off against iconic monsters in this classic action-platformer. With its eerie atmosphere, haunting soundtrack, and challenging gameplay, Super Castlevania IV is a must-play for fans of the series.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Castlevania+IV+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Castlevania+IV+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Castlevania+IV+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Castlevania+IV+snap3.png"
+    ],
+    "product_video": "https://youtu.be/KyL8tt2OkeA",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3006,
+    "product_name": "Sunset Riders",
+    "product_description": "Saddle up and ride into the sunset in Sunset Riders. Join a band of gunslingers as they embark on a wild west adventure to take down notorious outlaws and claim the bounties on their heads. Traverse dusty plains, bustling towns, and treacherous canyons as you engage in intense shootouts and showdowns. With its fast-paced gameplay, vibrant visuals, and catchy soundtrack, Sunset Riders offers an exciting and nostalgic gaming experience for fans of the genre.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Sunset+Riders+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Sunset+Riders+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Sunset+Riders+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Sunset+Riders+snap3.png"
+    ],
+    "product_video": "https://youtu.be/UaH4R34SezU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3007,
+    "product_name": "Final Fight",
+    "product_description": "Enter the mean streets of Metro City in Final Fight. Take on the role of one of three street fighters - Cody, Haggar, or Guy - as you battle against the Mad Gear gang and rescue Haggar's daughter, Jessica. Fight your way through waves of enemies, unleash devastating combos, and take down powerful bosses in this classic beat 'em up. With its arcade-style action, memorable characters, and co-op gameplay, Final Fight is a must-play for fans of the genre.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fight+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fight+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fight+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fight+snap3.png"
+    ],
+    "product_video": "https://youtu.be/ov-Prm_6spE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3008,
+    "product_name": "F-Zero",
+    "product_description": "Experience high-speed racing like never before in F-Zero. Choose from a roster of futuristic vehicles and race against opponents on treacherous tracks filled with twists, turns, and obstacles. Utilize boost pads, jump ramps, and strategic maneuvers to outpace your rivals and claim victory in this adrenaline-fueled racing game. With its fast-paced gameplay, smooth controls, and futuristic aesthetic, F-Zero offers a thrilling gaming experience that will keep you on the edge of your seat.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/F-Zero+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/F-Zero+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/F-Zero+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/F-Zero+snap3.png"
+    ],
+    "product_video": "https://youtu.be/n0Q5pk1UtJ8",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3009,
+    "product_name": "Super Metroid",
+    "product_description": "Enter a vast and mysterious world in Super Metroid. Take on the role of intergalactic bounty hunter Samus Aran as she explores the planet Zebes and uncovers the secrets of a powerful alien species known as the Metroids. Traverse labyrinthine caves, ancient ruins, and hostile environments as you acquire new abilities, upgrade your arsenal, and confront dangerous creatures. With its atmospheric world design, immersive gameplay, and sense of exploration, Super Metroid is a masterpiece of the action-adventure genre.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Metroid+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Metroid+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Metroid+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Metroid+snap3.png"
+    ],
+    "product_video": "https://youtu.be/86Z4bwdxn_Y",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3010,
+    "product_name": "Donkey Kong Country 2",
+    "product_description": "Join Diddy Kong and Dixie Kong on a quest to rescue Donkey Kong from the clutches of the evil King K. Rool in Donkey Kong Country 2: Diddy's Kong Quest. Traverse vibrant worlds, swing through lush jungles, and battle against a variety of enemies as you journey across the treacherous Crocodile Isle. With its stunning visuals, catchy soundtrack, and challenging gameplay, Diddy's Kong Quest offers a nostalgic and unforgettable gaming experience for fans of the series.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Donkey+Kong+Country+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Donkey+Kong+Country+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Donkey+Kong+Country+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Donkey+Kong+Country+2+snap3.png"
+    ],
+    "product_video": "https://youtu.be/PsgU9DMkEFM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3011,
+    "product_name": "Super Mario World",
+    "product_description": "Embark on a classic adventure with Mario and Luigi in Super Mario World. Journey through the colorful land of Dinosaur Land, rescue Princess Toadstool from the clutches of the evil Bowser, and defeat his minions across a variety of levels filled with secrets and surprises. With its iconic gameplay, charming visuals, and memorable soundtrack, Super Mario World is a timeless platforming masterpiece that continues to delight players of all ages.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+World+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+World+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+World+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+World+snap3.png"
+    ],
+    "product_video": "https://youtu.be/k9IS6Wsct1w",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3012,
+    "product_name": "Final Fantasy IV",
+    "product_description": "Embark on an epic journey of redemption and adventure in Final Fantasy IV. Follow the story of Cecil, a dark knight who must confront his own inner demons and protect the world from the malevolent forces of darkness. Traverse a richly detailed world, recruit powerful allies, and engage in strategic turn-based battles against a variety of foes. With its compelling narrative, memorable characters, and deep gameplay mechanics, Final Fantasy IV is a timeless RPG classic that has captivated players for generations.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+IV+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+IV+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+IV+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Final+Fantasy+IV+snap3.png"
+    ],
+    "product_video": "https://youtu.be/Njl7aBS0Ah4",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3013,
     "product_name": "EarthBound",
-    "product_description": "A turn-based JRPG and sequel to then-Japan-only Earthbound Beginnings (1989) in which Ness, a young boy living in a land based on the USA, leaves home to go on an adventure through strange locations, get to know quirky characters and defeat an unknowable alien threat called Giygas while facing up to the realities of growing up and becoming familiar with the real world.",
-    "product_price": 20,
-    "product_available": 100,
+    "product_description": "Embark on a quirky and surreal journey in EarthBound. Join Ness and his friends as they travel across the wacky world of Eagleland, battle against bizarre enemies, and uncover the truth behind a looming alien invasion. With its offbeat humor, unique visual style, and unconventional gameplay mechanics, EarthBound offers a one-of-a-kind RPG experience that has earned it a cult following among players worldwide.",
+    "product_price": 30.00,
+    "product_quantity": 100,
     "product_platform": "SNES",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/EarthBound+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/EarthBound+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/EarthBound+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/EarthBound+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": true
+    "product_video": "https://youtu.be/n4PzXpYM4QU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3014,
+    "product_name": "Mega Man X",
+    "product_description": "Join the iconic blue bomber in an all-new adventure in Mega Man X. Set in a futuristic world where humans and robots coexist, players take on the role of Mega Man X, a powerful new robot with advanced capabilities. Battle against the evil Maverick robots and their leader Sigma as you traverse a variety of challenging levels filled with platforming action and intense boss battles. With its tight controls, exhilarating gameplay, and memorable soundtrack, Mega Man X is a must-play for fans of the series.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mega+Man+X+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mega+Man+X+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mega+Man+X+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Mega+Man+X+snap3.png"
+    ],
+    "product_video": "https://youtu.be/f-rJMKeUSIc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3015,
+    "product_name": "Secret of Mana",
+    "product_description": "Embark on an epic journey across a mystical world in Secret of Mana. Join a young hero and his companions as they set out to restore the power of Mana and prevent the world from being consumed by darkness. Traverse lush forests, treacherous dungeons, and vast landscapes as you battle against powerful monsters and unravel the secrets of an ancient civilization. With its vibrant visuals, engaging real-time combat system, and memorable soundtrack, Secret of Mana offers an unforgettable RPG experience.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Secret+of+Mana+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Secret+of+Mana+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Secret+of+Mana+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Secret+of+Mana+snap3.png"
+    ],
+    "product_video": "https://youtu.be/y20pc_0zFgg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3016,
+    "product_name": "Street Fighter II Turbo",
+    "product_description": "Enter the world of street fighting in Street Fighter II Turbo. Choose from a roster of iconic characters, including Ryu, Ken, and Chun-Li, and battle against opponents from around the globe in intense one-on-one combat. Master each fighter's unique moves and combos as you strive to become the ultimate street fighter. With its responsive controls, deep gameplay mechanics, and competitive multiplayer modes, Street Fighter II Turbo remains a beloved classic in the fighting game genre.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Street+Fighter+II+Turbo+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Street+Fighter+II+Turbo+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Street+Fighter+II+Turbo+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Street+Fighter+II+Turbo+snap3.png"
+    ],
+    "product_video": "https://youtu.be/yyTPiR53aII",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3017,
+    "product_name": "Star Fox",
+    "product_description": "Take to the skies in Star Fox and pilot the iconic Arwing spacecraft as you battle against the forces of evil threatening the Lylat System. Join Fox McCloud and his team of ace pilots as they engage in thrilling dogfights, navigate treacherous environments, and confront powerful bosses. With its groundbreaking use of 3D graphics, fast-paced gameplay, and memorable characters, Star Fox is a classic that has stood the test of time.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Star+Fox+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Star+Fox+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Star+Fox+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Star+Fox+snap3.png"
+    ],
+    "product_video": "hhttps://youtu.be/Y5weQlCiKhY",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3018,
+    "product_name": "Super Mario Kart",
+    "product_description": "Race your way to victory in Super Mario Kart. Choose from a roster of iconic characters from the Mario universe, hop into your favorite kart, and compete across a variety of colorful tracks filled with obstacles and power-ups. Use cunning tactics and lightning-fast reflexes to outmaneuver your opponents and claim the championship trophy. With its addictive gameplay, vibrant graphics, and competitive multiplayer modes, Super Mario Kart is a timeless classic that remains a favorite among gamers of all ages.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+Kart+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+Kart+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+Kart+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Super+Mario+Kart+snap3.png"
+    ],
+    "product_video": "https://youtu.be/t0fsqKJzf64",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 3019,
+    "product_name": "Chrono Trigger",
+    "product_description": "Embark on an unforgettable journey through time in Chrono Trigger. Join a group of adventurers as they travel across different eras to prevent the destruction of the world. Navigate intricate dungeons, engage in strategic turn-based battles, and make pivotal decisions that shape the course of history. With its captivating storyline, innovative gameplay mechanics, and multiple endings, Chrono Trigger is hailed as one of the greatest RPGs of all time.",
+    "product_price": 30.00,
+    "product_quantity": 100,
+    "product_platform": "SNES",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap3.png"
+    ],
+    "product_video": "https://youtu.be/vqTZfknDVes",
+    "product_status": "NORMAL"
   }
 ]

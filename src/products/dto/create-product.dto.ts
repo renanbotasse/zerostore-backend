@@ -1,33 +1,44 @@
-import { IsNotEmpty } from "class-validator";
+import { IsNotEmpty, IsEnum, IsNumber, IsString, IsArray, IsUrl, IsOptional } from "class-validator";
 
 export class CreateProductDto {
     @IsNotEmpty()
-    product_id: number;
+    @IsNumber()
+    product_reference: number;
     
     @IsNotEmpty()
+    @IsString()
     product_name: string;
     
     @IsNotEmpty()
+    @IsString()
     product_description: string;
     
     @IsNotEmpty()
+    @IsNumber({ maxDecimalPlaces: 2 })
     product_price: number;
     
     @IsNotEmpty()
-    product_available: number;
+    @IsNumber()
+    product_quantity: number;
     
     @IsNotEmpty()
+    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'])
     product_platform: string;
     
     @IsNotEmpty()
+    @IsEnum(['CONSOLE', 'GAME', 'ACCESSORIES'])
     product_type: string;
     
     @IsNotEmpty()
-    product_img: [string];
+    @IsArray()
+    @IsUrl({}, { each: true })
+    product_img: string[];
     
     @IsNotEmpty()
-    product_new: boolean;
+    @IsUrl()
+    product_video: string;
     
     @IsNotEmpty()
-    product_sales: boolean;
+    @IsEnum(['NEW', 'SALES', 'NORMAL'])
+    product_status: string;
 }

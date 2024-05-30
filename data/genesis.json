@@ -1,0 +1,341 @@
+[
+  {
+    "product_reference": 5000,
+    "product_name": "Sonic The Hedgehog 2",
+    "product_description": "Join Sonic the Hedgehog and his trusty sidekick, Tails, as they race against the evil Dr. Robotnik in Sonic the Hedgehog 2. Blast through loops, dash past enemies, and collect golden rings as you zip through colorful levels filled with hazards and surprises. Master Sonic's signature spin dash move and unlock the power of Super Sonic as you battle to save the world from Dr. Robotnik's nefarious schemes. With its fast-paced gameplay, catchy music, and vibrant graphics, Sonic the Hedgehog 2 is a classic platformer that continues to delight players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+2+snap3.png"
+    ],
+    "product_video": "https://youtu.be/dv_rOiO8Pkg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5001,
+    "product_name": "Rocket Knight Adventures",
+    "product_description": "Take to the skies as Sparkster, the courageous opossum knight, in Rocket Knight Adventures. Battle against the evil Emperor Devligus Devotindos and his army of robotic minions as you journey across the kingdom of Elhorn. Use Sparkster's jetpack and trusty sword to defeat enemies, solve puzzles, and navigate through treacherous levels filled with traps and hazards. With its colorful graphics, tight controls, and adrenaline-pumping gameplay, Rocket Knight Adventures is a must-play for fans of action-platformers.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Rocket+Knight+Adventures+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Rocket+Knight+Adventures+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Rocket+Knight+Adventures+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Rocket+Knight+Adventures+snap3.png"
+      ],
+    "product_video": "https://youtu.be/4vW8IKNg5zo",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5002,
+    "product_name": "Ristar",
+    "product_description": "Join Ristar, the heroic shooting star, on a quest to save the galaxy from the evil space pirate, Kaiser Greedy, in Ristar. Traverse through colorful planets, defeat bizarre creatures, and utilize Ristar's stretchy arms to swing, grab, and defeat enemies. Navigate through diverse levels filled with platforming challenges and hidden secrets as you journey to confront Kaiser Greedy and restore peace to the galaxy. With its charming graphics, catchy music, and innovative gameplay mechanics, Ristar is a hidden gem in the Sega Genesis library.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Ristar+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Ristar+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Ristar+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Ristar+snap3.png"   
+    ],
+    "product_video": "https://youtu.be/2nxCQ2nH4Aw",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5003,
+    "product_name": "Combat Cars",
+    "product_description": "Gear up for intense vehicular combat in Combat Cars. Choose from a variety of armored vehicles and weapons as you compete in fast-paced races across dangerous tracks. Blast your opponents with missiles, mines, and other deadly gadgets while avoiding obstacles and traps. With its frantic gameplay, multiple game modes, and colorful graphics, Combat Cars offers adrenaline-fueled action for players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap3.png"
+    ],
+    "product_video": "https://youtu.be/R7imS75UfV8",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5004,
+    "product_name": "James Pond II",
+    "product_description": "Dive into aquatic adventures with James Pond II: Codename RoboCod. Join the suave secret agent fish, James Pond, as he battles the evil Dr. Maybe and his army of robots in a quest to save the underwater world. Swim through vibrant levels, collect power-ups, and use James Pond's unique abilities to thwart Dr. Maybe's diabolical plans. With its charming visuals, humorous characters, and addictive gameplay, James Pond II: Codename RoboCod is a beloved classic of the platforming genre.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/James+Pond+II+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/James+Pond+II+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/James+Pond+II+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/James+Pond+II+snap3.png"
+    ],
+    "product_video": "https://youtu.be/hBW1LqvQahc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5005,
+    "product_name": "Quackshot starring Donald Duck",
+    "product_description": "Join Donald Duck on a thrilling treasure hunt in Quackshot starring Donald Duck. Set out on an epic adventure across multiple continents as Donald and his nephews search for the lost treasure of King Garuzia. Solve puzzles, battle enemies, and explore hidden secrets as you journey through jungles, deserts, and ancient ruins. With its charming animation, engaging gameplay, and humorous storyline, Quackshot starring Donald Duck is a classic platformer that will delight players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/QuackShot+Starring+Donald+Duck+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/QuackShot+Starring+Donald+Duck+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/QuackShot+Starring+Donald+Duck+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/QuackShot+Starring+Donald+Duck+snap3.png"
+    ],
+    "product_video": "https://youtu.be/uw5ElabrkXY",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5006,
+    "product_name": "Streets Of Rage 2",
+    "product_description": "Return to the mean streets and join Axel, Blaze, and their new allies, Max and Skate, in Streets Of Rage 2. Battle against the evil syndicate led by Mr. X as you fight your way through urban landscapes filled with thugs, bikers, and ninjas. Use your martial arts skills and special attacks to take down enemies, and team up with a friend for intense two-player co-op action. With its rocking soundtrack, polished gameplay, and memorable characters, Streets Of Rage 2 is a classic beat 'em up that stands the test of time.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Streets+of+Rage+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Streets+of+Rage+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Streets+of+Rage+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Streets+of+Rage+2+snap3.png"
+    ],
+    "product_video": "https://youtu.be/OIPjPTnH3Gc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5007,
+    "product_name": "Comix Zone",
+    "product_description": "Enter the pages of a comic book and embark on a thrilling adventure in Comix Zone. Play as Sketch Turner, a comic book artist trapped in his own creation, and battle against the villainous Mortus and his minions. Fight your way through hand-drawn panels filled with enemies, traps, and environmental hazards as you unravel the mystery of Mortus' sinister plans. With its unique concept, stylish visuals, and innovative gameplay mechanics, Comix Zone is a true gem of the Sega Genesis library.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Comix+Zone+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Comix+Zone+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Comix+Zone+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Comix+Zone+snap3.png"
+    ],
+    "product_video": "https://youtu.be/nnV5D9wwfrc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5008,
+    "product_name": "Shinobi III",
+    "product_description": "Unleash the ninja within and embark on a deadly mission to thwart the plans of the evil Neo Zeed organization in Shinobi III: Return of the Ninja Master. Play as Joe Musashi, the legendary shinobi, and utilize your deadly arsenal of ninja techniques to defeat hordes of enemies and powerful bosses. Run, jump, and slash your way through action-packed levels filled with traps, obstacles, and hidden secrets. With its fast-paced gameplay, stunning visuals, and epic boss battles, Shinobi III is a must-play for fans of classic action games.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Shinobi+III+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Shinobi+III+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Shinobi+III+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Shinobi+III+snap3.png"
+    ],
+    "product_video": "https://youtu.be/lVFYzVwgSHg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5009,
+    "product_name": "WWF Raw",
+    "product_description": "Step into the ring and experience the excitement of professional wrestling in WWF Raw. Choose from a roster of iconic wrestlers including Hulk Hogan, The Undertaker, and Bret 'The Hitman' Hart as you compete in thrilling matches and vie for championship glory. Execute bone-crunching moves, perform high-flying aerial assaults, and unleash devastating finishers on your opponents. With its realistic graphics, fluid animations, and authentic wrestling action, WWF Raw delivers the ultimate wrestling experience for fans of the sport.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/WWF+Raw+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/WWF+Raw+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/WWF+Raw+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/WWF+Raw+snap3.png"
+    ],
+    "product_video": "https://youtu.be/bO1YX6XqNEg",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5010,
+    "product_name": "Contra: Hard Corps",
+    "product_description": "Gear up for intense run-and-gun action in Contra: Hard Corps. Join a team of elite soldiers as they battle against a futuristic army of aliens and robots in a desperate bid to save the world. Blast your way through challenging levels filled with enemies, traps, and epic boss battles. Choose from a variety of weapons and power-ups to customize your arsenal and increase your chances of survival. With its adrenaline-pumping gameplay, stunning graphics, and epic soundtrack, Contra: Hard Corps is a must-play for fans of the Contra series.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Combat+Cars+snap3.png"    ],
+    "product_video": "https://youtu.be/vvL7bnlicmo",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5011,
+    "product_name": "Taz In Escape From Mars",
+    "product_description": "Join the Tasmanian Devil on a whirlwind adventure in Taz In Escape From Mars. After being abducted by Marvin the Martian, Taz must escape from Mars and find his way back to Earth. Spin, whirl, and smash your way through Martian landscapes, avoid traps, and outsmart enemies as you journey across the red planet. With its fast-paced gameplay, colorful visuals, and humorous antics, Taz In Escape From Mars is a wild ride that will keep players entertained from start to finish.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Taz+in+Escape+from+Mars+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Taz+in+Escape+from+Mars+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Taz+in+Escape+from+Mars+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Taz+in+Escape+from+Mars+snap3.png"
+    ],
+    "product_video": "https://youtu.be/btG-E5fE02Q",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5012,
+    "product_name": "Mega Bomberman",
+    "product_description": "Prepare for explosive multiplayer mayhem in Mega Bomberman. Join Bomberman and his friends as they compete in fast-paced bomb-blasting battles across a variety of colorful arenas. Strategically place bombs to trap your opponents while avoiding their explosive attacks. Collect power-ups to enhance your abilities and turn the tide of battle in your favor. With its addictive gameplay, vibrant graphics, and chaotic multiplayer action, Mega Bomberman is a blast for players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Mega+Bomberman+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Mega+Bomberman+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Mega+Bomberman+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Mega+Bomberman+snap3.png"
+    ],
+    "product_video": "https://youtu.be/25oa5MfiPvI",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5013,
+    "product_name": "Sonic the Hedgehog 3",
+    "product_description": "Join Sonic and Tails on a high-speed adventure to stop the evil Dr. Robotnik in Sonic the Hedgehog 3. Race through vibrant levels filled with loops, ramps, and secret passages as you collect rings and power-ups. Team up with Tails to overcome obstacles and defeat enemies, or play solo as Sonic and unleash his signature spin-dash move to zip through enemies with ease. With its catchy music, smooth gameplay, and colorful graphics, Sonic the Hedgehog 3 is a classic platformer that will delight fans of the series.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+3+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+3+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+3+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+The+Hedgehog+3+snap3.png"
+    ],
+    "product_video": "https://youtu.be/7BG9MFD4VmU",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5014,
+    "product_name": "Earthworm Jim 2",
+    "product_description": "Return to the wacky world of Earthworm Jim in this zany sequel. Join the heroic annelid as he battles the evil Queen Slug-for-a-Butt and her minions in a quest to rescue Princess What's-Her-Name. Navigate through bizarre levels filled with bizarre enemies, quirky characters, and outrageous obstacles. Use Jim's trusty blaster, whip, and other abilities to defeat foes and solve puzzles along the way. With its off-the-wall humor, imaginative level design, and memorable characters, Earthworm Jim 2 is a wild ride from start to finish.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Earthworm+Jim+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Earthworm+Jim+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Earthworm+Jim+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Earthworm+Jim+2+snap3.png"
+    ],
+    "product_video": "https://youtu.be/Nlg1q9bkykM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5015,
+    "product_name": "ToeJam & Earl",
+    "product_description": "Get ready for a funky adventure with ToeJam & Earl. Play as the hip alien duo as they crash-land on Earth and must find the pieces of their spaceship to return home. Explore randomly generated levels filled with bizarre characters, wacky power-ups, and unpredictable events. Use your wit and charm to navigate through various hazards and obstacles while jamming to a groovy soundtrack. With its unique gameplay, colorful visuals, and quirky humor, ToeJam & Earl is a classic Sega Genesis experience that's sure to entertain players of all ages.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/ToeJam+and+Earl+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/ToeJam+and+Earl+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/ToeJam+and+Earl+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/ToeJam+and+Earl+snap3.png"
+    ],
+    "product_video": "https://youtu.be/O_QxL4BVjDE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5016,
+    "product_name": "Columns",
+    "product_description": "Immerse yourself in the addictive puzzle action of Columns. Arrange falling gems into matching patterns to clear them from the board and earn points. Strategize your moves to create combos and chain reactions for maximum scoring potential. Challenge yourself in multiple game modes, including Endless, Versus, and Time Attack. With its simple yet challenging gameplay, colorful graphics, and catchy music, Columns is a timeless classic that will keep you coming back for more.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Columns+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Columns+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Columns+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Columns+snap3.png"
+    ],
+    "product_video": "https://youtu.be/nDUEuI1qjEQ",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5017,
+    "product_name": "Altered Beast",
+    "product_description": "Unleash your inner beast and battle the forces of darkness in Altered Beast. Play as a resurrected centurion endowed with the power to transform into mighty mythical creatures such as a werewolf, dragon, and bear. Fight your way through hordes of undead minions and powerful bosses as you seek to rescue the kidnapped Athena from the clutches of the evil Neff. With its iconic transformation mechanic, intense action, and atmospheric visuals, Altered Beast is a Sega Genesis classic that will test your strength and courage.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Altered+Beast+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Altered+Beast+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Altered+Beast+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Altered+Beast+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/ZctXusIhUeM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5018,
+    "product_name": "Sonic & Knuckles",
+    "product_description": "Experience the ultimate Sonic adventure in Sonic & Knuckles. Play as Sonic the Hedgehog or Knuckles the Echidna as you race through a series of challenging levels filled with enemies, obstacles, and secrets. Team up with Tails, explore hidden areas, and collect Chaos Emeralds to unlock the true ending. Harness Knuckles' unique abilities to glide, climb walls, and smash through barriers as you uncover the secrets of the mysterious Floating Island. With its groundbreaking lock-on technology, Sonic & Knuckles delivers a seamless gaming experience and endless replayability.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+and+Knuckles+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+and+Knuckles+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+and+Knuckles+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Sonic+and+Knuckles+snap3.png"
+    ],
+    "product_video": "https://youtu.be/icd2STvBurY",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 5019,
+    "product_name": "Castlevania: Bloodlines",
+    "product_description": "Enter the dark and atmospheric world of Castlevania: Bloodlines. Join vampire hunters John Morris and Eric Lecarde as they journey across Europe to thwart the evil plans of Count Dracula's niece, Elizabeth Bartley. Battle through haunted castles, cursed ruins, and treacherous landscapes as you fight off hordes of undead minions and powerful bosses. Choose between two unique characters, each with their own weapons and abilities, and uncover hidden secrets and alternate paths along the way. With its haunting visuals, haunting music, and intense gameplay, Castlevania: Bloodlines is a must-play for fans of the series.",
+    "product_price": 25.00,
+    "product_quantity": 100,
+    "product_platform": "GENESIS",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Castlevania+-+Bloodlines+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Castlevania+-+Bloodlines+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Castlevania+-+Bloodlines+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/genises/Castlevania+-+Bloodlines+snap3.png",      "https://zerostore.s3.eu-north-1.amazonaws.com/GENESIS/Castlevania+Bloodlines/Castlevania+Bloodlines+(USA)-snap2.png"
+    ],
+    "product_video": "https://youtu.be/9Vmr6uBIowM",
+    "product_status": "NORMAL"
+  }
+]

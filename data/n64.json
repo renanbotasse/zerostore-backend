@@ -1,162 +1,325 @@
 [
   {
-    "product_id": 12000,
-    "product_name": "Pokémon Stadium 2",
-    "product_description": "While Pokémon Stadium 2 does have a storyline, progress in the game can be made by winning Cups in the Stadium and completing the Gym Leader Castle. When all Cups have been won and the Gym Leader Castle completed, the player's Rival will appear. Defeating the Rival will unlock Round 2, in which the player must re-challenge the Stadium, Gym Leader Castle, and the Rival in order to complete the game.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12001,
-    "product_name": "Bomberman 64",
-    "product_description": "The evil Altair is using the Omni Cube to drain the energy from Planet Bomber. With the aid of a mysterious helper, you must defeat Altair, and restore peace to Planet Bomber. In the Adventure mode, guide Bomberman through 24 areas of perilous conflict.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12002,
-    "product_name": "The Legend of Zelda: Majora's Mask",
-    "product_description": "The Legend of Zelda: Majora's Mask is a direct sequel to Ocarina of Time, it utilizes the same engine and visual style as its predecessor. The game retains the traditional elements of Zelda games as well as those introduced in Ocarina of Time, such as active blocking with a shield, various throwing items, and the usage of melodies played on the ocarina to solve puzzles.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12003,
+    "product_reference": 2000,
     "product_name": "The Legend of Zelda: Ocarina of Time",
-    "product_description": "The game begins with the player controlling the child Link, but later on an adult Link becomes a playable character as well and each of them has certain unique abilities. Ocarina of Time also introduces the use of music to solve puzzles: as new songs are learned, they can be used to solve puzzles, gain access to new areas and warp to different locations. ",
-    "product_price": 20,
-    "product_available": 200,
+    "product_description": "Embark on a legendary quest in The Legend of Zelda: Ocarina of Time. Join Link, the Hero of Time, as he sets out to rescue Princess Zelda and thwart the evil plans of Ganondorf. Explore vast landscapes, solve intricate puzzles, and engage in epic battles across time in this timeless classic. With its immersive world, captivating storyline, and groundbreaking gameplay, Ocarina of Time is widely regarded as one of the greatest video games of all time.",
+    "product_price": 80.00,
+    "product_quantity": 100,
     "product_platform": "N64",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Ocarina+of+Time+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Ocarina+of+Time+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Ocarina+of+Time+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Ocarina+of+Time+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/CtMllWsML5M",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12004,
-    "product_name": "Super Mario 64",
-    "product_description": "Mario has to jump into worlds within paintings ornamenting the walls of Peach's castle, uncover secrets and hidden challenges, and collect golden Power Stars as reward for platforming trials.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12005,
-    "product_name": "Donkey Kong 64",
-    "product_description": "K. Rool has kidnapped the Kongs! Can Donkey Kong rescue his friends, reclaim the Golden Bananas and save his homeland from certain doom? Take out some Kremlings with Chunky's Pineapple Launcher or Lanky's Trombone. Float through the air using Tiny's Ponytail Twirl. Even rocket to the sky with Diddy's Jetbarrel!",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12006,
-    "product_name": "Paper Mario",
-    "product_description": "Paper Mario, a turn-based JRPG entry in the Mario franchise with a paper-based aesthetic and platforming elements, sees the titular character working his way through the Mushroom Kingdom's diverse locales and biomes, meeting its inhabitants, fighthing unruly enemies and recruiting an array of companions in order to once again save Princess Peach from the clutches of the evil Koopa King Bowser.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12007,
-    "product_name": "Perfect Dark",
-    "product_description": "The game features a single-player mode consisting of 17 main missions in which the player assumes the role of Carrington Institute agent Joanna Dark as she attempts to stop a conspiracy by rival corporation dataDyne.",
-    "product_price": 20,
-    "product_available": 200,
-    "product_platform": "N64",
-    "product_type": "game",
-    "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
-    ],
-    "product_new": false,
-    "product_sales": false
-  },
-  {
-    "product_id": 12008,
+    "product_reference": 2002,
     "product_name": "GoldenEye 007",
-    "product_description": "GoldenEye 007 is a first-person shooter video game developed by Rare and based on the 1995 James Bond film GoldenEye. It was exclusively released for the Nintendo 64 video game console in August 1997.",
-    "product_price": 20,
-    "product_available": 200,
+    "product_description": "Experience the iconic first-person shooter that revolutionized multiplayer gaming in GoldenEye 007. Assume the role of James Bond, secret agent 007, as you infiltrate enemy strongholds, outwit adversaries, and thwart a global threat. With its intense single-player campaign, addictive multiplayer modes, and groundbreaking level design, GoldenEye 007 remains a beloved classic that defined an era of gaming.",
+    "product_price": 80.00,
+    "product_quantity": 100,
     "product_platform": "N64",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/GoldenEye+007+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/GoldenEye+007+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/GoldenEye+007+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/GoldenEye+007+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/iZy63vxe5G0",
+    "product_status": "NORMAL"
   },
   {
-    "product_id": 12009,
-    "product_name": "Kirby 64: The Crystal Shards",
-    "product_description": "Dark Matter is after a distant land's powerful crystal, but a young fairy named Ribbon attempts to save it by escaping with the gem to Dream Land. Now the crystal has been broken, and it's scattered around the world. Take control of Kirby and help him journey across six worlds, battling a wide variety of enemies and challenging bosses, as he tries to collect all 100 pieces of the shattered crystal.",
-    "product_price": 20,
-    "product_available": 200,
+    "product_reference": 2003,
+    "product_name": "The Legend of Zelda: Majora's Mask",
+    "product_description": "Embark on a dark and twisted journey in The Legend of Zelda: Majora's Mask. Follow Link as he ventures into the mysterious land of Termina, where he must stop the moon from crashing into the world in three days. With its unique time-based gameplay mechanics, immersive world, and haunting atmosphere, Majora's Mask offers a compelling and unforgettable adventure that will challenge players' perceptions of time and fate.",
+    "product_price": 80.00,
+    "product_quantity": 100,
     "product_platform": "N64",
-    "product_type": "game",
+    "product_type": "GAME",
     "product_img": [
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-box.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap1.png",
-      "https://zerostore.s3.eu-north-1.amazonaws.com/SNES/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time/Teenage+Mutant+Ninja+Turtles+-+Turtles+in+Time-snap2.png"
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Majora's+Mask+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Majora's+Mask+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Majora's+Mask+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/The+Legend+of+Zelda+-+Majora's+Mask+snap3.png"
     ],
-    "product_new": false,
-    "product_sales": false
+    "product_video": "https://youtu.be/PVCHGGv0W_c",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2004,
+    "product_name": "Super Mario 64",
+    "product_description": "Join Mario on his first 3D adventure in Super Mario 64. Explore Princess Peach's castle, collect Power Stars, and navigate through a variety of imaginative worlds as you battle Bowser and his minions. With its groundbreaking gameplay, innovative level design, and charming personality, Super Mario 64 set the standard for 3D platforming and remains a timeless classic beloved by gamers of all ages.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Mario+64+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Mario+64+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Mario+64+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Mario+64+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/1RRO7tAJYnI",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2005,
+    "product_name": "Paper Mario",
+    "product_description": "Embark on a paper-thin adventure in Paper Mario. Join Mario on a quest to rescue Princess Peach and defeat the evil Bowser in this charming RPG adventure. Explore colorful worlds, solve puzzles, and engage in strategic turn-based battles as you journey across the Mushroom Kingdom. With its unique paper-crafted visuals, witty humor, and engaging gameplay, Paper Mario offers a delightful and unforgettable gaming experience for players of all ages.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Paper+Mario+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Paper+Mario+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Paper+Mario+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Paper+Mario+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/RZSkUTWZyeA",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2006,
+    "product_name": "Banjo-Kazooie",
+    "product_description": "Embark on a whimsical adventure with Banjo and Kazooie in Banjo-Kazooie. Join the lovable bear and bird duo as they set out to rescue Banjo's sister, Tooty, from the clutches of the evil witch, Gruntilda. Explore vibrant worlds, solve puzzles, and collect musical notes and jigsaw pieces in this charming 3D platformer. With its colorful characters, imaginative level design, and infectious charm, Banjo-Kazooie is a beloved classic that continues to captivate players of all ages.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Banjo-Kazooie+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Banjo-Kazooie+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Banjo-Kazooie+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Banjo-Kazooie+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/NjYWVia5bAM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2007,
+    "product_name": "Blast Corps",
+    "product_description": "Become a member of the elite demolition team in Blast Corps. Take control of a variety of vehicles, including bulldozers, cranes, and robots, as you clear a path for a runaway nuclear missile carrier. Navigate through bustling cities, treacherous landscapes, and heavily guarded facilities in this high-octane action game. With its fast-paced gameplay, destructive mayhem, and challenging missions, Blast Corps offers an explosive gaming experience that will keep players on the edge of their seats.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Blast+Corps+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Blast+Corps+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Blast+Corps+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Blast+Corps+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/XANnrTN1o1I",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2008,
+    "product_name": "Star Fox 64",
+    "product_description": "Take to the skies and engage in epic space battles in StarFox 64. Join Fox McCloud and the Star Fox team as they defend the Lylat System from the evil forces of Andross. Pilot your Arwing fighter through treacherous environments, blast enemy ships, and confront powerful bosses in this thrilling 3D shoot 'em up. With its fast-paced gameplay, stunning visuals, and memorable characters, StarFox 64 delivers an adrenaline-fueled experience that will leave you craving for more.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Star+Fox+64+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Star+Fox+64+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Star+Fox+64+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Star+Fox+64+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/oUsiUaS1BSc",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2009,
+    "product_name": "F-Zero X",
+    "product_description": "Experience high-speed racing like never before in F-Zero X. Choose from a diverse roster of futuristic vehicles and race across adrenaline-pumping tracks filled with twists, turns, and obstacles. Compete against AI opponents or challenge friends in split-screen multiplayer modes for up to four players. With its blistering speed, tight controls, and intense competition, F-Zero X delivers an exhilarating racing experience that will test your reflexes and keep you coming back for more.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/F-Zero+X+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/F-Zero+X+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/F-Zero+X+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/F-Zero+X+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/wGGFEFULaRk",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2010,
+    "product_name": "Mario Party",
+    "product_description": "Get ready for a party like no other in Mario Party. Join Mario and friends as they compete in a variety of whimsical mini-games across colorful game boards. Roll the dice, collect coins, and race to the finish line to become the ultimate party champion. With its lively multiplayer action, wacky mini-games, and charming presentation, Mario Party is the perfect game to enjoy with friends and family.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Mario+Party+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Mario+Party+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Mario+Party+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Mario+Party+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/D0Gml-AlyCY",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2011,
+    "product_name": "Castlevania",
+    "product_description": "Enter the dark and gothic world of Castlevania and confront the legendary vampire, Count Dracula. Play as Simon Belmont, a vampire hunter, as you traverse through haunted forests, eerie castles, and treacherous dungeons in search of the evil lord. Unleash powerful weapons, master deadly skills, and defeat hordes of monsters and undead creatures in this iconic action-platformer. With its haunting atmosphere, challenging gameplay, and memorable soundtrack, Castlevania is a timeless classic that continues to mesmerize players to this day.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Castlevania+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Castlevania+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Castlevania+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Castlevania+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/kekitaCO6Wk",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2012,
+    "product_name": "Kirby 64: The Crystal Shards",
+    "product_description": "Join Kirby on a colorful adventure in Kirby 64: The Crystal Shards. Explore a whimsical world filled with vibrant landscapes, adorable enemies, and magical crystals. Absorb the powers of your foes and combine them to unleash devastating attacks in this charming platformer. With its charming visuals, catchy music, and inventive gameplay mechanics, Kirby 64 offers a delightful gaming experience that will appeal to fans of all ages.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Kirby+64+-+The+Crystal+Shards+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Kirby+64+-+The+Crystal+Shards+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Kirby+64+-+The+Crystal+Shards+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Kirby+64+-+The+Crystal+Shards+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/aKmRvTFYiT0",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2013,
+    "product_name": "Pokemon Stadium 2",
+    "product_description": "Enter the ultimate Pokemon battle arena in Pokemon Stadium 2. Choose from a roster of over 250 Pokemon and compete in challenging tournaments, mini-games, and gym leader battles. Train your Pokemon, master their unique abilities, and become the ultimate Pokemon trainer in this exciting multiplayer experience. With its diverse gameplay modes, colorful graphics, and addictive gameplay, Pokemon Stadium 2 offers endless hours of fun for Pokemon fans of all ages.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Pokemon+Stadium+2+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Pokemon+Stadium+2+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Pokemon+Stadium+2+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Pokemon+Stadium+2+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/q-GQLQTTeRw",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2014,
+    "product_name": "Quake",
+    "product_description": "Prepare for an adrenaline-fueled experience in Quake. Enter a dark and sinister world filled with Lovecraftian horrors, ancient ruins, and otherworldly creatures. Arm yourself with an arsenal of powerful weapons and battle against hordes of monsters and demons as you explore labyrinthine levels and uncover dark secrets. With its fast-paced gameplay, atmospheric levels, and multiplayer mayhem, Quake delivers an intense and immersive first-person shooter experience that will keep you on the edge of your seat.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Quake+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Quake+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Quake+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Quake+snap3.png"    
+    ],
+    "product_video": "https://youtu.be/Ji6IuhNOVWE",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2015,
+    "product_name": "Duke Nukem 64",
+    "product_description": "Step into the shoes of the legendary action hero Duke Nukem in Duke Nukem 3D. Blast your way through hordes of alien invaders as you fight to save Earth from destruction. Armed with an arsenal of powerful weapons and a wise-cracking attitude, Duke is ready to kick ass and chew bubblegum. With its fast-paced gameplay, immersive levels, and iconic one-liners, Duke Nukem 3D is a classic first-person shooter that will leave you feeling like a true badass.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Duke+Nukem+64+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Duke+Nukem+64+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Duke+Nukem+64+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Duke+Nukem+64+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/IpcVo47_Cy8",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2016,
+    "product_name": "Donkey Kong 64",
+    "product_description": "Join Donkey Kong and his friends on an epic adventure to rescue DK Island from the clutches of the evil King K. Rool in Donkey Kong 64. Explore vast and colorful worlds, collect bananas, and battle against a variety of enemies as you journey through jungles, caves, and underwater realms. With its expansive levels, engaging gameplay, and memorable characters, Donkey Kong 64 offers a nostalgic and unforgettable gaming experience for fans of the series.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Donkey+Kong+64+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Donkey+Kong+64+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Donkey+Kong+64+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Donkey+Kong+64+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/oKuO-1GoNJk",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2017,
+    "product_name": "Ogre Battle 64: Person of Lordly Caliber",
+    "product_description": "Lead an army of rebels against a corrupt empire in Ogre Battle 64: Person of Lordly Caliber. Command a diverse roster of warriors, mages, and mythical creatures as you engage in strategic battles across the land of Palatinus. Make crucial decisions on the battlefield and shape the outcome of the war in this epic tactical RPG. With its deep gameplay mechanics, branching storylines, and expansive world to explore, Ogre Battle 64 offers a captivating and immersive experience for strategy enthusiasts.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Ogre+Battle+64+-+Person+of+Lordly+Caliber+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Ogre+Battle+64+-+Person+of+Lordly+Caliber+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Ogre+Battle+64+-+Person+of+Lordly+Caliber+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Ogre+Battle+64+-+Person+of+Lordly+Caliber+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/hMiLtLzpv54",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2018,
+    "product_name": "Super Smash Bros",
+    "product_description": "Enter the ultimate crossover battle arena in Super Smash Bros. Choose from a roster of iconic Nintendo characters, including Mario, Link, Pikachu, and more, and duke it out in fast-paced, multiplayer brawls. Utilize a variety of attacks, special moves, and items to knock your opponents off the stage and emerge victorious. With its addictive gameplay, vibrant visuals, and endless replay value, Super Smash Bros is a timeless classic that continues to bring friends together for epic battles.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Smash+Bros+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Smash+Bros+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Smash+Bros+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Super+Smash+Bros+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/rIwWCioBpEM",
+    "product_status": "NORMAL"
+  },
+  {
+    "product_reference": 2019,
+    "product_name": "Harvest Moon 64",
+    "product_description": "Experience the joys and challenges of farm life in Harvest Moon 64. Inherit a run-down farm from your grandfather and work hard to restore it to its former glory. Plant crops, raise animals, and build relationships with the villagers as you strive to become a successful farmer. With its charming visuals, relaxing gameplay, and heartwarming story, Harvest Moon 64 offers a wholesome and immersive gaming experience that will leave you coming back for more.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Harvest+Moon+64+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Harvest+Moon+64+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Harvest+Moon+64+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Harvest+Moon+64+snap3.png" 
+    ],
+    "product_video": "https://youtu.be/DiVuoynSiLw",
+    "product_status": "NORMAL"
   }
 ]
