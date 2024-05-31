@@ -1,10 +1,10 @@
 [
   {
-    "product_id": 8000,
+    "product_reference": 8000,
     "product_name": "CONTROLLER - SNES",
     "product_description": "The SNES controller, an evolution of its predecessor, refined the gaming experience with its ergonomic design and enhanced button layout. Featuring a directional pad, four face buttons, and two shoulder buttons, the SNES controller offered precise control for a wide range of genres, from platformers to RPGs. With classics like Super Mario World, The Legend of Zelda: A Link to the Past, and Super Metroid, the SNES controller became synonymous with timeless gaming experiences.",
     "product_price": 50.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "SNES",
     "product_type": "ACCESSORIES",
     "product_img": [
@@ -16,11 +16,11 @@
     "product_status": "NORMAL"
   },
   {
-    "product_id": 8001,
+    "product_reference": 8001,
     "product_name": "CONTROLLER - NES",
     "product_description": "The NES controller, an iconic symbol of gaming history, introduced players to a new era of gaming in the 1980s. With its simple yet effective design, featuring a directional pad and two action buttons, the NES controller provided intuitive gameplay for classics like Super Mario Bros., The Legend of Zelda, and Mega Man. Its rectangular shape and distinctive color scheme evoke nostalgic memories of countless hours spent mastering pixelated adventures.",
     "product_price": 60.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "NES",
     "product_type": "ACCESSORIES",
     "product_img": [
@@ -32,11 +32,11 @@
     "product_status": "NORMAL"
   },
   {
-    "product_id": 8002,
+    "product_reference": 8002,
     "product_name": "CONTROLLER - GENESIS",
     "product_description": "The Genesis controller, known for its distinctive shape and three-button layout, became a staple of 16-bit gaming in the 1990s. With its ergonomic design and responsive buttons, the Genesis controller provided players with immersive gameplay experiences for iconic titles like Sonic the Hedgehog, Streets of Rage, and Mortal Kombat. Its comfortable grip and intuitive layout made it a favorite among gamers during the console wars era.",
     "product_price": 50.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "GENESIS",
     "product_type": "ACCESSORIES",
     "product_img": [
@@ -48,11 +48,11 @@
     "product_status": "NORMAL"
   },
   {
-    "product_id": 8003,
+    "product_reference": 8003,
     "product_name": "CONTROLLER - MASTER",
     "product_description": "The Master System controller, featuring a simple yet functional design, accompanied players on countless adventures throughout the 1980s. With its directional pad and two action buttons, the Master System controller delivered responsive gameplay for classics like Alex Kidd in Miracle World, Sonic the Hedgehog, and Phantasy Star. Despite its modest appearance, the Master System controller remains a cherished relic of gaming history.",
     "product_price": 50.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "MASTER",
     "product_type": "ACCESSORIES",
     "product_img": [
@@ -64,11 +64,11 @@
     "product_status": "NORMAL"
   },
   {
-    "product_id": 8004,
+    "product_reference": 8004,
     "product_name": "CONTROLLER - PSX",
     "product_description": "The PSX controller, also known as the DualShock, revolutionized gaming with its innovative analog sticks and ergonomic design. Offering unparalleled precision and comfort, the PSX controller redefined gameplay experiences for titles like Final Fantasy VII, Metal Gear Solid, and Gran Turismo. With its iconic button layout, including four face buttons, two analog sticks, and shoulder buttons, the PSX controller became synonymous with immersive gaming adventures.",
     "product_price": 40.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "PSX",
     "product_type": "ACCESSORIES",
     "product_img": [
@@ -80,11 +80,11 @@
     "product_status": "NORMAL"
   },
   {
-    "product_id": 8005,
+    "product_reference": 8005,
     "product_name": "CONTROLLER - N64",
     "product_description": "The N64 controller, with its unique three-pronged design and innovative analog stick, changed the way players interacted with games in the late 1990s. With its built-in rumble pack and Z-trigger, the N64 controller offered immersive experiences for classics like Super Mario 64, The Legend of Zelda: Ocarina of Time, and GoldenEye 007. Despite its unconventional appearance, the N64 controller remains an iconic symbol of gaming innovation.",
     "product_price": 70.00,
-    "product_available": 50,
+    "product_quantity": 50,
     "product_platform": "N64",
     "product_type": "ACCESSORIES",
     "product_img": [
