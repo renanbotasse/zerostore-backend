@@ -17,6 +17,23 @@
     "product_status": "NORMAL"
   },
   {
+    "product_reference": 2001,
+    "product_name": "Nightmare Creatures",
+    "product_description": "Experience the chilling adventure that redefined gothic horror in Nightmare Creatures. Step into the shoes of Ignatius Blackward, a priest and occult expert, as you delve into the dark secrets of 19th-century London, battling nightmarish creatures and uncovering a sinister plot. With its gripping narrative, immersive atmosphere, and spine-tingling gameplay, Nightmare Creatures offers an unforgettable journey through a city besieged by monstrosities and dark magic. Team up with Nadia Franciscus to confront the malevolent Adam Crowley and the nefarious Brotherhood of Hecate, stopping their plans to unleash terror upon the world.",
+    "product_price": 80.00,
+    "product_quantity": 100,
+    "product_platform": "N64",
+    "product_type": "GAME",
+    "product_img": [
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Nightmare+Creatures+boxart.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Nightmare+Creatures+snap1.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Nightmare+Creatures+snap2.png",
+      "https://zerostore.s3.eu-north-1.amazonaws.com/products/n64/Nightmare+Creatures+snap3.png"
+    ],
+    "product_video": "https://youtu.be/FSVMS4FNaKI",
+    "product_status": "NORMAL"
+  },
+  {
     "product_reference": 2002,
     "product_name": "GoldenEye 007",
     "product_description": "Experience the iconic first-person shooter that revolutionized multiplayer gaming in GoldenEye 007. Assume the role of James Bond, secret agent 007, as you infiltrate enemy strongholds, outwit adversaries, and thwart a global threat. With its intense single-player campaign, addictive multiplayer modes, and groundbreaking level design, GoldenEye 007 remains a beloved classic that defined an era of gaming.",

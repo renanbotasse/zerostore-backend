@@ -22,7 +22,7 @@ export class CreateProductDto {
     product_quantity: number;
     
     @IsNotEmpty()
-    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'])
+    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64', 'PS2', 'GBA'])
     product_platform: string;
     
     @IsNotEmpty()

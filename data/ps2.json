@@ -1,0 +1,182 @@
+[
+    {
+        "product_reference": 11000,
+        "product_name": "Devil May Cry 3",
+        "product_description": "Play as Dante, a demon hunter, in this stylish and fast-paced game. Combining swordplay, gunplay, and acrobatics, Devil May Cry 3 offers intense battles, challenging enemies, and a gothic atmosphere. It’s a standout entry in the series.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Devil+May+Cry+3+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Devil+May+Cry+3+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Devil+May+Cry+3+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Devil+May+Cry+3+snap3.png"
+        ],
+        "product_video": "https://youtu.be/KmeMu8qb_t4",
+        "product_status": "NEW"
+    },
+
+    {
+        "product_reference": 11001,
+        "product_name": "Final Fantasy X",
+        "product_description": "Developed by Square Soft (now Square Enix), Final Fantasy X takes place in the fantasy world of Spira. Follow the journey of Tidus, an athlete from the futuristic city of Zanarkand, as he joins summoner Yuna on her pilgrimage to defeat the monstrous entity known as Sin. The game features turn-based combat, a unique leveling system called the “Sphere Grid,” and a captivating storyline.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Final+Fantasy+X+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Final+Fantasy+X+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Final+Fantasy+X+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Final+Fantasy+X+snap3.png"
+        ],
+        "product_video": "https://youtu.be/4umidcc_8rU",
+        "product_status": "NEW"
+    },
+
+    {
+        "product_reference": 11002,
+        "product_name": "Metal Gear Solid 3",
+        "product_description": "Set in 1964 during the Cold War, Metal Gear Solid 3 follows FOX operative Naked Snake (later known as Big Boss). His mission: rescue a Russian scientist, sabotage a superweapon, and confront a world-shaking conspiracy. The game’s lush jungle setting, stealth mechanics, and emotional depth make it a standout title in the series.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+3+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+3+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+3+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+3+snap3.png"
+        ],
+        "product_video": "https://youtu.be/TFsTz02Eavo",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11003,
+        "product_name": "Metal Gear Solid 2",
+        "product_description": "In this sequel, players control Raiden, a new protagonist, as he infiltrates the Big Shell—a massive offshore facility—seized by terrorists. The game explores themes like the Information Age, censorship, and political conspiracies. Its gameplay, graphics, and attention to detail garnered critical acclaim.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+2+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+2+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+2+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Metal+Gear+Solid+2+snap3.png"
+        ],
+        "product_video": "https://youtu.be/QvEDSkK3GQU",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11004,
+        "product_name": "Shadow of the Colossus",
+        "product_description": "Developed by Team Ico, Shadow of the Colossus follows Wander, who seeks to revive a girl named Mono. He must defeat sixteen colossal beings scattered across a forbidden land. The minimalist landscape designs, immersive gameplay, and emotional weight make it a masterpiece in gaming history.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Shadow+of+the+Colossus+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Shadow+of+the+Colossus+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Shadow+of+the+Colossus+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Shadow+of+the+Colossus+snap3.png"
+        ],
+        "product_video": "https://youtu.be/PT_SxEUT9Ks",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11005,
+        "product_name": "Grand Theft Auto: San Andreas",
+        "product_description": "Set in a fictionalized version of California, San Andreas lets players assume the role of Carl “CJ” Johnson. Explore a vast open world, engage in missions, customize CJ’s appearance, and immerse yourself in the criminal underworld. The game offers an expansive map, diverse activities, and memorable characters.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+San+Andreas+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+San+Andreas+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+San+Andreas+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+San+Andreas+snap3.png"
+        ],
+        "product_video": "https://youtu.be/TTB6eEHCAko",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11006,
+        "product_name": "Grand Theft Auto: Vice City",
+        "product_description": "Set in the 1980s, Vice City transports players to a neon-soaked Miami-inspired city. Play as Tommy Vercetti, a mobster seeking revenge. The game features a gripping storyline, iconic radio stations, and a vibrant open-world environment.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+Vice+City+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+Vice+City+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+Vice+City+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Grand+Theft+Auto+-+Vice+City+snap3.png"
+        ],
+        "product_video": "https://youtu.be/m8oQllwqw_I",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11007,
+        "product_name": "God of War",
+        "product_description": "Developed by Santa Monica Studio, God of War follows Kratos, a Spartan warrior seeking vengeance against the gods of Olympus. Engage in brutal combat, solve puzzles, and explore ancient Greece. The game’s mythological setting and epic battles captivated players.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/God+of+War+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/God+of+War+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/God+of+War+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/God+of+War+snap3.png"
+        ],
+        "product_video": "https://youtu.be/K8Sxmr4yhJ0",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11008,
+        "product_name": "Silent Hill 2",
+        "product_description": "Explore the eerie town of Silent Hill as James Sunderland, searching for his deceased wife. Atmospheric, psychological horror awaits as you encounter disturbing creatures and unravel a haunting mystery. The game’s psychological depth and unsettling ambiance make it a classic.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+2+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+2+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+2+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+2+snap3.png"
+        ],
+        "product_video": "https://youtu.be/4LCl2_DK6QU",
+        "product_status": "NEW"
+    },
+    
+    {
+        "product_reference": 11009,
+        "product_name": "Silent Hill 3",
+        "product_description": "In this sequel, play as Heather Mason, drawn into the nightmarish world of Silent Hill. Face grotesque monsters, solve puzzles, and confront your own dark past. The game continues the series’ tradition of psychological horror and unsettling environments.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "PS2",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+3+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+3+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+3+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/ps2/Silent+Hill+3+snap3.png"
+        ],
+        "product_video": "https://youtu.be/9s5t6R3aWwY",
+        "product_status": "NEW"
+    }
+
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "product_reference": 10000,
+        "product_name": "Advance Wars",
+        "product_description": "Advance Wars, developed by Intelligent Systems and published by Nintendo for the Game Boy Advance, immerses players in a fictional continent where two nations, Orange Star and Blue Moon, have been locked in conflict. As an Orange Star commanding officer, you’ll engage in strategic battles, manage units, and navigate intricate terrain. The game’s success influenced Nintendo’s approach to Western tastes and paved the way for other franchises like Fire Emblem.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Advance+Wars+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Advance+Wars+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Advance+Wars+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Advance+Wars+snap3.png"
+        ],
+        "product_video": "https://youtu.be/3QV6ttUY6xI",
+        "product_status": "SALES"
+    },
+
+    {
+        "product_reference": 10001,
+        "product_name": "Final Fantasy Tactics Advance",
+        "product_description": "Square’s Final Fantasy Tactics Advance for the GBA offers turn-based battles, a job system, and a captivating story. As Marche, you’ll explore the land of Ivalice, solve puzzles, and engage in strategic combat. Unlike its multiplayer-focused counterparts, this game retains the classic exploration and dungeon mechanics seen in A Link to the Past and other titles3.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Final+Fantasy+Tactics+Advance+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Final+Fantasy+Tactics+Advance+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Final+Fantasy+Tactics+Advance+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Final+Fantasy+Tactics+Advance+snap3.png"
+        ],
+        "product_video": "https://youtu.be/rd6GtLFNXrA",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10002,
+        "product_name": "Mother 3",
+        "product_description": "Mother 3, the third and final entry in the Mother series, follows Lucas—a young boy with psychic abilities—on a quest to prevent a mysterious invading army from corrupting and destroying the world. Developed by Brownie Brown and HAL Laboratory, this GBA gem combines character development, stylized graphics, and a mature storyline. An unofficial English fan translation is available for those outside Japan.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mother+3+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mother+3+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mother+3+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mother+3+snap3.png"
+        ],
+        "product_video": "https://youtu.be/_2A2Z_njXys",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10003,
+        "product_name": "Mega Man Zero",
+        "product_description": "Developed by Inti Creates and published by Capcom, Mega Man Zero is set 100 years after the events of the Mega Man X series. Players control Zero, a Reploid awakened from stasis to aid a human scientist named Ciel and her resistance force. The game combines challenging gameplay, a gripping storyline, and a blend of mechanical and human elements.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mega+Man+Zero+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mega+Man+Zero+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mega+Man+Zero+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Mega+Man+Zero+snap3.png"
+        ],
+        "product_video": "https://youtu.be/mW2XkkMqE98",
+        "product_status": "SALES"
+    },   
+    
+    {
+        "product_reference": 10004,
+        "product_name": "Metroid Fusion",
+        "product_description": "Developed by Nintendo R&D1, Metroid Fusion continues the saga of Samus Aran. Infested by X-parasites, Samus gains the ability to absorb them for nourishment but becomes vulnerable to cold. Sent to the BSL station for examination and extermination, she battles space aliens, solves puzzles, and regenerates health in this award-winning GBA game5.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Metroid+Fusion+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Metroid+Fusion+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Metroid+Fusion+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Metroid+Fusion+snap3.png"
+        ],
+        "product_video": "https://youtu.be/mH7rpyLmfQs",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10005,
+        "product_name": "Pokémon Emerald",
+        "product_description": "In this Pokémon adventure, explore the Hoenn region, face Team Aqua and Team Magma, and encounter legendary Pokémon like Rayquaza. Released for the GBA, Pokémon Emerald offers an enhanced storyline, Battle Frontier facilities, and the ability to capture both Kyogre and Groudon.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Emerald+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Emerald+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Emerald+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Emerald+snap3.png"
+        ],
+        "product_video": "https://youtu.be/tnvwWrt7Rw0",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10006,
+        "product_name": "Pokémon FireRed",
+        "product_description": " A remake of the classic Pokémon Red, FireRed takes players back to the Kanto region. Embark on a nostalgic journey, capture Pokémon, challenge Gym Leaders, and thwart Team Rocket’s plans. It’s a faithful recreation with improved graphics and features, making it a beloved GBA title4.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Fire+Red+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Fire+Red+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Fire+Red+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Pokemon+-+Fire+Red+snap3.png"
+        ],
+        "product_video": "https://youtu.be/XBmgAp_PlgI",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10007,
+        "product_name": "Golden Sun",
+        "product_description": "Developed by Camelot Software Planning and published by Nintendo, Golden Sun introduces players to Weyard—a world threatened by alchemy, a sealed power. As a group of magic-attuned teenagers called Adepts, you’ll uncover secrets, develop Psynergy abilities, and protect the world. The game’s sequel, Golden Sun: The Lost Age, continues the epic story",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Golden+Sun+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Golden+Sun+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Golden+Sun+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/gba/Golden+Sun+snap3.png"
+        ],
+        "product_video": "https://youtu.be/Z8o7oh0ZSxc",
+        "product_status": "SALES"
+    },
+    
+    {
+        "product_reference": 10008,
+        "product_name": "Fire Emblem",
+        "product_description": "Developed by Intelligent Systems and published by Nintendo, Fire Emblem is a long-running series known for its strategic battles, character-driven narratives, and permadeath mechanics. In the GBA title Fire Emblem, players take on the role of Lyn, Eliwood, and Hector as they unravel a tale of political intrigue, war, and dragons. The game features turn-based combat, character relationships, and a rich fantasy setting. Choose your allies wisely, as their fates are intertwined with the fate of the realm.",
+        "product_price": 60.00,
+        "product_quantity": 100,
+        "product_platform": "GBA",
+        "product_type": "GAME",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+boxart.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap1.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap2.png",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/snes/Chrono+Trigger+snap3.png"
+        ],
+        "product_video": "https://youtu.be/d809F5HhAy0",
+        "product_status": "SALES"
+    }
+]

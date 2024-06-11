@@ -14,6 +14,16 @@ export class ProductsService {
     return newProduct.save();
   }
 
+  async getSearchProducts(queryParams: any) {
+    const query: any = {};
+
+    if (queryParams.product_name) {
+      query.product_name = { $regex: new RegExp(queryParams.product_name, 'i') };
+    }
+
+    return await this.productModel.find(query).exec();
+  }
+  
   getProducts(queryParams: any) {
     const query: any = {};
 
@@ -37,24 +47,24 @@ export class ProductsService {
   }
 
   getCategoryConsole() {
-    return  this.productModel.find({product_type: "console" });
+    return  this.productModel.find({product_type: "CONSOLE" });
   }
 
   getCategoryGame() {
-    return  this.productModel.find({product_type: "game" });
+    return  this.productModel.find({product_type: "GAME" });
   }
 
 
   getCategoryAccessories() {
-    return  this.productModel.find({product_type: "accessories" });
+    return  this.productModel.find({product_type: "ACCESSORIES" });
   }
 
   getNewProducts() {
-    return this.productModel.find({ product_new: true });
+    return this.productModel.find({ product_status: "NEW" });
   }
 
   getSalesProducts() {
-    return this.productModel.find({ product_sales: true });
+    return this.productModel.find({ product_status: "SALES" });
   }
 
   findOne(id: number) {
@@ -68,4 +78,7 @@ export class ProductsService {
   remove(id: number) {
     return `This action removes a #${id} product`;
   }
+
+
+
 }

@@ -26,8 +26,8 @@ export class Product {
     @IsNumber()
     product_quantity: number;
     
-    @Prop({ required: true, enum: ['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'] })
-    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64'])
+    @Prop({ required: true, enum: ['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64', 'PS2', 'GBA'] })
+    @IsEnum(['SNES', 'NES', 'GENESIS', 'MASTER', 'PSX', 'N64', 'PS2', 'GBA'])
     product_platform: string;
     
     @Prop({ required: true, enum: ['CONSOLE', 'GAME', 'ACCESSORIES'] })

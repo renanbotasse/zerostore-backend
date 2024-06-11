@@ -18,7 +18,11 @@ export class ProductsController {
   getProducts(@Query() queryParams: any) {
     return this.productsService.getProducts(queryParams);
   }
-  
+
+  @Get('search')
+  async getSearchProducts(@Query() queryParams: any) {
+    return await this.productsService.getSearchProducts(queryParams);
+  }
 
   @Get('new')
   getNewProducts() {
