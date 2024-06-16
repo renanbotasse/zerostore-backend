@@ -8,7 +8,7 @@ import {
   Query,
   Param,
   UsePipes,
-  ValidationPipe
+  ValidationPipe,
 } from '@nestjs/common';
 import { ProductService } from '../../domain/services/product.service';
 import { CreateProductDto } from '../../application/dto/product/create-product.dto';
@@ -25,8 +25,8 @@ export class ProductController {
   }
 
   @Get()
-  getProducts(@Query() queryParams: any) {
-    return this.productService.getProducts(queryParams);
+  getProducts() {
+    return this.productService.getProducts();
   }
 
   @Get('search')

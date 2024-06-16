@@ -31,29 +31,8 @@ export class ProductService {
     return this.productModel.find(query).exec();
   }
 
-  async getProducts(queryParams: any): Promise<ProductMongoDBEntity[]> {
-    const query: any = {};
-
-    if (queryParams.product_type) {
-      query.product_type = { $regex: queryParams.product_type, $options: 'i' };
-    }
-
-    if (queryParams.product_new) {
-      query.product_status = 'NEW';
-    }
-
-    if (queryParams.product_sales) {
-      query.product_status = 'SALES';
-    }
-
-    if (queryParams.product_platform) {
-      query.product_platform = {
-        $regex: queryParams.product_platform,
-        $options: 'i',
-      };
-    }
-
-    return this.productModel.find(query).exec();
+  async getProducts(): Promise<ProductMongoDBEntity[]> {
+    return this.productModel.find().exec();
   }
 
   async getProductCategoryGame(): Promise<ProductMongoDBEntity[]> {
