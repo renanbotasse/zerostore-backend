@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { ProductMongoDBRepository } from '../mongodb/repositories/product.mongodb-repository';
 import {
   ProductMongoDBEntity,
   ProductMongoDBEntitySchema,
@@ -15,7 +14,6 @@ import {
       { name: ProductMongoDBEntity.name, schema: ProductMongoDBEntitySchema },
     ]),
   ],
-  providers: [ProductMongoDBRepository],
-  exports: [ProductMongoDBRepository], // Exporta o ProductRepository para que seja acessível em outros módulos
+  exports: [MongooseModule], // Exporta o MongooseModule para que seja acessível em outros módulos
 })
 export class DatabaseModule {}
