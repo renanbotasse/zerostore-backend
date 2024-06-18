@@ -1,0 +1,409 @@
+[
+    {
+        "id": 0,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Pocoyo",
+        "email": "pocoyo@email.com",
+        "address": {
+            "street": "123 Main Street",
+            "number": "456",
+            "complement": "Apt 789",
+            "city": "Cartoon City",
+            "state": "Cartoon State",
+            "country": "Imagination Land",
+            "zip-code": "00000"
+        },
+        "fiscalNumber": "123-123-123",
+        "cart": [
+            {
+                "product_reference": 3000,
+                "quantity": 2
+            },
+            {
+                "product_reference": 11008,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10003,
+                "quantity": 1
+            },
+            {
+                "product_reference": 11000,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id1",
+            "id2",
+            "id3"
+        ]
+    },
+    {
+        "id": 1,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Dracula",
+        "email": "dracula@email.com",
+        "address": {
+            "street": "Castle Street",
+            "number": "13",
+            "complement": "Basement",
+            "city": "Transylvania City",
+            "state": "Transylvania State",
+            "country": "Romania",
+            "zip-code": "12345"
+        },
+        "fiscalNumber": "456-456-456",
+        "cart": [
+            {
+                "product_reference": 3001,
+                "quantity": 3
+            },
+            {
+                "product_reference": 11009,
+                "quantity": 2
+            },
+            {
+                "product_reference": 10004,
+                "quantity": 1
+            },
+            {
+                "product_reference": 11001,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id4",
+            "id5",
+            "id6"
+        ]
+    },
+    {
+        "id": 2,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Tyler Durden",
+        "email": "tyler.durden@email.com",
+        "address": {
+            "street": "Fight Club Street",
+            "number": "1",
+            "complement": "Basement",
+            "city": "Paper Street",
+            "state": "Chaos State",
+            "country": "USA",
+            "zip-code": "12345"
+        },
+        "fiscalNumber": "789-789-789",
+        "cart": [
+            {
+                "product_reference": 4000,
+                "quantity": 1
+            },
+            {
+                "product_reference": 11010,
+                "quantity": 3
+            }
+        ],
+        "ordersId": [
+            "id7",
+            "id8"
+        ]
+    },
+    {
+        "id": 3,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Venom Simbiose",
+        "email": "venom@email.com",
+        "address": {
+            "street": "Alien Street",
+            "number": "666",
+            "complement": "Cave",
+            "city": "Symbiote City",
+            "state": "Marvel State",
+            "country": "Space",
+            "zip-code": "00001"
+        },
+        "fiscalNumber": "999-999-999",
+        "cart": [
+            {
+                "product_reference": 5000,
+                "quantity": 2
+            },
+            {
+                "product_reference": 11011,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10005,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id9",
+            "id10",
+            "id11"
+        ]
+    },
+    {
+        "id": 4,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Bill Russel",
+        "email": "bill.russel@email.com",
+        "address": {
+            "street": "Boston Avenue",
+            "number": "6",
+            "complement": "Suite 6",
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "USA",
+            "zip-code": "54321"
+        },
+        "fiscalNumber": "321-321-321",
+        "cart": [
+            {
+                "product_reference": 6000,
+                "quantity": 1
+            },
+            {
+                "product_reference": 11012,
+                "quantity": 2
+            },
+            {
+                "product_reference": 10006,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id12",
+            "id13"
+        ]
+    },
+    {
+        "id": 5,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Batman Bruce Wayne",
+        "email": "bruce.wayne@email.com",
+        "address": {
+            "street": "Wayne Manor",
+            "number": "1",
+            "complement": "Batcave",
+            "city": "Gotham City",
+            "state": "New Jersey",
+            "country": "USA",
+            "zip-code": "07001"
+        },
+        "fiscalNumber": "111-111-111",
+        "cart": [
+            {
+                "product_reference": 7000,
+                "quantity": 1
+            },
+            {
+                "product_reference": 11013,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10007,
+                "quantity": 2
+            }
+        ],
+        "ordersId": [
+            "id14",
+            "id15"
+        ]
+    },
+    {
+        "id": 6,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2019-03-06",
+        "updatedAt": "2020-03-06",
+        "deletedAt": null,
+        "name": "Jaylen Brown",
+        "email": "jaylen.brown@email.com",
+        "address": {
+            "street": "Basketball Court",
+            "number": "33",
+            "complement": "Apartment 10",
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "USA",
+            "zip-code": "02108"
+        },
+        "fiscalNumber": "222-222-222",
+        "cart": [
+            {
+                "product_reference": 8000,
+                "quantity": 2
+            },
+            {
+                "product_reference": 11014,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10008,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id16",
+            "id17",
+            "id18"
+        ]
+    },
+    {
+        "id": 7,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2020-01-15",
+        "updatedAt": "2021-02-20",
+        "deletedAt": null,
+        "name": "Kirby",
+        "email": "kirby.nintendo@email.com",
+        "address": {
+            "street": "Dream Land",
+            "number": "1",
+            "complement": "Star Valley",
+            "city": "Planet Popstar",
+            "state": "Popstar",
+            "country": "Unknown",
+            "zip-code": "12345"
+        },
+        "fiscalNumber": "333-333-333",
+        "cart": [
+            {
+                "product_reference": 8001,
+                "quantity": 3
+            },
+            {
+                "product_reference": 11015,
+                "quantity": 2
+            }
+        ],
+        "ordersId": [
+            "id19",
+            "id20",
+            "id21"
+        ]
+    },
+    {
+        "id": 8,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2021-05-10",
+        "updatedAt": "2022-06-15",
+        "deletedAt": null,
+        "name": "Hermione Granger",
+        "email": "hermione.granger@email.com",
+        "address": {
+            "street": "Gryffindor Tower",
+            "number": "4",
+            "complement": "",
+            "city": "Hogsmeade",
+            "state": "Scotland",
+            "country": "UK",
+            "zip-code": "54321"
+        },
+        "fiscalNumber": "444-444-444",
+        "cart": [
+            {
+                "product_reference": 8002,
+                "quantity": 2
+            },
+            {
+                "product_reference": 11016,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10009,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id22",
+            "id23",
+            "id24"
+        ]
+    },
+    {
+        "id": 9,
+        "role": "user",
+        "password": "",
+        "salt": "",
+        "isOAuth": true,
+        "createdAt": "2022-03-18",
+        "updatedAt": "2023-04-22",
+        "deletedAt": null,
+        "name": "Tommy Oliver",
+        "email": "tommy.oliver@email.com",
+        "address": {
+            "street": "Angel Grove",
+            "number": "5",
+            "complement": "Command Center",
+            "city": "Angel Grove",
+            "state": "California",
+            "country": "USA",
+            "zip-code": "90210"
+        },
+        "fiscalNumber": "555-555-555",
+        "cart": [
+            {
+                "product_reference": 8003,
+                "quantity": 2
+            },
+            {
+                "product_reference": 11017,
+                "quantity": 1
+            },
+            {
+                "product_reference": 10010,
+                "quantity": 1
+            }
+        ],
+        "ordersId": [
+            "id25",
+            "id26",
+            "id27"
+        ]
+    }
+]
