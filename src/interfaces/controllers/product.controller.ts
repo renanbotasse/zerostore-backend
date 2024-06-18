@@ -10,57 +10,71 @@ import {
   UsePipes,
   ValidationPipe,
 } from '@nestjs/common';
-import { ProductService } from '../../domain/services/product.service';
 import { CreateProductDto } from '../../application/dto/product/create-product.dto';
 import { UpdateProductDto } from '../../application/dto/product/update-product.dto';
+import { UseProductCreate } from '../../application/use-cases/product/create-product.use-case';
+import { UseProductDelete } from '../../application/use-cases/product/delete-product.use-case';
+import { UseProductUpdate } from '../../application/use-cases/product/update-product.use-case';
+import { UseProductRead } from '../../application/use-cases/product/read-product.use-case';
 
 @Controller('products')
 export class ProductController {
-  constructor(private productService: ProductService) {}
+  constructor(
+    private createProductUse: UseProductCreate,
+    private updateProductUse: UseProductUpdate,
+    private deleteProductUse: UseProductDelete,
+    private readProductUse: UseProductRead,
+  ) {}
 
   @Post()
   @UsePipes(new ValidationPipe())
   createProduct(@Body() createProductDto: CreateProductDto) {
-    return this.productService.createProduct(createProductDto);
+    return this.createProductUse.createProduct(createProductDto);
   }
 
   @Get()
   getProducts() {
-    return this.productService.getProducts();
+    return this.readProductUse.getProducts();
   }
 
   @Get('search')
   async getSearchProducts(@Query() queryParams: any) {
-    return await this.productService.getProductSearch(queryParams);
+    return await this.readProductUse.getProductSearch(queryParams);
   }
 
   @Get('new')
   getNewProducts() {
-    return this.productService.getProductNew();
+    return this.readProductUse.getProductNew();
   }
 
   @Get('game')
   getCategoryGame() {
-    return this.productService.getProductCategoryGame();
+    return this.readProductUse.getProductCategoryGame();
   }
 
   @Get('accessories')
   getCategoryAccessories() {
-    return this.productService.getProductCategoryAccessories();
+    return this.readProductUse.getProductCategoryAccessories();
   }
 
   @Get('sales')
   getSalesProducts() {
-    return this.productService.getProductSales();
+    return this.readProductUse.getProductSales();
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateProductDto: UpdateProductDto) {
-    return this.productService.updateProduct(+id, updateProductDto);
+  @Patch(':product_reference')
+  update(
+    @Param('product_reference') product_reference: number,
+    @Body() updateProductDto: UpdateProductDto,
+  ) {
+    return this.updateProductUse.updateProduct(
+      product_reference,
+      updateProductDto,
+    );
   }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.productService.deleteProduct(+id);
+  @Delete(':product_reference')
+  remove(@Param('product_reference') product_reference: number) {
+    return this.deleteProductUse.deleteProduct(product_reference);
   }
 }
