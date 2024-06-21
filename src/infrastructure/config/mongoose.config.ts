@@ -16,4 +16,4 @@ import {
   ],
   exports: [MongooseModule], // Exporta o MongooseModule para que seja acessível em outros módulos
 })
-export class DatabaseModule {}
+export class MongooseDatabaseModule {}
