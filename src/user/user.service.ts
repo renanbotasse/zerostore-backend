@@ -13,6 +13,7 @@ export class UserService {
         private readonly userRepository: Repository<UserEntity>,
     ) {}
     async createUser(createUserDto: CreateUserDto): Promise<UserEntity> {
+        
         const saltOrRounds = 10;
         const passwordHashed = await bcrypt.hash(createUserDto.password, saltOrRounds);
 
@@ -24,7 +25,7 @@ export class UserService {
             cart: [],
             ordersId: [""],
             //mock
-            role: 'user',
+            typeUser: 1,
             salt: 'cake',
             fiscalNumber: '123-123-123',
             });

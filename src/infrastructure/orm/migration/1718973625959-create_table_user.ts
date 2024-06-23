@@ -5,7 +5,7 @@ export class CreateUserTable1718973625959 implements MigrationInterface {
     await queryRunner.query(`
       CREATE TABLE public.user (
         user_id INTEGER NOT NULL,
-        role VARCHAR NOT NULL,
+        type_user int NOT NULL,
         password VARCHAR NOT NULL,
         salt VARCHAR NOT NULL,
         name VARCHAR NOT NULL,

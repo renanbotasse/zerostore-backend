@@ -12,11 +12,20 @@ import { UseProductRead } from './application/use-cases/product/read-product.use
 import { UserModule } from './user/user.module';
 import { AddressModule } from './address/address.module';
 import { CacheModule } from './cache/cache.module';
-import { AuthModule } from './application/dto/auth/auth.module';
-
+import { AuthModule } from './auth/auth.module';
+import { APP_GUARD } from '@nestjs/core';
+import { RolesGuard } from './guards/roles.guard';
+import { JwtModule } from '@nestjs/jwt';
 @Module({
   //pedir os outros services independentes
-  imports: [MongooseDatabaseModule, UserModule, AddressModule, CacheModule, AuthModule],
+  imports: [
+    MongooseDatabaseModule,
+    UserModule,
+    AddressModule,
+    CacheModule,
+    AuthModule,
+    JwtModule,
+  ],
   controllers: [ProductController],
   //services
   providers: [
@@ -24,6 +33,10 @@ import { AuthModule } from './application/dto/auth/auth.module';
     UseProductDelete,
     UseProductUpdate,
     UseProductRead,
+    {
+      provide: APP_GUARD,
+      useClass: RolesGuard,
+    },
     // UseUserCreate,
     // UseUserUpdate,
     // UseUserDelete,

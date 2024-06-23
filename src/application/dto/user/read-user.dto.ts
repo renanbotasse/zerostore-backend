@@ -24,6 +24,6 @@ export class ReadUserDto {
     description: 'User role',
   })
   @IsOptional()
-  @IsString()
-  role?: string;
+  @IsNumber()
+  typeUser?: number;
 }

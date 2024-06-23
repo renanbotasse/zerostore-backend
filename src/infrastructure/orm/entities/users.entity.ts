@@ -16,8 +16,8 @@ export class UserEntity {
   @PrimaryGeneratedColumn({ name: 'user_id' })
   userId: number;
 
-  @Column({ name: 'role', nullable: false })
-  role: string;
+  @Column({ name: 'type_user', nullable: false })
+  typeUser: number;
 
   @Column({ name: 'password', nullable: false })
   password: string;

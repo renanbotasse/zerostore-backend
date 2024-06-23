@@ -4,7 +4,7 @@ import { UserEntity } from 'src/domain/entities/user.entity';
 import { UserService } from 'src/user/user.service';
 import { LoginDto } from './login.dto';
 import { ReturnLogin } from './returnLogin.dto';
-import { ReturnUserCreateDto } from '../user/returnCreate-user.dto';
+import { ReturnUserCreateDto } from '../application/dto/user/returnCreate-user.dto';
 import { JwtService } from '@nestjs/jwt';
 import { LoginPayload } from './loginPayload.dto';
 

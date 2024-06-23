@@ -1,4 +1,4 @@
-import { ReturnUserCreateDto } from '../user/returnCreate-user.dto';
+import { ReturnUserCreateDto } from '../application/dto/user/returnCreate-user.dto';
 
 export interface ReturnLogin {
   user: ReturnUserCreateDto;
