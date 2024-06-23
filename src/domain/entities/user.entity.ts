@@ -5,8 +5,10 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
+  OneToMany,
 } from 'typeorm';
 import { UserCartEntity } from './user.cart-item.entity';
+import { AddressEntity } from './user.address.entity';
 
 @Entity({ name: 'user' })
 export class UserEntity {
@@ -45,4 +47,7 @@ export class UserEntity {
 
   @Column('text', { name: 'orders_id', array: true })
   ordersId: string[];
+
+  @OneToMany(() => AddressEntity, (address) => address.user)
+  address?: AddressEntity[];
 }

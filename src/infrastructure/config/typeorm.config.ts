@@ -1,11 +1,12 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { UserEntity } from '../orm/entities/users.entity'; // Importe a entidade do usuário do PostgreSQL
+import { UserEntity } from '../orm/entities/users.entity';
 import { AddressEntity } from '../orm/entities/address.entity';
 import { UserCartEntity } from './../orm/entities/users-cart-item.entity';
-import { CreateTableAddress1675388996374 } from './../orm/migration/1719130700982-create_table_address';
+import { CreateTableAddress1719130700982 } from './../orm/migration/1719130700982-create_table_address';
 import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-create_table_user';
+
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -18,16 +19,16 @@ import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-c
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
-      autoLoadEntities: true, // Carregar entidades automaticamente
+      autoLoadEntities: true,
       entities: [UserEntity, AddressEntity, UserCartEntity],
       migrations: [
-        CreateTableAddress1675388996374,
         CreateUserTable1718973625959,
+        CreateTableAddress1719130700982,
       ],
       migrationsRun: true,
     }),
     TypeOrmModule.forFeature([UserEntity]), // Registrar a entidade do usuário
   ],
-  exports: [TypeOrmModule], // Exportar TypeOrmModule para ser acessível em outros módulos se necessário
+  exports: [TypeOrmModule],
 })
 export class TypeOrmDatabaseModule {}

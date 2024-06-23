@@ -6,7 +6,10 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
+  ManyToOne,
+  JoinColumn,
 } from 'typeorm';
+import { UserEntity } from './users.entity';
 
 @Entity({ name: 'address' })
 export class AddressEntity {
@@ -45,4 +48,8 @@ export class AddressEntity {
 
   @DeleteDateColumn({ name: 'deleted_at' })
   deletedAt: Date | null;
+
+  @ManyToOne(() => UserEntity, (user) => user.address)
+  @JoinColumn({ name: 'user_id', referencedColumnName: 'userId' })
+  user?: UserEntity;
 }
