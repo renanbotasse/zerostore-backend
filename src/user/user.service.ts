@@ -1,10 +1,12 @@
 /* eslint-disable prettier/prettier */
-import { BadGatewayException, Injectable, NotFoundException } from '@nestjs/common';
+import { BadGatewayException, BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
 import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
 import { UserEntity } from 'src/domain/entities/user.entity';
 import { Repository } from 'typeorm';
-import { InjectRepository} from '@nestjs/typeorm'
+import { InjectRepository} from '@nestjs/typeorm';
+import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
+import { validatePassword } from 'src/utils/password';
 
 @Injectable()
 export class UserService {
@@ -12,6 +14,12 @@ export class UserService {
         @InjectRepository(UserEntity)
         private readonly userRepository: Repository<UserEntity>,
     ) {}
+
+    async createPasswordHashed(password: string): Promise<string> {
+        const saltOrRounds = 10;
+        return bcrypt.hash(password, saltOrRounds);
+    }
+
     async createUser(createUserDto: CreateUserDto): Promise<UserEntity> {
         const user = await this.findUserByEmail(createUserDto.email).catch(
             () => undefined,
@@ -20,8 +28,7 @@ export class UserService {
         if (user) {
             throw new BadGatewayException('email already used');
         }
-        const saltOrRounds = 10;
-        const passwordHashed = await bcrypt.hash(createUserDto.password, saltOrRounds);
+        const passwordHashed = await this.createPasswordHashed(createUserDto.password);
 
         return this.userRepository.save({
             ...createUserDto,
@@ -78,4 +85,28 @@ export class UserService {
         return user;
     }
 
+    async updatePasswordUser(
+        updatePasswordDto: UpdatePasswordDto,
+         userId: number,
+        ): Promise<UserEntity> {
+        const user = await this.findUserById(userId);
+        
+        const passwordHashed = await this.createPasswordHashed(
+            updatePasswordDto.newPassword,
+        );
+
+        const isMatch = await validatePassword(
+            updatePasswordDto.lastPassword,
+        user.password || '',
+    );
+
+    if (!isMatch) {
+        throw new BadRequestException('Last Password Invalid')
+    }
+
+        return this.userRepository.save({
+            ...user,
+            password: passwordHashed,
+        })
+    }
 }
