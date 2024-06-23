@@ -14,7 +14,6 @@ export class CreateUserTable1718973625959 implements MigrationInterface {
       role VARCHAR NOT NULL,
       password VARCHAR NOT NULL,
       salt VARCHAR NOT NULL,
-      is_o_auth BOOLEAN NOT NULL,
       name VARCHAR NOT NULL,
       email VARCHAR NOT NULL,
       fiscal_number VARCHAR NOT NULL,

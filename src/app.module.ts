@@ -10,10 +10,12 @@ import { UseProductRead } from './application/use-cases/product/read-product.use
 // import { UseUserDelete } from './application/use-cases/user/delete-user.use-case';
 // import { UseUserRead } from './application/use-cases/user/read-user.use-case';
 import { UserModule } from './user/user.module';
+import { AddressModule } from './address/address.module';
+import { CacheModule } from './cache/cache.module';
 
 @Module({
   //pedir os outros services independentes
-  imports: [MongooseDatabaseModule, UserModule],
+  imports: [MongooseDatabaseModule, UserModule, AddressModule, CacheModule],
   controllers: [ProductController],
   //services
   providers: [

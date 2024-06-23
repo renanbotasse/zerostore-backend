@@ -22,9 +22,6 @@ export class UserEntity {
   @Column({ name: 'salt', nullable: false })
   salt: string;
 
-  @Column({ name: 'is_o_auth', nullable: false })
-  isoAuth: boolean;
-
   @CreateDateColumn({ name: 'created_at', nullable: false })
   createdAt: Date;
 

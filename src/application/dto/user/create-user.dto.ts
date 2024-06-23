@@ -1,7 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsEmail, IsNotEmpty, IsString, ValidateNested } from 'class-validator';
-import { Type } from 'class-transformer';
-import { UserAddressEntity } from '../../../domain/entities/user.address.entity';
+import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
 
 export class CreateUserDto {
   @ApiProperty({ example: 'password', description: 'User password' })
@@ -26,9 +24,4 @@ export class CreateUserDto {
   @IsNotEmpty()
   @IsString()
   fiscalNumber: string;
-
-  @ApiProperty({ type: UserAddressEntity, description: 'User address' })
-  @ValidateNested()
-  @Type(() => UserAddressEntity)
-  address: UserAddressEntity;
 }

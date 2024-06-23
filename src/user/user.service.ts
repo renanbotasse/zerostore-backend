@@ -26,7 +26,6 @@ export class UserService {
             ordersId: [""],
             //mock
             role: 'user',
-            isOAuth: true,
             salt: 'cake',
             fiscalNumber: '123-123-123',
             });
