@@ -12,10 +12,11 @@ import { UseProductRead } from './application/use-cases/product/read-product.use
 import { UserModule } from './user/user.module';
 import { AddressModule } from './address/address.module';
 import { CacheModule } from './cache/cache.module';
+import { AuthModule } from './application/dto/auth/auth.module';
 
 @Module({
   //pedir os outros services independentes
-  imports: [MongooseDatabaseModule, UserModule, AddressModule, CacheModule],
+  imports: [MongooseDatabaseModule, UserModule, AddressModule, CacheModule, AuthModule],
   controllers: [ProductController],
   //services
   providers: [
