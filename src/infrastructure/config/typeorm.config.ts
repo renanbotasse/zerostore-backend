@@ -6,6 +6,7 @@ import { AddressEntity } from '../orm/entities/address.entity';
 import { UserCartEntity } from './../orm/entities/users-cart-item.entity';
 import { CreateTableAddress1719130700982 } from './../orm/migration/1719130700982-create_table_address';
 import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-create_table_user';
+import { AlterTableUser1719173451120 } from '../orm/migration/1719173451120-alter-table-user';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-c
       migrations: [
         CreateUserTable1718973625959,
         CreateTableAddress1719130700982,
+        AlterTableUser1719173451120,
       ],
       migrationsRun: true,
     }),

@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { BadGatewayException, Injectable, NotFoundException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
 import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
 import { UserEntity } from 'src/domain/entities/user.entity';
@@ -13,7 +13,13 @@ export class UserService {
         private readonly userRepository: Repository<UserEntity>,
     ) {}
     async createUser(createUserDto: CreateUserDto): Promise<UserEntity> {
-        
+        const user = await this.findUserByEmail(createUserDto.email).catch(
+            () => undefined,
+        );
+
+        if (user) {
+            throw new BadGatewayException('email already used');
+        }
         const saltOrRounds = 10;
         const passwordHashed = await bcrypt.hash(createUserDto.password, saltOrRounds);
 
