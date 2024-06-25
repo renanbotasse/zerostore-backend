@@ -8,7 +8,7 @@ import {
   DeleteDateColumn,
   OneToMany,
 } from 'typeorm';
-import { UserCartEntity } from './users-cart-item.entity';
+import { CartEntity } from './cart.entity';
 import { AddressEntity } from './address.entity';
 
 @Entity({ name: 'user' })
@@ -44,7 +44,7 @@ export class UserEntity {
   fiscalNumber: string;
 
   @Column('jsonb', { name: 'cart', array: false, default: () => "'[]'" })
-  cart: UserCartEntity[];
+  cart?: CartEntity[];
 
   @Column('text', { name: 'orders_id', array: true })
   ordersId: string[];

@@ -3,7 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 import { UserEntity } from '../orm/entities/users.entity';
 import { AddressEntity } from '../orm/entities/address.entity';
-import { UserCartEntity } from './../orm/entities/users-cart-item.entity';
+import { CartEntity } from '../orm/entities/cart.entity';
 import { CreateTableAddress1719130700982 } from './../orm/migration/1719130700982-create_table_address';
 import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-create_table_user';
 import { AlterTableUser1719173451120 } from '../orm/migration/1719173451120-alter-table-user';
@@ -21,7 +21,7 @@ import { AlterTableUser1719173451120 } from '../orm/migration/1719173451120-alte
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
       autoLoadEntities: true,
-      entities: [UserEntity, AddressEntity, UserCartEntity],
+      entities: [UserEntity, AddressEntity, CartEntity],
       migrations: [
         CreateUserTable1718973625959,
         CreateTableAddress1719130700982,

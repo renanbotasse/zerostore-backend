@@ -6,7 +6,10 @@ import { UserEntity } from 'src/domain/entities/user.entity';
 import { Repository } from 'typeorm';
 import { InjectRepository} from '@nestjs/typeorm';
 import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
+import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
+import { UserCartDto } from './dtos/user-cart.dto';
+
 
 @Injectable()
 export class UserService {
@@ -109,4 +112,25 @@ export class UserService {
             password: passwordHashed,
         })
     }
+
+    async updateUserCart(userId: number, updateCartDto: UpdateCartDto): Promise<UserCartDto> {
+        const user = await this.findUserById(userId);
+
+        // Atualizar o carrinho do usuário com base nos dados recebidos no DTO
+        user.cart = updateCartDto.cart.map((item) => ({
+          productReference: item.productReference,
+          quantity: item.quantity,
+        }));
+    
+        // Salvar o usuário com o carrinho atualizado
+        await this.userRepository.save(user);
+    
+        // Criar um novo objeto UserCartDto com apenas o campo 'cart' atualizado
+        const userCartDto: UserCartDto = {
+          cart: user.cart,
+        };
+    
+        return userCartDto;
+      }
 }
+

@@ -15,6 +15,9 @@ import { UserEntity } from 'src/domain/entities/user.entity';
 import { ReturnUserCreateDto } from 'src/application/dto/user/returnCreate-user.dto';
 import { UserId } from 'src/decorators/user-id.decorator';
 import { UpdatePasswordDto } from './dtos/update-password.dto';
+import { UpdateCartDto } from './dtos/update-cart.dto';
+import { UserCartDto } from './dtos/user-cart.dto';
+
 
 @Controller('user')
 export class UserController {
@@ -51,5 +54,14 @@ export class UserController {
     @UserId() userId: number,
   ): Promise<UserEntity> {
     return this.userService.updatePasswordUser(updatePasswordDto, userId);
+  }
+
+  @Patch('/cart')
+  @UsePipes(ValidationPipe)
+  async updateCartUser(
+    @Body() updateCartDto: UpdateCartDto,
+    @UserId() userId: number,
+  ): Promise<UserCartDto> {
+    return this.userService.updateUserCart(userId, updateCartDto);
   }
 }

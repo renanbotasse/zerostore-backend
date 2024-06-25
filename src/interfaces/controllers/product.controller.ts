@@ -35,25 +35,25 @@ export class ProductController {
     return this.createProductUse.createProduct(createProductDto);
   }
 
-  @Roles(UserType.Admin, UserType.User)
+
   @Get()
   getProducts() {
     return this.readProductUse.getProducts();
   }
 
-  @Roles(UserType.Admin, UserType.User)
+
   @Get('search')
   async getSearchProducts(@Query() queryParams: any) {
     return await this.readProductUse.getProductSearch(queryParams);
   }
 
-  @Roles(UserType.Admin, UserType.User)
+
   @Get('new')
   getNewProducts() {
     return this.readProductUse.getProductNew();
   }
 
-  @Roles(UserType.Admin, UserType.User)
+
   @Get('game')
   getCategoryGame() {
     return this.readProductUse.getProductCategoryGame();
