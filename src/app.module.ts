@@ -16,6 +16,8 @@ import { AuthModule } from './auth/auth.module';
 import { APP_GUARD } from '@nestjs/core';
 import { RolesGuard } from './guards/roles.guard';
 import { JwtModule } from '@nestjs/jwt';
+import { PaymentStatusModule } from './payment-status/payment-status.module';
+import { PaymentModule } from './payment/payment.module';
 @Module({
   //pedir os outros services independentes
   imports: [
@@ -25,6 +27,8 @@ import { JwtModule } from '@nestjs/jwt';
     CacheModule,
     AuthModule,
     JwtModule,
+    PaymentStatusModule,
+    PaymentModule,
   ],
   controllers: [ProductController],
   //services

@@ -7,6 +7,10 @@ import { CartEntity } from '../orm/entities/cart.entity';
 import { CreateTableAddress1719130700982 } from './../orm/migration/1719130700982-create_table_address';
 import { CreateUserTable1718973625959 } from './../orm/migration/1718973625959-create_table_user';
 import { AlterTableUser1719173451120 } from '../orm/migration/1719173451120-alter-table-user';
+import { CreateTableStatus1719322268293 } from '../orm/migration/1719322268293-create_table_status';
+
+import { CreateTablePayment1719323156828 } from '../orm/migration/1719323156828-create_table_payment';
+
 
 @Module({
   imports: [
@@ -26,6 +30,8 @@ import { AlterTableUser1719173451120 } from '../orm/migration/1719173451120-alte
         CreateUserTable1718973625959,
         CreateTableAddress1719130700982,
         AlterTableUser1719173451120,
+        CreateTableStatus1719322268293,
+        CreateTablePayment1719323156828,
       ],
       migrationsRun: true,
     }),
