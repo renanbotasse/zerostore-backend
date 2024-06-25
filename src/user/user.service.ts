@@ -4,7 +4,7 @@ import * as bcrypt from 'bcrypt';
 import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
 import { UserEntity } from 'src/domain/entities/user.entity';
 import { Repository } from 'typeorm';
-import { InjectRepository} from '@nestjs/typeorm';
+import { InjectRepository } from '@nestjs/typeorm';
 import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
 import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
@@ -16,7 +16,7 @@ export class UserService {
     constructor(
         @InjectRepository(UserEntity)
         private readonly userRepository: Repository<UserEntity>,
-    ) {}
+    ) { }
 
     async createPasswordHashed(password: string): Promise<string> {
         const saltOrRounds = 10;
@@ -44,10 +44,10 @@ export class UserService {
             typeUser: 1,
             salt: 'cake',
             fiscalNumber: '123-123-123',
-            });
-}
+        });
+    }
 
-    async getUserByIdUsingRelations(userId: number): Promise<UserEntity | null > {
+    async getUserByIdUsingRelations(userId: number): Promise<UserEntity | null> {
         return this.userRepository.findOne({
             where: {
                 userId: userId,
@@ -90,22 +90,22 @@ export class UserService {
 
     async updatePasswordUser(
         updatePasswordDto: UpdatePasswordDto,
-         userId: number,
-        ): Promise<UserEntity> {
+        userId: number,
+    ): Promise<UserEntity> {
         const user = await this.findUserById(userId);
-        
+
         const passwordHashed = await this.createPasswordHashed(
             updatePasswordDto.newPassword,
         );
 
         const isMatch = await validatePassword(
             updatePasswordDto.lastPassword,
-        user.password || '',
-    );
+            user.password || '',
+        );
 
-    if (!isMatch) {
-        throw new BadRequestException('Last Password Invalid')
-    }
+        if (!isMatch) {
+            throw new BadRequestException('Last Password Invalid')
+        }
 
         return this.userRepository.save({
             ...user,
@@ -118,19 +118,29 @@ export class UserService {
 
         // Atualizar o carrinho do usuário com base nos dados recebidos no DTO
         user.cart = updateCartDto.cart.map((item) => ({
-          productReference: item.productReference,
-          quantity: item.quantity,
+            productReference: item.productReference,
+            quantity: item.quantity,
         }));
-    
+
         // Salvar o usuário com o carrinho atualizado
         await this.userRepository.save(user);
-    
+
         // Criar um novo objeto UserCartDto com apenas o campo 'cart' atualizado
         const userCartDto: UserCartDto = {
-          cart: user.cart,
+            cart: user.cart,
         };
-    
+
         return userCartDto;
-      }
+    }
+
+    async getUserCart(userId: number): Promise<UserCartDto | null> {
+        const user = await this.findUserById(userId);
+        
+        const userCartDto: UserCartDto = {
+            cart: user.cart,
+        };
+        return userCartDto;
+
+    }
 }
 

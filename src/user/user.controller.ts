@@ -18,7 +18,6 @@ import { UpdatePasswordDto } from './dtos/update-password.dto';
 import { UpdateCartDto } from './dtos/update-cart.dto';
 import { UserCartDto } from './dtos/user-cart.dto';
 
-
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService) {}
@@ -56,12 +55,4 @@ export class UserController {
     return this.userService.updatePasswordUser(updatePasswordDto, userId);
   }
 
-  @Patch('/cart')
-  @UsePipes(ValidationPipe)
-  async updateCartUser(
-    @Body() updateCartDto: UpdateCartDto,
-    @UserId() userId: number,
-  ): Promise<UserCartDto> {
-    return this.userService.updateUserCart(userId, updateCartDto);
-  }
 }
