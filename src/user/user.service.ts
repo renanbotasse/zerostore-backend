@@ -9,6 +9,7 @@ import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
 import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
 import { UserCartDto } from './dtos/user-cart.dto';
+import axios from 'axios';
 
 
 @Injectable()
@@ -116,16 +117,26 @@ export class UserService {
     async updateUserCart(userId: number, updateCartDto: UpdateCartDto): Promise<UserCartDto> {
         const user = await this.findUserById(userId);
 
-        // Atualizar o carrinho do usuário com base nos dados recebidos no DTO
-        user.cart = updateCartDto.cart.map((item) => ({
-            productReference: item.productReference,
-            quantity: item.quantity,
+        const updatedCart = await Promise.all(updateCartDto.cart.map(async (item) => {
+            const { product_reference, quantity } = item;
+            try {
+                const response = await axios.get(`http://localhost:3000/products/${product_reference}`);
+                const productInfo = response.data;
+                return {
+                    product_reference,
+                    quantity,
+                    price: productInfo.product_price,
+                };
+            } catch (error) {
+                console.error(`Failed to fetch product info for product reference: ${product_reference}`, error);
+                throw new BadGatewayException(`Failed to fetch product info for product reference: ${product_reference}`);
+            }
         }));
 
-        // Salvar o usuário com o carrinho atualizado
+        user.cart = updatedCart;
+
         await this.userRepository.save(user);
 
-        // Criar um novo objeto UserCartDto com apenas o campo 'cart' atualizado
         const userCartDto: UserCartDto = {
             cart: user.cart,
         };

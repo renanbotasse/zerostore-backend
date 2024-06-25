@@ -18,6 +18,8 @@ import { RolesGuard } from './guards/roles.guard';
 import { JwtModule } from '@nestjs/jwt';
 import { PaymentStatusModule } from './payment-status/payment-status.module';
 import { PaymentModule } from './payment/payment.module';
+import { OrderModule } from './order/order.module';
+import { OrderProductsModule } from './order-products/order-products.module';
 @Module({
   //pedir os outros services independentes
   imports: [
@@ -29,6 +31,8 @@ import { PaymentModule } from './payment/payment.module';
     JwtModule,
     PaymentStatusModule,
     PaymentModule,
+    OrderModule,
+    OrderProductsModule,
   ],
   controllers: [ProductController],
   //services

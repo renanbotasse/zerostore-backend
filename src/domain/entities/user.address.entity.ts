@@ -8,8 +8,10 @@ import {
   DeleteDateColumn,
   ManyToOne,
   JoinColumn,
+  OneToMany,
 } from 'typeorm';
 import { UserEntity } from '../../infrastructure/orm/entities/users.entity';
+import { OrderEntity } from 'src/order/entities/order.entity';
 @Entity({ name: 'address' })
 export class AddressEntity {
   @PrimaryGeneratedColumn({ name: 'address_id' })
@@ -51,4 +53,7 @@ export class AddressEntity {
   @ManyToOne(() => UserEntity, (user) => user.address)
   @JoinColumn({ name: 'user_id', referencedColumnName: 'userId' })
   user?: UserEntity;
+
+  @OneToMany(() => OrderEntity, (order) => order.address)
+  orders?: OrderEntity[];
 }

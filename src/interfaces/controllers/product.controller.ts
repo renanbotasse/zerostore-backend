@@ -9,6 +9,7 @@ import {
   Param,
   UsePipes,
   ValidationPipe,
+  NotFoundException,
 } from '@nestjs/common';
 import { CreateProductDto } from '../../application/dto/product/create-product.dto';
 import { UpdateProductDto } from '../../application/dto/product/update-product.dto';
@@ -18,6 +19,7 @@ import { UseProductUpdate } from '../../application/use-cases/product/update-pro
 import { UseProductRead } from '../../application/use-cases/product/read-product.use-case';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserType } from 'src/user/enum/user-type.enum';
+import { ProductMongoDBEntity } from 'src/infrastructure/mongodb/entities/product.mongodb-entity';
 
 @Controller('products')
 export class ProductController {
@@ -45,6 +47,16 @@ export class ProductController {
   @Get('search')
   async getSearchProducts(@Query() queryParams: any) {
     return await this.readProductUse.getProductSearch(queryParams);
+  }
+
+
+  @Get(':product_reference')
+  async getProductById(@Param('product_reference') product_reference: number): Promise<ProductMongoDBEntity> {
+    const product = await this.readProductUse.getProductsById(product_reference);
+    if (!product) {
+      throw new NotFoundException(`Product with reference ${product_reference} not found`);
+    }
+    return product;
   }
 
 

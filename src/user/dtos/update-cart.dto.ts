@@ -4,10 +4,11 @@ import { Type } from 'class-transformer';
 
 export class CartEntityDto {
   @IsInt()
-  productReference: number; // Use the correct property name
+  product_reference: number; // Use the correct property name
 
   @IsInt()
   quantity: number;
+
 }
 
 export class UpdateCartDto {
