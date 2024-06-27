@@ -5,6 +5,7 @@ import {
   Post,
   UsePipes,
   ValidationPipe,
+  Patch,
 } from '@nestjs/common';
 import { CreateAddressDto } from 'src/application/dto/address/createAddress.dto';
 import { AddressService } from './address.service';
@@ -18,7 +19,7 @@ import { ReturnAddressDto } from 'src/application/dto/address/returnAddress.dto'
 export class AddressController {
   constructor(private readonly addressService: AddressService) {}
 
-  @Post()
+  @Patch()
   @UsePipes(ValidationPipe)
   async createAddress(
     @Body() createAddressDto: CreateAddressDto,

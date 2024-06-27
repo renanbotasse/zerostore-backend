@@ -9,6 +9,7 @@ import {
 } from 'typeorm';
 import { UserCartEntity } from './user.cart-item.entity';
 import { AddressEntity } from './user.address.entity';
+import { OrderEntity } from 'src/order/entities/order.entity';
 
 @Entity({ name: 'user' })
 export class UserEntity {
@@ -50,4 +51,7 @@ export class UserEntity {
 
   @OneToMany(() => AddressEntity, (address) => address.user)
   address?: AddressEntity[];
+
+  @OneToMany(() => OrderEntity, (order) => order.address)
+  orders?: OrderEntity[];
 }

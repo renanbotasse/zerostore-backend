@@ -7,11 +7,16 @@ import {
   ValidationPipe,
   Param,
   NotFoundException,
+  Patch,
 } from '@nestjs/common';
 import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
 import { UserService } from './user.service';
 import { UserEntity } from 'src/domain/entities/user.entity';
 import { ReturnUserCreateDto } from 'src/application/dto/user/returnCreate-user.dto';
+import { UserId } from 'src/decorators/user-id.decorator';
+import { UpdatePasswordDto } from './dtos/update-password.dto';
+import { UpdateCartDto } from './dtos/update-cart.dto';
+import { UserCartDto } from './dtos/user-cart.dto';
 
 @Controller('user')
 export class UserController {
@@ -40,4 +45,14 @@ export class UserController {
     }
     return new ReturnUserCreateDto(user);
   }
+
+  @Patch()
+  @UsePipes(ValidationPipe)
+  async updatePasswordUser(
+    @Body() updatePasswordDto: UpdatePasswordDto,
+    @UserId() userId: number,
+  ): Promise<UserEntity> {
+    return this.userService.updatePasswordUser(updatePasswordDto, userId);
+  }
+
 }

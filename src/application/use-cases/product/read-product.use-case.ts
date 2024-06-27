@@ -1,5 +1,5 @@
 // update-product.use-case.ts
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { ProductMongoDBEntity } from '../../../infrastructure/mongodb/entities/product.mongodb-entity';
@@ -21,6 +21,16 @@ export class UseProductRead {
     }
 
     return this.productModel.find(query).exec();
+  }
+
+  async getProductsById(product_reference: number): Promise<ProductMongoDBEntity> {
+    const product = await this.productModel.findOne({ product_reference }).exec();
+    
+    if (!product) {
+      throw new NotFoundException(`Product with reference ${product_reference} not found`);
+    }
+
+    return product;
   }
 
   async getProducts(): Promise<ProductMongoDBEntity[]> {

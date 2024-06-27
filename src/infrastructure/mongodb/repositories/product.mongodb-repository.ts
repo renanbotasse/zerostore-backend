@@ -4,6 +4,8 @@ import { Model } from 'mongoose';
 import { Product } from '../../../domain/entities/product.entity';
 import { ProductRepository } from '../../../domain/repositories/product.repository';
 import { ProductMongoDBEntity } from '../entities/product.mongodb-entity';
+import { Roles } from 'src/decorators/roles.decorator';
+import { UserType } from 'src/user/enum/user-type.enum';
 
 @Injectable()
 export class ProductMongoDBRepository implements ProductRepository {
@@ -12,12 +14,14 @@ export class ProductMongoDBRepository implements ProductRepository {
     private readonly productModel: Model<ProductMongoDBEntity>,
   ) {}
 
+  @Roles(UserType.Admin)
   async create(product: Product): Promise<Product> {
     const createdProduct = new this.productModel(product);
     const savedProduct = await createdProduct.save();
     return this.toDomain(savedProduct);
   }
 
+  @Roles(UserType.Admin)
   async update(
     product_reference: number,
     product: Partial<Product>,
@@ -33,6 +37,7 @@ export class ProductMongoDBRepository implements ProductRepository {
     return this.toDomain(updatedProduct);
   }
 
+  @Roles(UserType.Admin)
   async delete(product_reference: number): Promise<void> {
     await this.productModel.findByIdAndDelete(product_reference);
   }

@@ -1,6 +1,7 @@
 import { AddressEntity } from 'src/domain/entities/user.address.entity';
 
 export class ReturnAddressDto {
+  addressId: number;
   street: string;
   numberAddress: number;
   complement: string;
@@ -10,6 +11,7 @@ export class ReturnAddressDto {
   zipCode: string;
 
   constructor(address: AddressEntity) {
+    this.addressId = address.addressId;
     this.street = address.street;
     this.numberAddress = address.numberAddress;
     this.complement = address.complement;
