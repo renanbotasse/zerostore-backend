@@ -21,7 +21,7 @@ export class OrderController {
   ) { }
 
 
-  @Post('/cart') // Corrigido para usar ':userId'
+  @Post('/cart') 
   @UsePipes(ValidationPipe)
   async createOrder(
     @Body() createOrderPaymentDto: CreateOrderPaymentDto,

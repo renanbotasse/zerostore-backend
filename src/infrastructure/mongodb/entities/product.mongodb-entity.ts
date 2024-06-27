@@ -4,7 +4,7 @@ import {
   ProductPlatform,
   ProductType,
   ProductStatus,
-} from '../../../domain/entities/product.entity';
+} from '../../../product/product.entity';
 
 @Schema()
 export class ProductMongoDBEntity extends Document {

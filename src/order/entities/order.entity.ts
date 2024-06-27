@@ -1,5 +1,5 @@
-import { AddressEntity } from 'src/domain/entities/user.address.entity';
-import { UserEntity } from 'src/domain/entities/user.entity';
+import { AddressEntity } from 'src/user/entities/user.address.entity';
+import { UserEntity } from 'src/user/entities/user.entity';
 import { OrderProductEntity } from 'src/order-products/entities/order-product.entity';
 import { PaymentEntity } from 'src/payment/entities/payment.entity';
 import {

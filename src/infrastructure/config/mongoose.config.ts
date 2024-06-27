@@ -14,6 +14,6 @@ import {
       { name: ProductMongoDBEntity.name, schema: ProductMongoDBEntitySchema },
     ]),
   ],
-  exports: [MongooseModule], // Exporta o MongooseModule para que seja acessível em outros módulos
+  exports: [MongooseModule],
 })
 export class MongooseDatabaseModule {}

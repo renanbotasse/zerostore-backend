@@ -1,9 +1,9 @@
-// update-product.use-case.ts
+
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { UpdateProductDto } from '../../dto/product/update-product.dto';
-import { ProductMongoDBEntity } from '../../../infrastructure/mongodb/entities/product.mongodb-entity';
+import { UpdateProductDto } from '../dtos/update-product.dto';
+import { ProductMongoDBEntity } from '../../infrastructure/mongodb/entities/product.mongodb-entity';
 
 @Injectable()
 export class UseProductUpdate {

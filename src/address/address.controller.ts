@@ -7,12 +7,12 @@ import {
   ValidationPipe,
   Patch,
 } from '@nestjs/common';
-import { CreateAddressDto } from 'src/application/dto/address/createAddress.dto';
+import { CreateAddressDto } from 'src/address/dtos/createAddress.dto';
 import { AddressService } from './address.service';
 import { UserType } from 'src/user/enum/user-type.enum';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserId } from 'src/decorators/user-id.decorator';
-import { ReturnAddressDto } from 'src/application/dto/address/returnAddress.dto';
+import { ReturnAddressDto } from 'src/address/dtos/returnAddress.dto';
 
 @Roles(UserType.User, UserType.Admin)
 @Controller('address')

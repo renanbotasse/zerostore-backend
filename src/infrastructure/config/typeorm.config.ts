@@ -29,7 +29,7 @@ import { AlterTablePayment1719334275148 } from '../orm/migration/1719334275148-a
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
       autoLoadEntities: true,
-      entities: [UserEntity, AddressEntity, CartEntity, PaymentEntity, PaymentStatusEntity], // Incluir todas as entidades necessárias
+      entities: [UserEntity, AddressEntity, CartEntity, PaymentEntity, PaymentStatusEntity],
       migrations: [
         CreateUserTable1718973625959,
         CreateTableAddress1719130700982,
@@ -43,7 +43,7 @@ import { AlterTablePayment1719334275148 } from '../orm/migration/1719334275148-a
       ],
       migrationsRun: true,
     }),
-    TypeOrmModule.forFeature([UserEntity]), // Registrar a entidade do usuário
+    TypeOrmModule.forFeature([UserEntity]),
   ],
   exports: [TypeOrmModule],
 })

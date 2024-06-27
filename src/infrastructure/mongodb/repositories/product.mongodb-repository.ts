@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { Product } from '../../../domain/entities/product.entity';
-import { ProductRepository } from '../../../domain/repositories/product.repository';
+import { Product } from '../../../product/product.entity';
+import { ProductRepository } from '../../../product/product.repository';
 import { ProductMongoDBEntity } from '../entities/product.mongodb-entity';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserType } from 'src/user/enum/user-type.enum';

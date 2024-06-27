@@ -9,10 +9,10 @@ import {
   NotFoundException,
   Patch,
 } from '@nestjs/common';
-import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
+import { CreateUserDto } from 'src/user/dtos/create-user.dto';
 import { UserService } from './user.service';
-import { UserEntity } from 'src/domain/entities/user.entity';
-import { ReturnUserCreateDto } from 'src/application/dto/user/returnCreate-user.dto';
+import { UserEntity } from 'src/user/entities/user.entity';
+import { ReturnUserCreateDto } from 'src/user/dtos/returnCreate-user.dto';
 import { UserId } from 'src/decorators/user-id.decorator';
 import { UpdatePasswordDto } from './dtos/update-password.dto';
 import { UpdateCartDto } from './dtos/update-cart.dto';
