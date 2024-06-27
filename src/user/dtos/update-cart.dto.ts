@@ -1,10 +1,10 @@
-// update-cart.dto.ts
+
 import { IsArray, ValidateNested, IsInt } from 'class-validator';
 import { Type } from 'class-transformer';
 
 export class CartEntityDto {
   @IsInt()
-  product_ref: number; // Use the correct property name
+  product_ref: number;
 
   @IsInt()
   quantity: number;

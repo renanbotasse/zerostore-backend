@@ -1,4 +1,4 @@
-import { AddressEntity } from 'src/domain/entities/user.address.entity';
+import { AddressEntity } from 'src/user/entities/user.address.entity';
 
 export class ReturnAddressDto {
   addressId: number;

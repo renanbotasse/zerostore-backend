@@ -1,10 +1,10 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { CreateAddressDto } from 'src/application/dto/address/createAddress.dto';
+import { CreateAddressDto } from 'src/address/dtos/createAddress.dto';
 import { AddressEntity } from 'src/infrastructure/orm/entities/address.entity';
 import { UserService } from 'src/user/user.service';
-import { ReturnAddressDto } from 'src/application/dto/address/returnAddress.dto';
+import { ReturnAddressDto } from 'src/address/dtos/returnAddress.dto';
 
 @Injectable()
 export class AddressService {
@@ -30,7 +30,7 @@ export class AddressService {
       where: {
         userId,
       },
-      relations: ['user'], // Carregar a relação com a entidade UserEntity se necessário
+      relations: ['user'],
     });
 
     if (!addresses || addresses.length === 0) {

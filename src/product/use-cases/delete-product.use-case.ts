@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { ProductMongoDBEntity } from '../../../infrastructure/mongodb/entities/product.mongodb-entity';
+import { ProductMongoDBEntity } from '../../infrastructure/mongodb/entities/product.mongodb-entity';
 
 @Injectable()
 export class UseProductDelete {

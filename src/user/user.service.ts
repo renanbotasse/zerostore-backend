@@ -1,8 +1,7 @@
-/* eslint-disable prettier/prettier */
 import { BadGatewayException, BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
-import { CreateUserDto } from 'src/application/dto/user/create-user.dto';
-import { UserEntity } from 'src/domain/entities/user.entity';
+import { CreateUserDto } from 'src/user/dtos/create-user.dto';
+import { UserEntity } from 'src/user/entities/user.entity';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
@@ -41,7 +40,6 @@ export class UserService {
             updatedAt: new Date,
             cart: [],
             ordersId: [""],
-            //mock
             typeUser: 1,
             salt: 'cake',
             fiscalNumber: '123-123-123',
@@ -155,7 +153,6 @@ export class UserService {
     }
 
     async clearUserCart(userId: number): Promise<UserCartDto> {
-        // Encontra o usuário pelo ID
         const user = await this.userRepository.findOne({
             where: {
                 userId: userId,

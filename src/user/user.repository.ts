@@ -1,6 +1,6 @@
-import { UserEntity } from '../entities/user.entity';
-import { AddressEntity } from '../entities/user.address.entity';
-import { UserCartEntity } from '../entities/user.cart-item.entity';
+import { UserEntity } from './entities/user.entity';
+import { AddressEntity } from './entities/user.address.entity';
+import { UserCartEntity } from './entities/user.cart-item.entity';
 
 export interface UserRepository {
   createUser(user: UserEntity): Promise<UserEntity>;

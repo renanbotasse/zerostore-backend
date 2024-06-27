@@ -1,6 +1,6 @@
 import { EntityRepository, Repository } from 'typeorm';
-import { UserEntity } from '../../../domain/entities/user.entity';
-import { UserCartEntity } from '../../../domain/entities/user.cart-item.entity';
+import { UserEntity } from '../../../user/entities/user.entity';
+import { UserCartEntity } from '../../../user/entities/user.cart-item.entity';
 
 @EntityRepository(UserEntity)
 export class UsersPostgresRepository extends Repository<UserEntity> {
@@ -12,19 +12,18 @@ export class UsersPostgresRepository extends Repository<UserEntity> {
     userId: number,
     user: Partial<UserEntity>,
   ): Promise<UserEntity | undefined> {
-    // Executa a consulta de atualização e retorna o objeto atualizado
+  
     const updateResult = await this.createQueryBuilder('user')
       .update(UserEntity)
       .set(user)
       .where('user.userId = :userId', { userId })
-      .returning(['*']) // Seleciona todos os campos da tabela
+      .returning(['*']) 
       .execute();
 
     if (updateResult.affected === 0) {
-      return undefined; // Nenhum usuário foi encontrado com o `userId`
+      return undefined; 
     }
 
-    // Retorna o usuário atualizado diretamente do resultado da atualização
     return updateResult.raw[0] as UserEntity;
   }
 
@@ -77,11 +76,11 @@ export class UsersPostgresRepository extends Repository<UserEntity> {
         cart: () => `array_append(cart, '${JSON.stringify(cartItem)}')`,
       })
       .where('user.userId = :userId', { userId })
-      .returning(['*']) // Seleciona todos os campos da tabela
+      .returning(['*']) 
       .execute();
 
     if (updateResult.affected === 0) {
-      return undefined; // Nenhum usuário foi encontrado com o `userId`
+      return undefined;
     }
 
     return updateResult.raw[0] as UserEntity;
@@ -99,11 +98,11 @@ export class UsersPostgresRepository extends Repository<UserEntity> {
           `jsonb_set(cart, '{${cartItemId}}', '${JSON.stringify(partialCartItem)}', true)`,
       })
       .where('user.userId = :userId', { userId })
-      .returning(['*']) // Seleciona todos os campos da tabela
+      .returning(['*'])
       .execute();
 
     if (updateResult.affected === 0) {
-      return undefined; // Nenhum usuário foi encontrado com o `userId` ou `cartItemId` não existe no carrinho
+      return undefined; 
     }
 
     return updateResult.raw[0] as UserEntity;
@@ -119,11 +118,11 @@ export class UsersPostgresRepository extends Repository<UserEntity> {
         cart: () => `cart - ${cartItemId}`,
       })
       .where('user.userId = :userId')
-      .returning(['*']) // Seleciona todos os campos da tabela
+      .returning(['*']) 
       .execute();
 
     if (updateResult.affected === 0) {
-      return undefined; // Nenhum usuário foi encontrado com o `userId` ou `cartItemId` não existe no carrinho
+      return undefined;
     }
 
     return updateResult.raw[0] as UserEntity;

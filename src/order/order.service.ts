@@ -8,7 +8,7 @@ import { PaymentService } from 'src/payment/payment.service';
 import { CreateOrderPaymentDto } from './dtos/create-order-payment.dto';
 import { PaymentEntity } from 'src/payment/entities/payment.entity';
 import { UserService } from 'src/user/user.service';
-import { AddressService } from 'src/address/address.service'; // Importar o AddressService
+import { AddressService } from 'src/address/address.service'; 
 
 @Injectable()
 export class OrderService {
@@ -19,7 +19,7 @@ export class OrderService {
     private readonly orderProductsRepository: Repository<OrderProductEntity>,
     private readonly userService: UserService,
     private readonly paymentService: PaymentService,
-    private readonly addressService: AddressService, // Injetar o AddressService
+    private readonly addressService: AddressService, 
   ) {}
 
   async createOrder(createOrderPaymentDto: CreateOrderPaymentDto, userId: number) {
@@ -59,7 +59,7 @@ export class OrderService {
     userId: number,
     payment: PaymentEntity
   ): Promise<OrderEntity> {
-    // Obter o primeiro endereço do usuário
+
     const addresses = await this.addressService.findAddressByUserId(userId);
     if (!addresses || addresses.length === 0) {
       throw new NotFoundException('Nenhum endereço encontrado para o usuário.');

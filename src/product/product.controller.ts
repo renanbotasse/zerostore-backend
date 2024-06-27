@@ -11,12 +11,12 @@ import {
   ValidationPipe,
   NotFoundException,
 } from '@nestjs/common';
-import { CreateProductDto } from '../../application/dto/product/create-product.dto';
-import { UpdateProductDto } from '../../application/dto/product/update-product.dto';
-import { UseProductCreate } from '../../application/use-cases/product/create-product.use-case';
-import { UseProductDelete } from '../../application/use-cases/product/delete-product.use-case';
-import { UseProductUpdate } from '../../application/use-cases/product/update-product.use-case';
-import { UseProductRead } from '../../application/use-cases/product/read-product.use-case';
+import { CreateProductDto } from './dtos/create-product.dto';
+import { UpdateProductDto } from './dtos/update-product.dto';
+import { UseProductCreate } from './use-cases/create-product.use-case';
+import { UseProductDelete } from './use-cases/delete-product.use-case';
+import { UseProductUpdate } from './use-cases/update-product.use-case';
+import { UseProductRead } from './use-cases/read-product.use-case';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserType } from 'src/user/enum/user-type.enum';
 import { ProductMongoDBEntity } from 'src/infrastructure/mongodb/entities/product.mongodb-entity';

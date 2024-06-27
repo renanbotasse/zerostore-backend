@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { CreateProductDto } from '../../dto/product/create-product.dto';
-import { ProductMongoDBEntity } from '../../../infrastructure/mongodb/entities/product.mongodb-entity';
+import { CreateProductDto } from '../dtos/create-product.dto';
+import { ProductMongoDBEntity } from '../../infrastructure/mongodb/entities/product.mongodb-entity';
 
 @Injectable()
 export class UseProductCreate {

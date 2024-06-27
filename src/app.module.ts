@@ -1,14 +1,10 @@
 import { Module } from '@nestjs/common';
-import { ProductController } from './interfaces/controllers/product.controller';
+import { ProductController } from './product/product.controller';
 import { MongooseDatabaseModule } from './infrastructure/config/mongoose.config';
-import { UseProductCreate } from './application/use-cases/product/create-product.use-case';
-import { UseProductDelete } from './application/use-cases/product/delete-product.use-case';
-import { UseProductUpdate } from './application/use-cases/product/update-product.use-case';
-import { UseProductRead } from './application/use-cases/product/read-product.use-case';
-// import { UseUserCreate } from './application/use-cases/user/create-user.use-case';
-// import { UseUserUpdate } from './application/use-cases/user/update-user.use-case';
-// import { UseUserDelete } from './application/use-cases/user/delete-user.use-case';
-// import { UseUserRead } from './application/use-cases/user/read-user.use-case';
+import { UseProductCreate } from './product/use-cases/create-product.use-case';
+import { UseProductDelete } from './product/use-cases/delete-product.use-case';
+import { UseProductUpdate } from './product/use-cases/update-product.use-case';
+import { UseProductRead } from './product/use-cases/read-product.use-case';
 import { UserModule } from './user/user.module';
 import { AddressModule } from './address/address.module';
 import { CacheModule } from './cache/cache.module';
@@ -21,7 +17,6 @@ import { PaymentModule } from './payment/payment.module';
 import { OrderModule } from './order/order.module';
 import { OrderProductsModule } from './order-products/order-products.module';
 @Module({
-  //pedir os outros services independentes
   imports: [
     MongooseDatabaseModule,
     UserModule,
@@ -35,7 +30,6 @@ import { OrderProductsModule } from './order-products/order-products.module';
     OrderProductsModule,
   ],
   controllers: [ProductController],
-  //services
   providers: [
     UseProductCreate,
     UseProductDelete,
@@ -45,10 +39,6 @@ import { OrderProductsModule } from './order-products/order-products.module';
       provide: APP_GUARD,
       useClass: RolesGuard,
     },
-    // UseUserCreate,
-    // UseUserUpdate,
-    // UseUserDelete,
-    // UseUserRead,
   ],
 })
 export class AppModule {}

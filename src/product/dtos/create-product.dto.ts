@@ -4,7 +4,7 @@ import {
   ProductPlatform,
   ProductType,
   ProductStatus,
-} from '../../../domain/entities/product.entity';
+} from '../product.entity';
 
 export class CreateProductDto {
   @ApiProperty({ example: 123456 })

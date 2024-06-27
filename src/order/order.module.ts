@@ -4,8 +4,8 @@ import { OrderController } from './order.controller';
 import { OrderService } from './order.service';
 import { OrderProductEntity } from 'src/order-products/entities/order-product.entity';
 import { OrderEntity } from './entities/order.entity';
-import { UserEntity } from 'src/domain/entities/user.entity';
-import { AddressEntity } from 'src/domain/entities/user.address.entity';
+import { UserEntity } from 'src/user/entities/user.entity';
+import { AddressEntity } from 'src/user/entities/user.address.entity';
 import { PaymentEntity } from 'src/payment/entities/payment.entity';
 import { UserModule } from 'src/user/user.module';
 import { PaymentModule } from 'src/payment/payment.module';
@@ -24,7 +24,7 @@ import { AddressModule } from 'src/address/address.module';
     UserModule,
     PaymentModule,
     OrderProductsModule,
-    AddressModule // Importe o UserModule aqui,
+    AddressModule 
   ],
   controllers: [OrderController],
   providers: [OrderService],
