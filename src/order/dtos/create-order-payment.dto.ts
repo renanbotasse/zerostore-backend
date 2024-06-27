@@ -5,6 +5,4 @@ export class CreateOrderPaymentDto {
     @IsNumber()
     amountPayments?: number;
 
-    @IsNumber()
-    addressId: number;
 }

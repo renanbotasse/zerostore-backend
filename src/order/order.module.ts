@@ -10,6 +10,7 @@ import { PaymentEntity } from 'src/payment/entities/payment.entity';
 import { UserModule } from 'src/user/user.module';
 import { PaymentModule } from 'src/payment/payment.module';
 import { OrderProductsModule } from 'src/order-products/order-products.module';
+import { AddressModule } from 'src/address/address.module';
 
 @Module({
   imports: [
@@ -22,7 +23,8 @@ import { OrderProductsModule } from 'src/order-products/order-products.module';
     ]),
     UserModule,
     PaymentModule,
-    OrderProductsModule // Importe o UserModule aqui,
+    OrderProductsModule,
+    AddressModule // Importe o UserModule aqui,
   ],
   controllers: [OrderController],
   providers: [OrderService],
