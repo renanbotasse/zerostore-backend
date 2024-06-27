@@ -12,7 +12,8 @@ export class PaymentService {
     private readonly paymentRepository: Repository<PaymentEntity>,
   ) {}
 
-  async createPayment(createOrderPaymentDTO: CreateOrderPaymentDto): Promise<PaymentEntity | null> {
+  async createPayment(
+    createOrderPaymentDTO: CreateOrderPaymentDto): Promise<PaymentEntity | null> {
     if (!createOrderPaymentDTO.amountPayments) {
         throw new BadRequestException(
     'Amount Payments not found')

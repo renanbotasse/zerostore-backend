@@ -11,18 +11,18 @@ export class OrderProductService {
     ) {}
 
     async createOrderProduct(
-        productRef: number,
+        product_ref: number,
         quantity: number,
         orderId: number,
         price: number,
     ): Promise<OrderProductEntity | null> {
-        const newOrderProduct = this.orderProductRepository.create({
-            productRef,
+        const newOrderProduct = this.orderProductRepository.save({
+            product_ref,
             quantity,
             orderId,
             price,
         });
-        
+        console.log(newOrderProduct)
         return newOrderProduct;
     }
 }

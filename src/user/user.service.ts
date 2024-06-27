@@ -118,18 +118,18 @@ export class UserService {
         const user = await this.findUserById(userId);
 
         const updatedCart = await Promise.all(updateCartDto.cart.map(async (item) => {
-            const { product_reference, quantity } = item;
+            const { product_ref, quantity } = item;
             try {
-                const response = await axios.get(`http://localhost:3000/products/${product_reference}`);
+                const response = await axios.get(`http://localhost:3000/products/${product_ref}`);
                 const productInfo = response.data;
                 return {
-                    product_reference,
+                    product_ref,
                     quantity,
                     price: productInfo.product_price,
                 };
             } catch (error) {
-                console.error(`Failed to fetch product info for product reference: ${product_reference}`, error);
-                throw new BadGatewayException(`Failed to fetch product info for product reference: ${product_reference}`);
+                console.error(`Failed to fetch product info for product reference: ${product_ref}`, error);
+                throw new BadGatewayException(`Failed to fetch product info for product reference: ${product_ref}`);
             }
         }));
 
@@ -153,5 +153,29 @@ export class UserService {
         return userCartDto;
 
     }
+
+    async clearUserCart(userId: number): Promise<UserCartDto> {
+        // Encontra o usuário pelo ID
+        const user = await this.userRepository.findOne({
+            where: {
+                userId: userId,
+            }
+        })
+    
+        if (!user) {
+          throw new NotFoundException('Usuário não encontrado');
+        }
+    
+        user.cart = [];
+    
+        await this.userRepository.save(user);
+    
+        const userCartDto: UserCartDto = {
+          cart: user.cart,
+        };
+    
+        return userCartDto;
+      }
+
 }
 
