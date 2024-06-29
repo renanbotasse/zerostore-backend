@@ -11,9 +11,12 @@ export class UseProductDelete {
   ) {}
 
   async deleteProduct(product_reference: number): Promise<void> {
+    // Executa a consulta para encontrar e deletar o produto pelo número de referência
     const result = await this.productModel
       .findOneAndDelete({ product_reference })
       .exec();
+
+    // Se nenhum documento foi encontrado para deletar, lança uma exceção NotFoundException
     if (!result) {
       throw new NotFoundException(
         `Product with reference ${product_reference} not found`,

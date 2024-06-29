@@ -37,18 +37,15 @@ export class ProductController {
     return this.createProductUse.createProduct(createProductDto);
   }
 
-
   @Get()
   getProducts() {
     return this.readProductUse.getProducts();
   }
 
-
   @Get('search')
   async getSearchProducts(@Query() queryParams: any) {
     return await this.readProductUse.getProductSearch(queryParams);
   }
-
 
   @Get(':product_reference')
   async getProductById(@Param('product_reference') product_reference: number): Promise<ProductMongoDBEntity> {
@@ -59,18 +56,15 @@ export class ProductController {
     return product;
   }
 
-
   @Get('new')
   getNewProducts() {
     return this.readProductUse.getProductNew();
   }
 
-
   @Get('game')
   getCategoryGame() {
     return this.readProductUse.getProductCategoryGame();
   }
-
 
   @Get('accessories')
   getCategoryAccessories() {
