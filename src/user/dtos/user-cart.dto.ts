@@ -1,6 +1,6 @@
 export class UserCartDto {
   cart: {
-    product_ref: number;
+    product_reference: number;
     quantity: number;
     price: number;
   }[];

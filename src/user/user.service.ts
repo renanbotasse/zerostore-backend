@@ -8,7 +8,11 @@ import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
 import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
 import { UserCartDto } from './dtos/user-cart.dto';
+import { AuthService } from 'src/auth/auth.service'; // Importa o AuthService para gerar o token
+import { ReturnLogin } from 'src/auth/returnLogin.dto'; // DTO para retornar o token e o usuário
+
 import axios from 'axios';
+import { LoginDto } from 'src/auth/login.dto';
 
 
 @Injectable()
@@ -16,6 +20,7 @@ export class UserService {
     constructor(
         @InjectRepository(UserEntity)
         private readonly userRepository: Repository<UserEntity>,
+        private readonly authService: AuthService, // Injeta o AuthService
     ) { }
 
     async createPasswordHashed(password: string): Promise<string> {
@@ -23,27 +28,38 @@ export class UserService {
         return bcrypt.hash(password, saltOrRounds);
     }
 
-    async createUser(createUserDto: CreateUserDto): Promise<UserEntity> {
+    async createUser(createUserDto: CreateUserDto): Promise<ReturnLogin> {
         const user = await this.findUserByEmail(createUserDto.email).catch(
             () => undefined,
         );
 
         if (user) {
-            throw new BadGatewayException('email already used');
+            throw new BadGatewayException('Email already used');
         }
+
         const passwordHashed = await this.createPasswordHashed(createUserDto.password);
 
-        return this.userRepository.save({
+        const newUser = await this.userRepository.save({
             ...createUserDto,
             password: passwordHashed,
-            createdAt: new Date,
-            updatedAt: new Date,
+            createdAt: new Date(),
+            updatedAt: new Date(),
             cart: [],
             ordersId: [""],
             typeUser: 1,
             salt: 'cake',
             fiscalNumber: '123-123-123',
         });
+
+        // Gera o token JWT chamando o método login do AuthService
+        const loginDto: LoginDto = {
+            email: newUser.email,
+            password: createUserDto.password, // Usa a senha original para login
+        };
+
+        const returnLogin: ReturnLogin = await this.authService.login(loginDto);
+
+        return returnLogin;
     }
 
     async getUserByIdUsingRelations(userId: number): Promise<UserEntity | null> {
@@ -116,18 +132,18 @@ export class UserService {
         const user = await this.findUserById(userId);
 
         const updatedCart = await Promise.all(updateCartDto.cart.map(async (item) => {
-            const { product_ref, quantity } = item;
+            const { product_reference, quantity } = item;
             try {
-                const response = await axios.get(`http://localhost:3000/products/${product_ref}`);
+                const response = await axios.get(`http://localhost:3000/products/${product_reference}`);
                 const productInfo = response.data;
                 return {
-                    product_ref,
+                    product_reference,
                     quantity,
                     price: productInfo.product_price,
                 };
             } catch (error) {
-                console.error(`Failed to fetch product info for product reference: ${product_ref}`, error);
-                throw new BadGatewayException(`Failed to fetch product info for product reference: ${product_ref}`);
+                console.error(`Failed to fetch product info for product reference: ${product_reference}`, error);
+                throw new BadGatewayException(`Failed to fetch product info for product reference: ${product_reference}`);
             }
         }));
 
@@ -144,7 +160,7 @@ export class UserService {
 
     async getUserCart(userId: number): Promise<UserCartDto | null> {
         const user = await this.findUserById(userId);
-        
+
         const userCartDto: UserCartDto = {
             cart: user.cart,
         };
@@ -158,21 +174,21 @@ export class UserService {
                 userId: userId,
             }
         })
-    
+
         if (!user) {
-          throw new NotFoundException('Usuário não encontrado');
+            throw new NotFoundException('Usuário não encontrado');
         }
-    
+
         user.cart = [];
-    
+
         await this.userRepository.save(user);
-    
+
         const userCartDto: UserCartDto = {
-          cart: user.cart,
+            cart: user.cart,
         };
-    
+
         return userCartDto;
-      }
+    }
 
 }
 

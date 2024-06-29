@@ -78,12 +78,12 @@ export class OrderService {
 
   private createOrderProducts(orderId: number, cart: UserCartDto): OrderProductEntity[] {
     const orderProducts = cart.cart.map((item) => {
-      if (item.product_ref == null) {
+      if (item.product_reference == null) {
         throw new Error('Referência de produto nula ou indefinida.');
       }
       const orderProduct = new OrderProductEntity();
       orderProduct.orderId = orderId;
-      orderProduct.product_ref = item.product_ref;
+      orderProduct.product_reference = item.product_reference;
       orderProduct.quantity = item.quantity;
       orderProduct.price = item.price;
       return orderProduct;

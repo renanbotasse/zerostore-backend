@@ -17,8 +17,8 @@ export class OrderProductEntity {
   @Column({ name: 'order_id', nullable: false })
   orderId: number;
 
-  @Column({ name: 'product_ref', nullable: false })
-  product_ref: number;
+  @Column({ name: 'product_reference', nullable: false })
+  product_reference: number;
 
   @Column({ name: 'quantity', nullable: false })
   quantity: number;

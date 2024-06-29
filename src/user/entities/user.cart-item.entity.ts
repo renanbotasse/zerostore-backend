@@ -2,7 +2,7 @@ import { Column } from 'typeorm';
 
 export class UserCartEntity {
   @Column({ name: 'product_reference' })
-  product_ref: number;
+  product_reference: number;
 
   @Column({ name: 'quantity' })
   quantity: number;

@@ -17,6 +17,7 @@ import { UserId } from 'src/decorators/user-id.decorator';
 import { UpdatePasswordDto } from './dtos/update-password.dto';
 import { UpdateCartDto } from './dtos/update-cart.dto';
 import { UserCartDto } from './dtos/user-cart.dto';
+import { ReturnLogin } from '../auth/returnLogin.dto'
 
 @Controller('user')
 export class UserController {
@@ -24,8 +25,8 @@ export class UserController {
 
   @UsePipes(ValidationPipe)
   @Post()
-  async createUser(@Body() createUser: CreateUserDto): Promise<UserEntity> {
-    return this.userService.createUser(createUser);
+  async createUser(@Body() createUserDto: CreateUserDto): Promise<ReturnLogin> {
+    return this.userService.createUser(createUserDto);
   }
 
   @Get()
