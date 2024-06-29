@@ -36,9 +36,9 @@ export class UserController {
     );
   }
 
-  @Get('/:userId')
+  @Get('/userId')
   async getUserById(
-    @Param('userId') userId: number,
+    @UserId() userId: number,
   ): Promise<ReturnUserCreateDto | null> {
     const user = await this.userService.getUserByIdUsingRelations(userId);
     if (!user) {
