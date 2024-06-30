@@ -36,6 +36,23 @@ export class OrderService {
     return { order, orderProducts };
   }
 
+  async getLastOrder(userId: number) {
+    const order = await this.orderRepository.findOne({
+      where: { userId },
+      order: { createdAt: 'DESC' },
+    });
+
+    if (!order) {
+      throw new NotFoundException('No orders found for this user');
+    }
+
+    const orderProducts = await this.orderProductsRepository.find({
+      where: { orderId: order.orderId },
+    });
+
+    return { order, orderProducts };
+  }
+
   private async getUserCart(userId: number): Promise<UserCartDto> {
     const cart = await this.userService.getUserCart(userId);
     if (!cart || !cart.cart || cart.cart.length === 0) {
@@ -101,4 +118,8 @@ export class OrderService {
     await this.userService.clearUserCart(userId);
     console.log('Carrinho do usuário limpo.');
   }
+
+
+
+
 }

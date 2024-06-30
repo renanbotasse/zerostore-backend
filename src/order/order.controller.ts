@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Get,
   NotFoundException,
   Param,
   Post,
@@ -28,5 +29,13 @@ export class OrderController {
     @UserId() userId: number,
   ) {
     return this.orderService.createOrder(createOrderPaymentDto, userId);
+  }
+
+  @Get('/neworder')
+  @UsePipes(ValidationPipe)
+  async getLastOrder(
+    @UserId() userId: number,
+  ) {
+    return this.orderService.getLastOrder(userId);
   }
 }
