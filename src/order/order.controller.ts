@@ -38,4 +38,12 @@ export class OrderController {
   ) {
     return this.orderService.getLastOrder(userId);
   }
+
+  @Get()
+  @UsePipes(ValidationPipe)
+  async getAllOrders(
+    @UserId() userId: number,
+  ) {
+    return this.orderService.getAllOrders(userId);
+  }
 }
