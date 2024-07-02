@@ -4,11 +4,16 @@ import {
   ProductMongoDBEntity,
   ProductMongoDBEntitySchema,
 } from '../mongodb/entities/product.mongodb-entity';
+import * as dotenv from 'dotenv';
+dotenv.config({ path: '.env.products.db' });
+
+
+const { MONGODB_USER, MONGODB_PASSWORD } = process.env;
 
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://renanbotasse:Walk1234@zerocluster.vfal5mg.mongodb.net/?retryWrites=true&w=majority&appName=zeroCluster',
+      `mongodb+srv://${MONGODB_USER}:${MONGODB_PASSWORD}@zerocluster.vfal5mg.mongodb.net/?retryWrites=true&w=majority&appName=zeroCluster`
     ),
     MongooseModule.forFeature([
       { name: ProductMongoDBEntity.name, schema: ProductMongoDBEntitySchema },
