@@ -8,6 +8,7 @@ import {
   Param,
   NotFoundException,
   Patch,
+  BadRequestException,
 } from '@nestjs/common';
 import { CreateUserDto } from 'src/user/dtos/create-user.dto';
 import { UserService } from './user.service';
@@ -63,7 +64,10 @@ export class UserController {
     @Body() updateUserInfoDto: UpdateUserInfoDto,
     @UserId() userId: number,
   ): Promise<UserEntity> {
+    if (!userId) {
+      throw new BadRequestException('Invalid user ID');
+    }
     return this.userService.updateUserInfo(updateUserInfoDto, userId);
   }
-
 }
+

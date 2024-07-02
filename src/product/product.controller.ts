@@ -30,7 +30,7 @@ export class ProductController {
     private readProductUse: UseProductRead,
   ) {}
 
-  @Roles(UserType.Admin)
+
   @Post()
   @UsePipes(new ValidationPipe())
   createProduct(@Body() createProductDto: CreateProductDto) {
@@ -42,12 +42,23 @@ export class ProductController {
     return this.readProductUse.getProducts();
   }
 
+  @Patch(':product_reference')
+  update(
+    @Param('product_reference') product_reference: number,
+    @Body() updateProductDto: UpdateProductDto,
+  ) {
+    return this.updateProductUse.updateProduct(
+      product_reference,
+      updateProductDto,
+    );
+  }
+
   @Get('search')
   async getSearchProducts(@Query() queryParams: any) {
     return await this.readProductUse.getProductSearch(queryParams);
   }
 
-  @Get(':product_reference')
+  @Get('/:product_reference')
   async getProductById(@Param('product_reference') product_reference: number): Promise<ProductMongoDBEntity> {
     const product = await this.readProductUse.getProductsById(product_reference);
     if (!product) {
@@ -56,7 +67,7 @@ export class ProductController {
     return product;
   }
 
-  @Get('new')
+  @Get('/status/new')
   getNewProducts() {
     return this.readProductUse.getProductNew();
   }
@@ -71,27 +82,10 @@ export class ProductController {
     return this.readProductUse.getProductCategoryAccessories();
   }
 
-  @Roles(UserType.Admin, UserType.User)
-  @Get('sales')
+  @Get('/status/sales')
   getSalesProducts() {
     return this.readProductUse.getProductSales();
   }
 
-  @Roles(UserType.Admin)
-  @Patch(':product_reference')
-  update(
-    @Param('product_reference') product_reference: number,
-    @Body() updateProductDto: UpdateProductDto,
-  ) {
-    return this.updateProductUse.updateProduct(
-      product_reference,
-      updateProductDto,
-    );
-  }
 
-  @Roles(UserType.Admin)
-  @Delete(':product_reference')
-  remove(@Param('product_reference') product_reference: number) {
-    return this.deleteProductUse.deleteProduct(product_reference);
-  }
 }

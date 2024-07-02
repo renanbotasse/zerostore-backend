@@ -1,0 +1,18 @@
+[
+    {
+        "product_reference": 12001,
+        "product_name": "Pocket DMG",
+        "product_description": "AYANEO POCKET pays tribute to classic handheld devices. We are Officially launching the new design: POCKET, invoking your childhood memories.",
+        "product_price": 250.00,
+        "product_quantity": 100,
+        "product_platform": "Ayaneo",
+        "product_type": "CONSOLE",
+        "product_img": [
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap1.jpg",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap2.jpg",
+            "https://zerostore.s3.eu-north-1.amazonaws.com/products/consoles/snes+snap3.jpg"
+        ],
+        "product_video": "https://youtu.be/HRYbRgl7EeQ",
+        "product_status": "NORMAL"
+    }
+]

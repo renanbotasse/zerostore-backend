@@ -26,7 +26,7 @@ export class UserService {
         @InjectRepository(UserEntity)
         private readonly userRepository: Repository<UserEntity>,
         private readonly authService: AuthService, // Injeta o AuthService
-        private readonly useProductRead: UseProductRead, 
+        private readonly useProductRead: UseProductRead,
 
     ) { }
 
@@ -102,10 +102,10 @@ export class UserService {
                 email,
             }
         });
-    
+
         return user || null;
     }
-    
+
 
     async updatePasswordUser(
         updatePasswordDto: UpdatePasswordDto,
@@ -158,8 +158,8 @@ export class UserService {
         }
     
         if (updateUserInfoDto.email && updateUserInfoDto.email !== user.email) {
-          const existingUser = await this.findUserByEmail(updateUserInfoDto.email);
-          if (existingUser && existingUser.userId !== userId) {
+          const existingUser = await this.userRepository.findOne({ where: { email: updateUserInfoDto.email } });
+          if (existingUser && existingUser.userId !== userId) {  // Supondo que o campo é 'id'
             throw new BadRequestException('Email already in use');
           }
         }
@@ -169,7 +169,7 @@ export class UserService {
           ...updateUserInfoDto,
           updatedAt: new Date(),
         });
-    }
+      }
 
     async updateUserCart(userId: number, updateCartDto: UpdateCartDto): Promise<UserCartDto> {
         const user = await this.findUserById(userId);
@@ -203,27 +203,27 @@ export class UserService {
 
     async getUserCart(userId: number): Promise<UserCartDto | null> {
         const user = await this.findUserById(userId);
-    
+
         if (!user) {
-          throw new NotFoundException(`User with id ${userId} not found`);
+            throw new NotFoundException(`User with id ${userId} not found`);
         }
-    
+
         const cartWithProducts = await Promise.all(
-          user.cart.map(async (item) => {
-            const product = await this.useProductRead.getProductsById(item.product_reference);
-            return {
-              ...item,
-              product: product // Adicione o produto completo ao item do carrinho
-            };
-          })
+            user.cart.map(async (item) => {
+                const product = await this.useProductRead.getProductsById(item.product_reference);
+                return {
+                    ...item,
+                    product: product // Adicione o produto completo ao item do carrinho
+                };
+            })
         );
-    
+
         const userCartDto: UserCartDto = {
-          cart: cartWithProducts,
+            cart: cartWithProducts,
         };
-    
+
         return userCartDto;
-      }
+    }
 
     async clearUserCart(userId: number): Promise<UserCartDto> {
         const user = await this.userRepository.findOne({
