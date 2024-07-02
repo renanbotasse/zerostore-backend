@@ -8,6 +8,7 @@ import {
   Param,
   NotFoundException,
   Patch,
+  BadRequestException,
 } from '@nestjs/common';
 import { CreateUserDto } from 'src/user/dtos/create-user.dto';
 import { UserService } from './user.service';
@@ -15,8 +16,9 @@ import { UserEntity } from 'src/user/entities/user.entity';
 import { ReturnUserCreateDto } from 'src/user/dtos/returnCreate-user.dto';
 import { UserId } from 'src/decorators/user-id.decorator';
 import { UpdatePasswordDto } from './dtos/update-password.dto';
-import { UpdateCartDto } from './dtos/update-cart.dto';
+import { UpdateUserInfoDto } from './dtos/update-user-info.dto';
 import { UserCartDto } from './dtos/user-cart.dto';
+import { ReturnLogin } from '../auth/returnLogin.dto'
 
 @Controller('user')
 export class UserController {
@@ -24,8 +26,8 @@ export class UserController {
 
   @UsePipes(ValidationPipe)
   @Post()
-  async createUser(@Body() createUser: CreateUserDto): Promise<UserEntity> {
-    return this.userService.createUser(createUser);
+  async createUser(@Body() createUserDto: CreateUserDto): Promise<ReturnLogin> {
+    return this.userService.createUser(createUserDto);
   }
 
   @Get()
@@ -35,9 +37,9 @@ export class UserController {
     );
   }
 
-  @Get('/:userId')
+  @Get('/userId')
   async getUserById(
-    @Param('userId') userId: number,
+    @UserId() userId: number,
   ): Promise<ReturnUserCreateDto | null> {
     const user = await this.userService.getUserByIdUsingRelations(userId);
     if (!user) {
@@ -52,7 +54,20 @@ export class UserController {
     @Body() updatePasswordDto: UpdatePasswordDto,
     @UserId() userId: number,
   ): Promise<UserEntity> {
+
     return this.userService.updatePasswordUser(updatePasswordDto, userId);
   }
 
+  @Patch('/update-info')
+  @UsePipes(ValidationPipe)
+  async updateUserInfo(
+    @Body() updateUserInfoDto: UpdateUserInfoDto,
+    @UserId() userId: number,
+  ): Promise<UserEntity> {
+    if (!userId) {
+      throw new BadRequestException('Invalid user ID');
+    }
+    return this.userService.updateUserInfo(updateUserInfoDto, userId);
+  }
 }
+

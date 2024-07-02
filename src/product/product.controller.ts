@@ -30,60 +30,18 @@ export class ProductController {
     private readProductUse: UseProductRead,
   ) {}
 
-  @Roles(UserType.Admin)
+
   @Post()
   @UsePipes(new ValidationPipe())
   createProduct(@Body() createProductDto: CreateProductDto) {
     return this.createProductUse.createProduct(createProductDto);
   }
 
-
   @Get()
   getProducts() {
     return this.readProductUse.getProducts();
   }
 
-
-  @Get('search')
-  async getSearchProducts(@Query() queryParams: any) {
-    return await this.readProductUse.getProductSearch(queryParams);
-  }
-
-
-  @Get(':product_reference')
-  async getProductById(@Param('product_reference') product_reference: number): Promise<ProductMongoDBEntity> {
-    const product = await this.readProductUse.getProductsById(product_reference);
-    if (!product) {
-      throw new NotFoundException(`Product with reference ${product_reference} not found`);
-    }
-    return product;
-  }
-
-
-  @Get('new')
-  getNewProducts() {
-    return this.readProductUse.getProductNew();
-  }
-
-
-  @Get('game')
-  getCategoryGame() {
-    return this.readProductUse.getProductCategoryGame();
-  }
-
-
-  @Get('accessories')
-  getCategoryAccessories() {
-    return this.readProductUse.getProductCategoryAccessories();
-  }
-
-  @Roles(UserType.Admin, UserType.User)
-  @Get('sales')
-  getSalesProducts() {
-    return this.readProductUse.getProductSales();
-  }
-
-  @Roles(UserType.Admin)
   @Patch(':product_reference')
   update(
     @Param('product_reference') product_reference: number,
@@ -95,9 +53,39 @@ export class ProductController {
     );
   }
 
-  @Roles(UserType.Admin)
-  @Delete(':product_reference')
-  remove(@Param('product_reference') product_reference: number) {
-    return this.deleteProductUse.deleteProduct(product_reference);
+  @Get('search')
+  async getSearchProducts(@Query() queryParams: any) {
+    return await this.readProductUse.getProductSearch(queryParams);
   }
+
+  @Get('/:product_reference')
+  async getProductById(@Param('product_reference') product_reference: number): Promise<ProductMongoDBEntity> {
+    const product = await this.readProductUse.getProductsById(product_reference);
+    if (!product) {
+      throw new NotFoundException(`Product with reference ${product_reference} not found`);
+    }
+    return product;
+  }
+
+  @Get('/status/new')
+  getNewProducts() {
+    return this.readProductUse.getProductNew();
+  }
+
+  @Get('game')
+  getCategoryGame() {
+    return this.readProductUse.getProductCategoryGame();
+  }
+
+  @Get('accessories')
+  getCategoryAccessories() {
+    return this.readProductUse.getProductCategoryAccessories();
+  }
+
+  @Get('/status/sales')
+  getSalesProducts() {
+    return this.readProductUse.getProductSales();
+  }
+
+
 }

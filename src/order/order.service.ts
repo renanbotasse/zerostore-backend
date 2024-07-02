@@ -8,7 +8,7 @@ import { PaymentService } from 'src/payment/payment.service';
 import { CreateOrderPaymentDto } from './dtos/create-order-payment.dto';
 import { PaymentEntity } from 'src/payment/entities/payment.entity';
 import { UserService } from 'src/user/user.service';
-import { AddressService } from 'src/address/address.service'; 
+import { AddressService } from 'src/address/address.service';
 
 @Injectable()
 export class OrderService {
@@ -19,8 +19,8 @@ export class OrderService {
     private readonly orderProductsRepository: Repository<OrderProductEntity>,
     private readonly userService: UserService,
     private readonly paymentService: PaymentService,
-    private readonly addressService: AddressService, 
-  ) {}
+    private readonly addressService: AddressService,
+  ) { }
 
   async createOrder(createOrderPaymentDto: CreateOrderPaymentDto, userId: number) {
     console.log('Iniciando criação do pedido...');
@@ -36,69 +36,117 @@ export class OrderService {
     return { order, orderProducts };
   }
 
-  private async getUserCart(userId: number): Promise<UserCartDto> {
-    const cart = await this.userService.getUserCart(userId);
-    if (!cart || !cart.cart || cart.cart.length === 0) {
-      throw new NotFoundException('Carrinho vazio.');
+  async getLastOrder(userId: number) {
+    const order = await this.orderRepository.findOne({
+      where: { userId },
+      order: { createdAt: 'DESC' },
+    });
+
+    if (!order) {
+      throw new NotFoundException('No orders found for this user');
     }
-    console.log('Carrinho do usuário:', cart);
-    return cart;
+
+    const orderProducts = await this.orderProductsRepository.find({
+      where: { orderId: order.orderId },
+    });
+
+    return { order, orderProducts };
   }
 
-  private async createPayment(createOrderPaymentDto: CreateOrderPaymentDto, userId: number): Promise<PaymentEntity> {
-    const payment = await this.paymentService.createPayment(createOrderPaymentDto, userId);
-    if (!payment) {
-      throw new Error('Não foi possível criar o pagamento.');
+
+  async getAllOrders(userId: number) {
+    const orders = await this.orderRepository.find({
+      where: { userId },
+      order: { createdAt: 'DESC' }, // Opcionalmente ordenar por createdAt descendente
+    });
+  
+    if (!orders || orders.length === 0) {
+      throw new NotFoundException('Nenhum pedido encontrado para este usuário');
     }
-    console.log('Pagamento criado:', payment);
-    return payment;
+  
+    // Mapear cada pedido para obter os produtos de pedido associados
+    const ordersWithProducts = await Promise.all(
+      orders.map(async (order) => {
+        const orderProducts = await this.orderProductsRepository.find({
+          where: { orderId: order.orderId },
+        });
+        return { order, orderProducts };
+      })
+    );
+  
+    return ordersWithProducts;
   }
+  
+  
+
+
+  private async getUserCart(userId: number): Promise < UserCartDto > {
+  const cart = await this.userService.getUserCart(userId);
+  if(!cart || !cart.cart || cart.cart.length === 0) {
+  throw new NotFoundException('Carrinho vazio.');
+}
+console.log('Carrinho do usuário:', cart);
+return cart;
+  }
+
+  private async createPayment(createOrderPaymentDto: CreateOrderPaymentDto, userId: number): Promise < PaymentEntity > {
+  const payment = await this.paymentService.createPayment(createOrderPaymentDto, userId);
+  if(!payment) {
+    throw new Error('Não foi possível criar o pagamento.');
+  }
+    console.log('Pagamento criado:', payment);
+  return payment;
+}
 
   private async createOrderEntity(
-    createOrderPaymentDto: CreateOrderPaymentDto,
-    userId: number,
-    payment: PaymentEntity
-  ): Promise<OrderEntity> {
+  createOrderPaymentDto: CreateOrderPaymentDto,
+  userId: number,
+  payment: PaymentEntity
+): Promise < OrderEntity > {
 
-    const addresses = await this.addressService.findAddressByUserId(userId);
-    if (!addresses || addresses.length === 0) {
-      throw new NotFoundException('Nenhum endereço encontrado para o usuário.');
-    }
-    const addressId = addresses[0].addressId;
+  const addresses = await this.addressService.findAddressByUserId(userId);
+  if(!addresses || addresses.length === 0) {
+  throw new NotFoundException('Nenhum endereço encontrado para o usuário.');
+}
+const addressId = addresses[0].addressId;
 
-    const order = await this.orderRepository.save({
-      addressId: addressId,
-      date: new Date(),
-      userId,
-      paymentId: payment.paymentId,
-    });
-    console.log('Pedido criado:', order);
-    return order;
+const order = await this.orderRepository.save({
+  addressId: addressId,
+  date: new Date(),
+  userId,
+  paymentId: payment.paymentId,
+});
+console.log('Pedido criado:', order);
+return order;
   }
 
   private createOrderProducts(orderId: number, cart: UserCartDto): OrderProductEntity[] {
-    const orderProducts = cart.cart.map((item) => {
-      if (item.product_ref == null) {
-        throw new Error('Referência de produto nula ou indefinida.');
-      }
-      const orderProduct = new OrderProductEntity();
-      orderProduct.orderId = orderId;
-      orderProduct.product_ref = item.product_ref;
-      orderProduct.quantity = item.quantity;
-      orderProduct.price = item.price;
-      return orderProduct;
-    });
-    console.log('Produtos do pedido:', orderProducts);
-    return orderProducts;
-  }
+  const orderProducts = cart.cart.map((item) => {
+    if (item.product_reference == null) {
+      throw new Error('Referência de produto nula ou indefinida.');
+    }
+    const orderProduct = new OrderProductEntity();
+    orderProduct.orderId = orderId;
+    orderProduct.product_reference = item.product_reference;
+    orderProduct.quantity = item.quantity;
+    orderProduct.price = item.price;
+    return orderProduct;
+  });
+  console.log('Produtos do pedido:', orderProducts);
+  return orderProducts;
+}
 
-  private async saveOrderProducts(orderProducts: OrderProductEntity[]): Promise<void> {
-    await this.orderProductsRepository.save(orderProducts);
-    console.log('Produtos do pedido salvos.');
-  }
+  private async saveOrderProducts(orderProducts: OrderProductEntity[]): Promise < void> {
+  await this.orderProductsRepository.save(orderProducts);
+  console.log('Produtos do pedido salvos.');
+}
 
-  private async clearUserCart(userId: number): Promise<void> {
-    await this.userService.clearUserCart(userId);
-    console.log('Carrinho do usuário limpo.');
-  }
+  private async clearUserCart(userId: number): Promise < void> {
+  await this.userService.clearUserCart(userId);
+  console.log('Carrinho do usuário limpo.');
+}
+
+
+
+
 }

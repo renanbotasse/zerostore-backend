@@ -7,7 +7,7 @@ export class CreateTableOrderProduct1719325567987 implements MigrationInterface 
         CREATE TABLE public.order_products (
           order_products_id serial PRIMARY KEY,
           order_id int NOT NULL,
-          product_ref int NOT NULL,
+          product_reference int NOT NULL,
           quantity int NOT NULL,
           price numeric NOT NULL,
           created_at timestamp without time zone DEFAULT now() NOT NULL,

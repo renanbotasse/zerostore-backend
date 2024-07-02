@@ -9,18 +9,19 @@ export enum ProductPlatform {
   N64 = 'N64',
   PS2 = 'PS2',
   GBA = 'GBA',
+  AYANEO = 'AYANEO'
 }
 
 export enum ProductType {
   CONSOLE = 'CONSOLE',
   GAME = 'GAME',
-  ACCESSORIES = 'ACCESSORIES',
+  ACCESSORIES = 'ACCESSORIES'
 }
 
 export enum ProductStatus {
   NEW = 'NEW',
   SALES = 'SALES',
-  NORMAL = 'NORMAL',
+  NORMAL = 'NORMAL'
 }
 
 export class Product {

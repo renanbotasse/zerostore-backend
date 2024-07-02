@@ -4,7 +4,7 @@ import { Type } from 'class-transformer';
 
 export class CartEntityDto {
   @IsInt()
-  product_ref: number;
+  product_reference: number;
 
   @IsInt()
   quantity: number;

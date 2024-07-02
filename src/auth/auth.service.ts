@@ -1,22 +1,23 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { Injectable, Inject, forwardRef, NotFoundException } from '@nestjs/common';
 import { UserEntity } from 'src/user/entities/user.entity';
 import { UserService } from 'src/user/user.service';
 import { LoginDto } from './login.dto';
 import { ReturnLogin } from './returnLogin.dto';
-import { ReturnUserCreateDto } from '../user/dtos/returnCreate-user.dto';
 import { JwtService } from '@nestjs/jwt';
 import { LoginPayload } from './loginPayload.dto';
 import { validatePassword } from 'src/utils/password';
+import { ReturnUserCreateDto } from '../user/dtos/returnCreate-user.dto';
 
 @Injectable()
 export class AuthService {
   constructor(
+    @Inject(forwardRef(() => UserService))
     private readonly userService: UserService,
     private jwtService: JwtService,
   ) {}
 
   async login(loginDto: LoginDto): Promise<ReturnLogin> {
-    const user: UserEntity | undefined = await this.userService
+    const user: UserEntity | undefined | null = await this.userService
       .findUserByEmail(loginDto.email)
       .catch(() => undefined);
 
