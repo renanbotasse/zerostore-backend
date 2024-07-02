@@ -15,7 +15,7 @@ import { UserEntity } from 'src/user/entities/user.entity';
 import { ReturnUserCreateDto } from 'src/user/dtos/returnCreate-user.dto';
 import { UserId } from 'src/decorators/user-id.decorator';
 import { UpdatePasswordDto } from './dtos/update-password.dto';
-import { UpdateCartDto } from './dtos/update-cart.dto';
+import { UpdateUserInfoDto } from './dtos/update-user-info.dto';
 import { UserCartDto } from './dtos/user-cart.dto';
 import { ReturnLogin } from '../auth/returnLogin.dto'
 
@@ -53,7 +53,17 @@ export class UserController {
     @Body() updatePasswordDto: UpdatePasswordDto,
     @UserId() userId: number,
   ): Promise<UserEntity> {
+
     return this.userService.updatePasswordUser(updatePasswordDto, userId);
+  }
+
+  @Patch('/update-info')
+  @UsePipes(ValidationPipe)
+  async updateUserInfo(
+    @Body() updateUserInfoDto: UpdateUserInfoDto,
+    @UserId() userId: number,
+  ): Promise<UserEntity> {
+    return this.userService.updateUserInfo(updateUserInfoDto, userId);
   }
 
 }

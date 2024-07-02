@@ -5,6 +5,7 @@ import { UserEntity } from 'src/user/entities/user.entity';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { UpdatePasswordDto } from './../user/dtos/update-password.dto';
+import { UpdateUserInfoDto } from './dtos/update-user-info.dto';
 import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
 import { UserCartDto } from './dtos/user-cart.dto';
@@ -15,6 +16,8 @@ import { ReturnLogin } from 'src/auth/returnLogin.dto'; // DTO para retornar o t
 import axios from 'axios';
 import { LoginDto } from 'src/auth/login.dto';
 import { UseProductRead } from 'src/product/use-cases/read-product.use-case';
+import { plainToClass } from 'class-transformer';
+import { validate } from 'class-validator';
 
 
 @Injectable()
@@ -24,6 +27,7 @@ export class UserService {
         private readonly userRepository: Repository<UserEntity>,
         private readonly authService: AuthService, // Injeta o AuthService
         private readonly useProductRead: UseProductRead, 
+
     ) { }
 
     async createPasswordHashed(password: string): Promise<string> {
@@ -51,7 +55,7 @@ export class UserService {
             ordersId: [""],
             typeUser: 1,
             salt: 'cake',
-            fiscalNumber: '123-123-123',
+            fiscalNumber: createUserDto.fiscalNumber,
         });
 
         // Gera o token JWT chamando o método login do AuthService
@@ -92,19 +96,16 @@ export class UserService {
         return user;
     }
 
-    async findUserByEmail(email: string): Promise<UserEntity> {
+    async findUserByEmail(email: string): Promise<UserEntity | null> {
         const user = await this.userRepository.findOne({
             where: {
                 email,
             }
         });
-
-        if (!user) {
-            throw new NotFoundException(`Email: ${email} Not Found`);
-        }
-
-        return user;
+    
+        return user || null;
     }
+    
 
     async updatePasswordUser(
         updatePasswordDto: UpdatePasswordDto,
@@ -129,6 +130,45 @@ export class UserService {
             ...user,
             password: passwordHashed,
         })
+    }
+
+    async updateUserInfo(
+        updateUserInfoDto: UpdateUserInfoDto,
+        userId: number,
+      ): Promise<UserEntity> {
+        // Transforma o objeto bruto em uma instância da classe DTO
+        const dtoInstance = plainToClass(UpdateUserInfoDto, updateUserInfoDto);
+    
+        // Valida a instância do DTO
+        const errors = await validate(dtoInstance);
+    
+        // Verifica se há erros na validação ou se há campos adicionais no corpo da solicitação
+        const hasExtraFields = Object.keys(updateUserInfoDto).some(
+          (key) => !['name', 'email', 'fiscalNumber'].includes(key),
+        );
+    
+        if (errors.length > 0 || hasExtraFields) {
+          throw new BadRequestException('Invalid fields in request body');
+        }
+    
+        const user = await this.findUserById(userId);
+    
+        if (!user) {
+          throw new BadRequestException('User not found');
+        }
+    
+        if (updateUserInfoDto.email && updateUserInfoDto.email !== user.email) {
+          const existingUser = await this.findUserByEmail(updateUserInfoDto.email);
+          if (existingUser && existingUser.userId !== userId) {
+            throw new BadRequestException('Email already in use');
+          }
+        }
+    
+        return this.userRepository.save({
+          ...user,
+          ...updateUserInfoDto,
+          updatedAt: new Date(),
+        });
     }
 
     async updateUserCart(userId: number, updateCartDto: UpdateCartDto): Promise<UserCartDto> {
