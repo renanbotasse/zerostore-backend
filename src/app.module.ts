@@ -11,7 +11,7 @@ import { PaymentStatusModule } from './payment-status/payment-status.module';
 import { PaymentModule } from './payment/payment.module';
 import { OrderModule } from './order/order.module';
 import { OrderProductsModule } from './order-products/order-products.module';
-import { ProductModule } from './product/product.module'; // Importe o módulo de produto aqui
+import { ProductModule } from './product/product.module';
 
 @Module({
   imports: [

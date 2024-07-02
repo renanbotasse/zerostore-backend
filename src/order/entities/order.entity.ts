@@ -10,7 +10,6 @@ import {
     ManyToMany,
     OneToMany,
     PrimaryGeneratedColumn,
-    TableInheritance,
     UpdateDateColumn
 } from 'typeorm';
 

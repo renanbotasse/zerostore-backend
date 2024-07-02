@@ -9,9 +9,8 @@ import { UpdateUserInfoDto } from './dtos/update-user-info.dto';
 import { UpdateCartDto } from './../user/dtos/update-cart.dto';
 import { validatePassword } from 'src/utils/password';
 import { UserCartDto } from './dtos/user-cart.dto';
-import { AuthService } from 'src/auth/auth.service'; // Importa o AuthService para gerar o token
-import { ReturnLogin } from 'src/auth/returnLogin.dto'; // DTO para retornar o token e o usuário
-
+import { AuthService } from 'src/auth/auth.service';
+import { ReturnLogin } from 'src/auth/returnLogin.dto';
 
 import axios from 'axios';
 import { LoginDto } from 'src/auth/login.dto';
@@ -25,7 +24,7 @@ export class UserService {
     constructor(
         @InjectRepository(UserEntity)
         private readonly userRepository: Repository<UserEntity>,
-        private readonly authService: AuthService, // Injeta o AuthService
+        private readonly authService: AuthService,
         private readonly useProductRead: UseProductRead,
 
     ) { }
@@ -58,10 +57,9 @@ export class UserService {
             fiscalNumber: createUserDto.fiscalNumber,
         });
 
-        // Gera o token JWT chamando o método login do AuthService
         const loginDto: LoginDto = {
             email: newUser.email,
-            password: createUserDto.password, // Usa a senha original para login
+            password: createUserDto.password,
         };
 
         const returnLogin: ReturnLogin = await this.authService.login(loginDto);
@@ -135,41 +133,38 @@ export class UserService {
     async updateUserInfo(
         updateUserInfoDto: UpdateUserInfoDto,
         userId: number,
-      ): Promise<UserEntity> {
-        // Transforma o objeto bruto em uma instância da classe DTO
+    ): Promise<UserEntity> {
         const dtoInstance = plainToClass(UpdateUserInfoDto, updateUserInfoDto);
-    
-        // Valida a instância do DTO
+
         const errors = await validate(dtoInstance);
-    
-        // Verifica se há erros na validação ou se há campos adicionais no corpo da solicitação
+
         const hasExtraFields = Object.keys(updateUserInfoDto).some(
-          (key) => !['name', 'email', 'fiscalNumber'].includes(key),
+            (key) => !['name', 'email', 'fiscalNumber'].includes(key),
         );
-    
+
         if (errors.length > 0 || hasExtraFields) {
-          throw new BadRequestException('Invalid fields in request body');
+            throw new BadRequestException('Invalid fields in request body');
         }
-    
+
         const user = await this.findUserById(userId);
-    
+
         if (!user) {
-          throw new BadRequestException('User not found');
+            throw new BadRequestException('User not found');
         }
-    
+
         if (updateUserInfoDto.email && updateUserInfoDto.email !== user.email) {
-          const existingUser = await this.userRepository.findOne({ where: { email: updateUserInfoDto.email } });
-          if (existingUser && existingUser.userId !== userId) {  // Supondo que o campo é 'id'
-            throw new BadRequestException('Email already in use');
-          }
+            const existingUser = await this.userRepository.findOne({ where: { email: updateUserInfoDto.email } });
+            if (existingUser && existingUser.userId !== userId) {
+                throw new BadRequestException('Email already in use');
+            }
         }
-    
+
         return this.userRepository.save({
-          ...user,
-          ...updateUserInfoDto,
-          updatedAt: new Date(),
+            ...user,
+            ...updateUserInfoDto,
+            updatedAt: new Date(),
         });
-      }
+    }
 
     async updateUserCart(userId: number, updateCartDto: UpdateCartDto): Promise<UserCartDto> {
         const user = await this.findUserById(userId);
@@ -213,7 +208,7 @@ export class UserService {
                 const product = await this.useProductRead.getProductsById(item.product_reference);
                 return {
                     ...item,
-                    product: product // Adicione o produto completo ao item do carrinho
+                    product: product
                 };
             })
         );

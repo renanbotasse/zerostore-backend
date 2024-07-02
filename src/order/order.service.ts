@@ -57,14 +57,13 @@ export class OrderService {
   async getAllOrders(userId: number) {
     const orders = await this.orderRepository.find({
       where: { userId },
-      order: { createdAt: 'DESC' }, // Opcionalmente ordenar por createdAt descendente
+      order: { createdAt: 'DESC' },
     });
   
     if (!orders || orders.length === 0) {
       throw new NotFoundException('Nenhum pedido encontrado para este usuário');
     }
   
-    // Mapear cada pedido para obter os produtos de pedido associados
     const ordersWithProducts = await Promise.all(
       orders.map(async (order) => {
         const orderProducts = await this.orderProductsRepository.find({

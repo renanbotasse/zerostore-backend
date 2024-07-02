@@ -2,23 +2,21 @@ import {
   Body,
   Controller,
   Get,
-  NotFoundException,
-  Param,
   Post,
   UsePipes,
   ValidationPipe,
 } from '@nestjs/common';
-import { CreateCheckoutDto } from './dtos/create-order.dto';
 import { OrderService } from './order.service';
 import { UserId } from 'src/decorators/user-id.decorator';
 import { UserService } from 'src/user/user.service';
 import { CreateOrderPaymentDto } from './dtos/create-order-payment.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Order')
 @Controller('order')
 export class OrderController {
   constructor(
     private readonly orderService: OrderService,
-    private readonly userService: UserService
   ) { }
 
 

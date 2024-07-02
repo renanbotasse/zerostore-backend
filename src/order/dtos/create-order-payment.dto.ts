@@ -1,8 +1,8 @@
-import { isNumber, IsNumber, IsOptional } from "class-validator";
+import { ApiProperty } from "@nestjs/swagger";
+import { IsNumber } from "class-validator";
 
 export class CreateOrderPaymentDto {
-    @IsOptional()
+    @ApiProperty({ example: 'amountPayments', description: 'Payment Key' })
     @IsNumber()
     amountPayments?: number;
-
 }
