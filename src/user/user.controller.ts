@@ -19,7 +19,9 @@ import { UpdatePasswordDto } from './dtos/update-password.dto';
 import { UpdateUserInfoDto } from './dtos/update-user-info.dto';
 import { UserCartDto } from './dtos/user-cart.dto';
 import { ReturnLogin } from '../auth/returnLogin.dto'
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('User')
 @Controller('user')
 export class UserController {
   constructor(private readonly userService: UserService) {}
@@ -28,24 +30,6 @@ export class UserController {
   @Post()
   async createUser(@Body() createUserDto: CreateUserDto): Promise<ReturnLogin> {
     return this.userService.createUser(createUserDto);
-  }
-
-  @Get()
-  async getAllUser(): Promise<ReturnUserCreateDto[]> {
-    return (await this.userService.getAllUser()).map(
-      (userEntity) => new ReturnUserCreateDto(userEntity),
-    );
-  }
-
-  @Get('/userId')
-  async getUserById(
-    @UserId() userId: number,
-  ): Promise<ReturnUserCreateDto | null> {
-    const user = await this.userService.getUserByIdUsingRelations(userId);
-    if (!user) {
-      throw new NotFoundException(`User with ID ${userId} not found`);
-    }
-    return new ReturnUserCreateDto(user);
   }
 
   @Patch()
@@ -69,5 +53,24 @@ export class UserController {
     }
     return this.userService.updateUserInfo(updateUserInfoDto, userId);
   }
+
+  @Get('/userId')
+  async getUserById(
+    @UserId() userId: number,
+  ): Promise<ReturnUserCreateDto | null> {
+    const user = await this.userService.getUserByIdUsingRelations(userId);
+    if (!user) {
+      throw new NotFoundException(`User with ID ${userId} not found`);
+    }
+    return new ReturnUserCreateDto(user);
+  }
+
+  @Get()
+  async getAllUser(): Promise<ReturnUserCreateDto[]> {
+    return (await this.userService.getAllUser()).map(
+      (userEntity) => new ReturnUserCreateDto(userEntity),
+    );
+  }
+
 }
 

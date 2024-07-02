@@ -10,6 +10,9 @@ import {
   import { UserCartDto } from 'src/user/dtos/user-cart.dto';
   import { UserService } from 'src/user/user.service';
   import { UserId } from '../decorators/user-id.decorator';
+import { ApiTags } from '@nestjs/swagger';
+
+  @ApiTags('Cart')
   
   @Controller('cart')
   export class CartController {

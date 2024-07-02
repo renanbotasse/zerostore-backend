@@ -20,13 +20,14 @@ import { UseProductRead } from './use-cases/read-product.use-case';
 import { Roles } from 'src/decorators/roles.decorator';
 import { UserType } from 'src/user/enum/user-type.enum';
 import { ProductMongoDBEntity } from 'src/infrastructure/mongodb/entities/product.mongodb-entity';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Products')
 @Controller('products')
 export class ProductController {
   constructor(
     private createProductUse: UseProductCreate,
     private updateProductUse: UseProductUpdate,
-    private deleteProductUse: UseProductDelete,
     private readProductUse: UseProductRead,
   ) {}
 
@@ -72,20 +73,9 @@ export class ProductController {
     return this.readProductUse.getProductNew();
   }
 
-  @Get('game')
-  getCategoryGame() {
-    return this.readProductUse.getProductCategoryGame();
-  }
-
-  @Get('accessories')
-  getCategoryAccessories() {
-    return this.readProductUse.getProductCategoryAccessories();
-  }
-
   @Get('/status/sales')
   getSalesProducts() {
     return this.readProductUse.getProductSales();
   }
-
 
 }
